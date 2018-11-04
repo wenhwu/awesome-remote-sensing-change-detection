@@ -2,10 +2,8 @@
 
 Focus on Remote Sensing Change Detection.
 
-
 ## Index
 
 To be continued......
 
 ## Reference
-
