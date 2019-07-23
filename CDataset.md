@@ -1,10 +1,3 @@
----
-layout: post
-title: "CDataset"
-date: 2019-05-14  
-tag: 变化检测
----
-
 # RS
 
 ### Hyperspectral 

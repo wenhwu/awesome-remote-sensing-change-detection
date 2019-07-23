@@ -1,15 +1,6 @@
----
-layout: post
-title: "Research scholar in remote sensing change detection(deep learning)"
-date: 2019-07-14  
-tag: 变化检测
----
-
-
 ### **Optical**
  [Rodrigo Caye Daudt](https://rcdaudt.github.io/publications/)
    - [google scholar](https://scholar.google.com/citations?user=zTwHChcAAAAJ&hl=en)
-   - Siamese network
 
 [Chen Wu](http://www.lmars.whu.edu.cn/index.php/fjs/174.html)
    - [google scholar](https://scholar.google.com/citations?user=DbTt_CcAAAAJ&hl=zh-CN)
