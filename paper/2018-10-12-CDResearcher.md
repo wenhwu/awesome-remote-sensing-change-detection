@@ -3,6 +3,9 @@
  [Lorenzo Bruzzone](http://rslab-tech.disi.unitn.it/?page_id=238#LorenzoBruzzone)
   - [google scholar](http://scholar.google.com/citations?user=ff9-TK4AAAAJ&hl=en)
   - [RSlab's publications](http://rslab.disi.unitn.it/publications/)
+  
+  [Francesca Bovolo](https://rslab.disi.unitn.it/people/#FrancescaBovolo)
+  - [google scholar](https://scholar.google.com/citations?user=40YiUvoAAAAJ&hl=zh-CN&oi=sra)
 
 [Dengsheng Lu](http://www.globalchange.msu.edu/about/fac-staff/profile-dengsheng-lu.html)
   - [google scholar](https://scholar.google.com/citations?user=LKXJMN0AAAAJ&hl=zh-CN&oi=sra)
@@ -16,7 +19,7 @@ Celik, T
   
  [Mort canty](https://mortcanty.github.io/src/)
    - [google scholar](http://scholar.google.de/citations?user=bDbKTVwAAAAJ&hl=de)
-   * Image Analysis, Classification and Change Detection in Remote Sensing: With Algorithms for ENVI/IDL and Python
+   * [Image Analysis, Classification and Change Detection in Remote Sensing: With Algorithms for ENVI/IDL and Python](https://github.com/mortcanty/CRC4Docker)
 
 [Allan Aasbjerg Nielseny](http://www.imm.dtu.dk/~alan/)
   - [google scholar](http://scholar.google.dk/citations?user=gDrl3sIAAAAJ&hl=da)

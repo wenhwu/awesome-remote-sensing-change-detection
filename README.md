@@ -3,8 +3,8 @@
 Focus on Remote Sensing Change Detection(RSCD).
 
 ## Paper
-- [Bibliometric Analysis: Remote senisng Change Detection during 1981–2018 (part 1)](https://wenhwu.github.io/2018/10/CDReview/)(sorry, only Chinese version)
-- [Bibliometric Analysis: Remote senisng Change Detection during 1981–2018 (part 2)](https://wenhwu.github.io/2018/10/CDReview-2/)(sorry, only Chinese version)
+- [Bibliometric Analysis: Remote senisng Change Detection during 1981–2018 (part 1)](https://wenhwu.github.io/2018/10/CDReview/)(only Chinese version)
+- [Bibliometric Analysis: Remote senisng Change Detection during 1981–2018 (part 2)](https://wenhwu.github.io/2018/10/CDReview-2/)(only Chinese version)
 - [34 papers on RSCD in 2018 ](https://github.com/wenhwu/Awesome-RS-changedetection/blob/master/paper/2018-10-23-2018CDpaper.md)
 - [53 papers on RSCD in 2017 ](https://github.com/wenhwu/Awesome-RS-changedetection/blob/master/paper/2018-10-24-2017CDpaper53.md)
 - [57 papers on RSCD in 2016 ](https://github.com/wenhwu/Awesome-RS-changedetection/blob/master/paper/2018-10-25-2016CDpaper57.md)

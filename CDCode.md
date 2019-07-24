@@ -16,6 +16,7 @@ NN
 - [2018. Rahman F, Vasu B, Van Cor J, et al. Siamese Network with Multi-level Features for Patch-based Change Detection in Satellite Imagery](https://github.com/vbhavank/Siamese-neural-network-for-change-detection)
 - [2018. Shishira R Maiya,et al.Slum Segmentation and Change Detection : A Deep Learning Approach](https://github.com/cbsudux/Mumbai-slum-segmentation)
 - [2019. Maria Papadomanolaki,et al. Detecting Urban Changes with Recurrent Neural Networks from Multitemporal Sentinel-2 Data(Submitted to IGARSS 2019)](https://github.com/granularai/ChangeDetection)
+- [2019.Targeted synthesis of multi-temporal remote sensing images for change detection using siamese neural networks](https://github.com/mvkolos/siamese-change-detection)
 
 
 ###### SAR
