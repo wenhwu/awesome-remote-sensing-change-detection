@@ -19,8 +19,8 @@ Focus on Remote Sensing Change Detection(RSCD).
 - [Research scholar in remote sensing change detection(traditional)](https://github.com/wenhwu/Awesome-RS-changedetection/blob/master/paper/2018-10-12-CDResearcher.md)
 - [Research scholar in remote sensing change detection(deep learning)](https://github.com/wenhwu/Awesome-RS-changedetection/blob/master/paper/2019-07-14-CDResearcher2.md)
 
-## [Code](https://github.com/wenhwu/Awesome-RS-changedetection/blob/master/2019-03-21-CDCode.md)
+## [Code](https://github.com/wenhwu/Awesome-RS-changedetection/blob/master/CDCode.md)
 
-## [Dateset](https://github.com/wenhwu/Awesome-RS-changedetection/blob/master/2019-05-14-CDataset.md)
+## [Dateset](https://github.com/wenhwu/Awesome-RS-changedetection/blob/master/CDataset.md)
 
 To be continued......
