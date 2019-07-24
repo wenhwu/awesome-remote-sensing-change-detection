@@ -1,9 +1,4 @@
----
-layout: post
-title: "Lorenzo Bruzzoned教授的遥感变化检测论文（1997-2018）-55篇"
-date: 2018-11-02
-tag: 变化检测
----
+### Lorenzo Bruzzone's papers on remote sensing change detection (1997-2018) -55
 
 
 Web of science 上，Lorenzo Bruzzone教授的所有论文（截止 2018 年 10 月 24 日，55 篇，

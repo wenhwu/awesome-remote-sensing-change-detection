@@ -1,9 +1,4 @@
----
-layout: post
-title: "遥感变化检测综述论文"
-date: 2019-07-16
-tag: 变化检测
----
+### Review paper on remote sensing change detection
 
 
 其中中文翻译为<a href="http://fanyi.youdao.com/?keyfrom=dict2.index" style="text-decoration:none ">有道翻译</a>结果。
