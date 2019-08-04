@@ -47,10 +47,10 @@
 **University of Trento**
 - [RSLAB(Remote Sensing Laboratory)](https://rslab.disi.unitn.it/people/) - Lorenzo Bruzzone 
 
-**Wuhan university**
+**Wuhan University**
 - [Sigma(Sensing Intelligence, Geoscience and MAchine learning lab),地学智能感知与机器学习研究组](http://sigma.whu.edu.cn/index.php) - Bo Du(杜博)
 - [CAPTAIN(Computational and Photogrammetric Vision Team),计算视觉与摄影测量研究组](http://captain.whu.edu.cn/index.html) - Gui-Song Xia(夏桂松)
-- [CVEO（Computer Vision for Earth Observation team）](https://cveo.github.io/) - Xiaodong Zhang (张晓东)
+- [CVEO(Computer Vision for Earth Observation team)](https://cveo.github.io/) - Xiaodong Zhang (张晓东)
 
 
 
