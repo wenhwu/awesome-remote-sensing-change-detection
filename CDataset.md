@@ -2,6 +2,7 @@
 
 ### Hyperspectral 
 - [2018.Stacked autoencoders for multiclass change detection in hyperspectral images](https://citius.usc.es/investigacion/datasets/hyperspectral-change-detection-dataset)
+- [2018.GETNET: A General End-to-End 2-D CNN Framework for Hyperspectral Image Change Detection](https://drive.google.com/file/d/1cWy6KqE0rymSk5-ytqr7wM1yLMKLukfP/view)
 
 
 ### Multispectral 
@@ -28,10 +29,13 @@
     - [OpenStreetMapHistory](https://download.geofabrik.de/australia-oceania/new-zealand.html#)
     - [Urban footprints: some building outline data sources](http://www.undertheraedar.com/2015/07/urban-footprints-some-building-outline.html)
 - [AIRS (Aerial Imagery for Roof Segmentation)](https://www.airs-dataset.com/)
+- [2019.Wuhan multi-temperature scene (MtS-WH) Dataset](http://sigma.whu.edu.cn/newspage.php?q=2019_03_26)
 
 ### Other
 
 - [satellite-image-deep-learning](https://github.com/robmarkcole/satellite-image-deep-learning?from=singlemessage)
+- [zhangbin](https://zhangbin0917.github.io/2018/06/12/%E9%81%A5%E6%84%9F%E6%95%B0%E6%8D%AE%E9%9B%86/)
+
 
 
 

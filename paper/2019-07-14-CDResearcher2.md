@@ -37,3 +37,26 @@
 ### **Hyperspectral**
 [Sicong Liu](https://sites.google.com/site/sicongliurs/)
    - [Google sholar](https://scholar.google.com/citations?user=KDpyBLUAAAAJ&hl=zh-CN&oi=sra)
+  
+[Qi WANG](http://crabwq.github.io/)   
+   - GETNET: A General End-to-End 2-D CNN Framework for Hyperspectral Image Change Detection
+
+  
+
+### Team
+**University of Trento**
+- [RSLAB(Remote Sensing Laboratory)](https://rslab.disi.unitn.it/people/) - Lorenzo Bruzzone 
+
+**Wuhan university**
+- [Sigma(Sensing Intelligence, Geoscience and MAchine learning lab),地学智能感知与机器学习研究组](http://sigma.whu.edu.cn/index.php) - Bo Du(杜博)
+- [CAPTAIN(Computational and Photogrammetric Vision Team),计算视觉与摄影测量研究组](http://captain.whu.edu.cn/index.html) - Gui-Song Xia(夏桂松)
+- [CVEO（Computer Vision for Earth Observation team）](https://cveo.github.io/) - Xiaodong Zhang (张晓东)
+
+
+
+
+**Xidian University**
+- [OMEGA(Optimization and Mining Knowledge via Artificial Intelligence),计算智能研究所](http://web.xidian.edu.cn/mggong/index.html) - Maoguo Gong(公茂果)
+
+**University of Connecticut**
+- [GERS Lab(Global Environmental Remote Sensing Laboratory)](https://gerslab.uconn.edu/) - Zhe Zhu

@@ -1,6 +1,6 @@
 # Awesome Remote sensing change detection 
 
-Focus on Remote Sensing Change Detection(RSCD).
+Focusing on Remote Sensing Change Detection(RSCD).
 
 ## Paper
 - [Bibliometric Analysis: Remote senisng Change Detection during 1981–2018 (part 1)](https://wenhwu.github.io/2018/10/CDReview/)(only Chinese version)
