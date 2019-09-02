@@ -141,7 +141,7 @@ The dataset about change detection will be released in the future.
 本项竞赛以光学遥感图像为处理对象，参赛队伍使用主办方提供的遥感图像进行建筑物变化检测，主办方根据评分标准对变化检测结果进行综合评价。竞赛中将提供两个不同时间获取的大尺度高分辨率遥感图像（包含蓝、绿、红和近红外四个波段），以及图像中变化区域的二值化标注数据集。   
 
 - [**广东政务数据创新大赛—智能算法赛**](https://tianchi.aliyun.com/competition/entrance/231615/introduction) *(Alibaba et al.Nov 2017)*    
-  本次大赛覆盖广东省部分地区数百平方公里的土地。使用2015年和2017年分别获取到的广东省某地的卫星图片，识别出两年之间新增的人工地上建筑物（不包括道路）所占的像元图斑。卫星数据以Tiff图像文件格式储存。quickbird2015.tif是一张2015年的卫星图片，quickbird2017.tif是一张2017年的卫星图片。每个Tiff文件中有4个波段的数据：蓝、绿、红、近红外。获胜团队的解决方案可以在[天池](https://tianchi.aliyun.com/forum/postDetail?postId=3527)官网上找到。
+  使用2015年和2017年分别获取到的广东省某地的Quickbird卫星影像（包含蓝、绿、红和近红外四个波段），识别出两年之间新增的人工地上建筑物（不包括道路）。获胜团队的解决方案可以在[天池](https://tianchi.aliyun.com/forum/postDetail?postId=3527)官网上找到。
   
 - [**Draper Satellite Image Chronology**](https://www.kaggle.com/c/draper-satellite-image-chronology) *(Draper, Jun 2016)*  
 Predict the chronological order of images taken at the same locations over 5 days, Kaggle kernels
