@@ -13,17 +13,22 @@ List of datasets, codes, researchers and contests related to remote sensing chan
 - [2019.Detecting Urban Changes with Recurrent Neural Networks from Multitemporal Sentinel-2 Data](https://github.com/granularai/ChangeDetection)
   
 - [2019.Wuhan multi-temperature scene (MtS-WH) Dataset](http://sigma.whu.edu.cn/newspage.php?q=2019_03_26)   
-The dataset is mainly used for theoretical research and verification of **scene change detection** methods. It consists of two large-size VHR images, which have a size of 7200x6000 and are respectively acquired by IKONOS sensors in Feb, 2002 and Jun, 2009. The images cover the Hanyang District, Wuhan City, China and contain 4 spectral bands (Blue, Green, Red and Near-Infrared). The spatial resolution of the images is 1m after fusion of the pan and multispectral images by the Gram–Schmidt algorithm.
+The dataset is mainly used for theoretical research and verification of **scene change detection** methods. It consists of two large-size **VHR** images, which have a size of 7200x6000 and are respectively acquired by **IKONOS** sensors in Feb, 2002 and Jun, 2009. The images cover the Hanyang District, Wuhan City, China and contain 4 spectral bands (Blue, Green, Red and Near-Infrared). The spatial resolution of the images is 1m after fusion of the pan and multispectral images by the Gram–Schmidt algorithm.
 
-- [2018.Onera Satellite Change Detection Dataset](https://rcdaudt.github.io/oscd/)
+- [2018.Onera Satellite Change Detection Dataset](https://rcdaudt.github.io/oscd/)   
+This dataset addresses the issue of detecting changes between satellite images from different dates. It comprises 24 pairs of **multispectral** images taken from the **Sentinel-2** satellites between 2015 and 2018. Locations are picked all over the world, in Brazil, USA, Europe, Middle-East and Asia. For each location, registered pairs of 13-band multispectral satellite images obtained by the Sentinel-2 satellites are provided. Images vary in spatial resolution between 10m, 20m and 60m.
 
-- [2017.Damage Detection from Aerial Images via Convolutional Neural Networks(ABCDdataset)](https://github.com/gistairc/ABCDdataset)
+- [2017.Damage Detection from Aerial Images via Convolutional Neural Networks(ABCDdataset)](https://github.com/gistairc/ABCDdataset)   
+This is a new labeled dataset, specially geared toward constructing and evaluating damage detection systems to identify whether buildings have been washed-away by tsunami.These pairs were cropped from a hefty number of RGB **aerial** images of Tohoku region of Japan. These aerial images were taken before or after the Great East Japan earthquake, with the original pixel resolution of 40 cm for pre-quake images and 12 cm for post-qukae images (actually, resampled to 40 cm).
 
 - [2015.Spectral alignment of multi-temporal cross-sensor images with automated kernel canonical correlation analysis](https://sites.google.com/site/michelevolpiresearch/codes/cross-sensor) 
 
-- [2008.SZTAKI AirChange Benchmark set](http://web.eee.sztaki.hu/remotesensing/airchange_benchmark.html)  
+- [2008.SZTAKI AirChange Benchmark set](http://web.eee.sztaki.hu/remotesensing/airchange_benchmark.html)   
+This Benchmark set contains 13 **aerial** image pairs of size 952x640 and resolution **1.5m**/pixel and binary change masks (drawn by hand).Each record constains a pair of preliminary registered input images and a mask of the 'relevant' changes. The input images are taken with 5, 7 resp. 23 years time differences. During the generation of the change mask, we have considered the following differences as relevant changes: (a) new built-up regions (b) building operations (c) planting of large group of trees (d) fresh plough-land (e) groundwork before building over. Note that the ground truth does NOT contain change classification, only binary change-no change decision for each pixel.   
+**Note**: This is probably the most frequently used dataset in the paper of remote sensing change detection.
 
-- [WUDA-RS-Img(wuhan university datasets of annotated remote sensing images)](http://captain.whu.edu.cn/WUDA-RSImg/index.html)
+- [WUDA-RS-Img(wuhan university datasets of annotated remote sensing images)](http://captain.whu.edu.cn/WUDA-RSImg/index.html)   
+The dataset about change detection will be released in the future.
 
 - [DigitalGlobe's Open Data Program](https://www.digitalglobe.com/opendata/all-events)
     - [haiti](https://www.digitalglobe.com/ecosystem/open-data/haiti)
