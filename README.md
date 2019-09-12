@@ -62,7 +62,7 @@ This dataset consists of two subsets, named "TSUNAMI" and "GSV"."TSUNAMI" consis
 
 ## 2. Code
 
-### 2.1. Multispectral
+### 2.1 Multispectral
 
 #### 2.1.1 Traditional Method 
 
