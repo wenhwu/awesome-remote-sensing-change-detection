@@ -62,9 +62,9 @@ This dataset consists of two subsets, named "TSUNAMI" and "GSV"."TSUNAMI" consis
 
 ## 2. Code
 
-## 2.1. Multispectral
+### 2.1. Multispectral
 
-### 2.1.1 Traditional Method 
+#### 2.1.1 Traditional Method 
 
 - 2019.[M J Canty. Image Analysis, Classification and Change Detection in Remote Sensing(Fourth Revised Edition)](https://github.com/mortcanty/CRC4Docker)
 
@@ -79,7 +79,7 @@ This dataset consists of two subsets, named "TSUNAMI" and "GSV"."TSUNAMI" consis
 
 - 2007.[Allan Aasbjerg Nielsen.IR-MAD(The Regularized Iteratively Reweighted Multivariate Alteration Detection)](http://people.compute.dtu.dk/alan/software.html)
 
-### 2.1.2 Deep Learning
+#### 2.1.2 Deep Learning
 
 - [Rodrigo Caye Daudt](https://rcdaudt.github.io/)
   - 2019.[Guided anisotropic diffusion (GAD) ](https://github.com/rcdaudt/guided_anisotropic_diffusion)
@@ -102,7 +102,7 @@ This dataset consists of two subsets, named "TSUNAMI" and "GSV"."TSUNAMI" consis
 
 
 
-## 2.2 SAR
+### 2.2 SAR
 - [Feng Gao](https://summitgao.github.io/)
   - 2019.[Sea ice change detection in SAR images based on convolutional-wavelet neural networks(Matlab)](https://github.com/summitgao/SAR_Change_Detection_CWNN)
   - 2019.[Transferred deep learning for sea ice change detection from synthetic aperture radar images(Matlab)](https://github.com/summitgao/SAR-Change-Detection-MLFN)
