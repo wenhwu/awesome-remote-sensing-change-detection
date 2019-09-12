@@ -1,6 +1,6 @@
 # Awesome Remote Sensing Change Detection [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-List of datasets, codes, researchers and contests related to remote sensing change detection.
+List of datasets, codes and contests related to remote sensing change detection.
 
 ![](/2018.recurrent&#32;convolutional&#32;neural&#32;network.jpg)
 
@@ -111,27 +111,7 @@ This dataset consists of two subsets, named "TSUNAMI" and "GSV"."TSUNAMI" consis
 
 
 
-## 3. Researcher
-
-### 3.1 Team
-
-**University of Trento**
-- [RSLAB(Remote Sensing Laboratory)](https://rslab.disi.unitn.it/people/) - Lorenzo Bruzzone 
-  
-**Wuhan University**
-- [CVEO(Computer Vision for Earth Observation team)](https://cveo.github.io/) - Xiaodong Zhang 
-- [Sigma(Sensing Intelligence, Geoscience and MAchine learning lab)](http://sigma.whu.edu.cn/index.php) - Bo Du
-- [CAPTAIN(Computational and Photogrammetric Vision Team)](http://captain.whu.edu.cn/index.html) - Gui-Song Xia
-
-**Xidian University**
-- [OMEGA(Optimization and Mining Knowledge via Artificial Intelligence)](http://web.xidian.edu.cn/mggong/index.html) - Maoguo Gong
-
-**University of Connecticut**
-- [GERS Lab(Global Environmental Remote Sensing Laboratory)](https://gerslab.uconn.edu/) - Zhe Zhu
-
-
-
-## 4.Contest
+## 3.Contest
 
 - [**xView 2 Building Damage Asessment Challenge**](https://xview2.org) *(DIUx, Nov 2019)*  
 550k building footprints & 4 damage scale categories, 20 global locations and 7 disaster types (wildfire, landslides, dam collapses, volcanic eruptions, earthquakes/tsunamis, wind, flooding), Worldview-3 imagery (0.3m res.), pre-trained baseline model. Paper: [Gupta et al. 2019](http://openaccess.thecvf.com/content_CVPRW_2019/html/cv4gc/Gupta_Creating_xBD_A_Dataset_for_Assessing_Building_Damage_from_Satellite_CVPRW_2019_paper.html)
