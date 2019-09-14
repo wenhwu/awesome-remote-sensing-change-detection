@@ -1,12 +1,12 @@
 # Awesome Remote Sensing Change Detection [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-List of datasets, codes and contests related to remote sensing change detection.
+List of datasets, codes, researchers and contests related to remote sensing change detection.
 
 ![](/2018.recurrent&#32;convolutional&#32;neural&#32;network.jpg)
 
 
 
-## 1. Dateset
+## 1 Dateset
 
 ### 1.1 Multispectral 
   
@@ -31,6 +31,9 @@ This dataset contains 13 **aerial** image pairs of size 952x640 and resolution *
 - [WUDA-RS-Img (Wuhan University Datasets of Annotated Remote Sensing Images)](http://captain.whu.edu.cn/WUDA-RSImg/index.html)   
 The dataset about change detection will be released in the future.
 
+- [Planet Disaster Datasets](https://www.planet.com/disasterdata/datasets/)
+Planet will make PlanetScope imagery available to the public during a select disaster events. 
+
 - [DigitalGlobe's Open Data Program](https://www.digitalglobe.com/opendata/all-events)   
  DigitalGlobe will release open imagery (**worldview-3** or other) for select sudden onset major crisis events, including pre-event imagery, post-event imagery and a crowdsourced damage assessment.
 
@@ -40,11 +43,14 @@ The datasets are mosaics of **aerial** images taken by the French National Insti
 - [LINZ DATA SERVICE](https://data.linz.govt.nz/)   
 The New Zealand Land Information Services website provides multi-temporal **aerial** images of some New Zealand cities, all of which have a resolution of **over 1m**.
 
+- [USGS EarthExplorer](https://earthexplorer.usgs.gov)
+A epic level database, which can provide multi-temporal，multi-sensor and multi-resolution data. 
 
 ### 1.2 Hyperspectral 
 
 - 2018.[Hyperspectral Change Detection Dataset](https://citius.usc.es/investigacion/datasets/hyperspectral-change-detection-dataset)   
-This dataset can be used to perform change detection techniques in multitemporal hyperspectral images. It includes two different hyperspectral scenes from the **AVIRIS** sensor:The Santa Barbara scene, taken on the years 2013 and 2014 with the AVIRIS sensor over the Santa Barbara region (California) whose spatial dimensions are 984 x 740 pixels and includes 224 spectral bands.The Bay Area scene, taken on the years 2013 and 2015 with the AVIRIS sensor surrounding the city of Patterson (California) whose spatial dimensions are 600 x 500 pixels and includes 224 spectral bands.
+This dataset can be used to perform change detection techniques in multi-temporal hyperspectral images. 
+It includes two different hyperspectral scenes from the **AVIRIS** sensor:The Santa Barbara scene, taken on the years 2013 and 2014 with the AVIRIS sensor over the Santa Barbara region (California) whose spatial dimensions are 984 x 740 pixels and includes 224 spectral bands.The Bay Area scene, taken on the years 2013 and 2015 with the AVIRIS sensor surrounding the city of Patterson (California) whose spatial dimensions are 600 x 500 pixels and includes 224 spectral bands.
 It also includes a hyperspectral scene from the **HYPERION** sensor:The Hermiston city scene, taken on the years 2004 and 2007 with the HYPERION sensor over the Hermiston City area (Oregon) whose spatial dimensions are 390 x 200 pixels and includes 242 spectral bands. 5 types of changes related with crop transitions are identified in this scene.
 
 - 2018.[Wang Q, Yuan Z, Du Q, et al. GETNET: A general end-to-end 2-D CNN framework for hyperspectral image change detection](https://drive.google.com/file/d/1cWy6KqE0rymSk5-ytqr7wM1yLMKLukfP/view)   
@@ -60,7 +66,7 @@ A video database for testing change detection algorithms.
 This dataset consists of two subsets, named "TSUNAMI" and "GSV"."TSUNAMI" consists of one hundred panoramic image pairs of scenes in tsunami-damaged areas of Japan. "GSV consists of one hundred panoramic image pairs of Google Street View. The size of these images is 224 × 1024 pixels.
 
 
-## 2. Code
+## 2 Code
 
 ### 2.1 Multispectral
 
@@ -78,6 +84,7 @@ This dataset consists of two subsets, named "TSUNAMI" and "GSV"."TSUNAMI" consis
 [Matlab](https://github.com/rulixiang/ChangeDetectionPCAKmeans),[Python](https://github.com/abhijeet3922/Change-Detection-in-Satellite-Imagery)
 
 - 2007.[Allan Aasbjerg Nielsen.IR-MAD(The Regularized Iteratively Reweighted Multivariate Alteration Detection)](http://people.compute.dtu.dk/alan/software.html)
+
 
 #### 2.1.2 Deep Learning
 
@@ -110,8 +117,27 @@ This dataset consists of two subsets, named "TSUNAMI" and "GSV"."TSUNAMI" consis
 - 2015.[Knut Conradsen,et al.Change detection in polarimetric SAR images in Python](https://github.com/fouronnes/SAR-change-detection)
 
 
+## 3 Researcher
 
-## 3.Contest
+### 3.1 Team
+
+**University of Trento**
+- [RSLAB(Remote Sensing Laboratory)](https://rslab.disi.unitn.it/people/) - Lorenzo Bruzzone 
+
+**Wuhan University**
+- [CVEO(Computer Vision for Earth Observation team)](https://cveo.github.io/) - Xiaodong Zhang 
+- [Sigma(Sensing Intelligence, Geoscience and MAchine learning lab)](http://sigma.whu.edu.cn/index.php) - Bo Du
+- [CAPTAIN(Computational and Photogrammetric Vision Team)](http://captain.whu.edu.cn/index.html) - Gui-Song Xia
+
+**Xidian University**
+- [OMEGA(Optimization and Mining Knowledge via Artificial Intelligence)](http://web.xidian.edu.cn/mggong/index.html) - Maoguo Gong
+
+**University of Connecticut**
+- [GERS Lab(Global Environmental Remote Sensing Laboratory)](https://gerslab.uconn.edu/) - Zhe Zhu
+
+
+
+## 4.Contest
 
 - [**xView 2 Building Damage Asessment Challenge**](https://xview2.org) *(DIUx, Nov 2019)*  
 550k building footprints & 4 damage scale categories, 20 global locations and 7 disaster types (wildfire, landslides, dam collapses, volcanic eruptions, earthquakes/tsunamis, wind, flooding), Worldview-3 imagery (0.3m res.), pre-trained baseline model. Paper: [Gupta et al. 2019](http://openaccess.thecvf.com/content_CVPRW_2019/html/cv4gc/Gupta_Creating_xBD_A_Dataset_for_Assessing_Building_Damage_from_Satellite_CVPRW_2019_paper.html)
