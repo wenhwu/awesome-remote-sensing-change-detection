@@ -31,7 +31,7 @@ This dataset contains 13 **aerial** image pairs of size 952x640 and resolution *
 - [WUDA-RS-Img (Wuhan University Datasets of Annotated Remote Sensing Images)](http://captain.whu.edu.cn/WUDA-RSImg/index.html)   
 The dataset about change detection will be released in the future.
 
-- [Planet Disaster Datasets](https://www.planet.com/disasterdata/datasets/)
+- [Planet Disaster Datasets](https://www.planet.com/disasterdata/datasets/)   
 Planet will make PlanetScope imagery available to the public during a select disaster events. 
 
 - [DigitalGlobe's Open Data Program](https://www.digitalglobe.com/opendata/all-events)   
@@ -43,7 +43,7 @@ The datasets are mosaics of **aerial** images taken by the French National Insti
 - [LINZ DATA SERVICE](https://data.linz.govt.nz/)   
 The New Zealand Land Information Services website provides multi-temporal **aerial** images of some New Zealand cities, all of which have a resolution of **over 1m**.
 
-- [USGS EarthExplorer](https://earthexplorer.usgs.gov)
+- [USGS EarthExplorer](https://earthexplorer.usgs.gov)   
 A epic level database, which can provide multi-temporal，multi-sensor and multi-resolution data. 
 
 ### 1.2 Hyperspectral 
