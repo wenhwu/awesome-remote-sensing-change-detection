@@ -11,6 +11,8 @@ List of datasets, codes, papers, and contests related to remote sensing change d
 ### 1.1 Multispectral 
 
 #### With label
+- 2020.[LEVIR building Change Detection dataset](LEVIR-CD)
+LEVIR-CD consists of 637 very high-resolution **(VHR, 0.5m/pixel) Google Earth** image patch pairs with a size of 1024 × 1024 pixels. These bitemporal images with time span of 5 to 14 years have significant land-use changes, especially the construction growth. LEVIR-CD covers various types of buildings, such as villa residences, tall apartments, small garages and large warehouses. The fully annotated LEVIR-CD contains a total of 31,333 individual change building instances.
 
 - 2019.[Wuhan multi-temperature scene (MtS-WH) Dataset](http://sigma.whu.edu.cn/newspage.php?q=2019_03_26)   
 The dataset is mainly used for theoretical research and verification of **scene change detection** methods. It consists of two large-size **VHR** images, which have a size of 7200x6000 and are respectively acquired by **IKONOS** sensors in Feb 2002 and Jun 2009. The images cover the Hanyang District, Wuhan City, China and contain 4 spectral bands (Blue, Green, Red, and Near-Infrared). The spatial resolution of the images is 1m after fusion of the pan and multispectral images by the Gram–Schmidt algorithm.
@@ -89,6 +91,10 @@ This dataset consists of two subsets, named "TSUNAMI" and "GSV"."TSUNAMI" consis
 
 
 #### 2.1.2 Deep Learning
+- 2020.[Chen, H.; Shi, Z. A Spatial-Temporal Attention-Based Method and a New Dataset for Remote Sensing Image Change Detection](https://github.com/justchenhao/STANet)
+
+- 2020.[llu025/Heterogeneous_CD](https://github.com/llu025/Heterogeneous_CD)
+  
 - 2020.[neverstoplearn/remote_sensing_change_detection](https://github.com/neverstoplearn/remote_sensing_change_detection)
   
 - 2020.[Chen J, Yuan Z, Peng J, et al. DASNet: Dual attentive fully convolutional siamese networks for change detection of high resolution satellite images](https://github.com/lehaifeng/DASNet)
