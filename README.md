@@ -11,7 +11,7 @@ List of datasets, codes, papers, and contests related to remote sensing change d
 ### 1.1 Multispectral 
 
 #### With label
-- 2020.[LEVIR building Change Detection dataset](LEVIR-CD)
+- 2020.[LEVIR building Change Detection dataset](LEVIR-CD)   
 LEVIR-CD consists of 637 very high-resolution **(VHR, 0.5m/pixel) Google Earth** image patch pairs with a size of 1024 × 1024 pixels. These bitemporal images with time span of 5 to 14 years have significant land-use changes, especially the construction growth. LEVIR-CD covers various types of buildings, such as villa residences, tall apartments, small garages and large warehouses. The fully annotated LEVIR-CD contains a total of 31,333 individual change building instances.
 
 - 2019.[Wuhan multi-temperature scene (MtS-WH) Dataset](http://sigma.whu.edu.cn/newspage.php?q=2019_03_26)   
