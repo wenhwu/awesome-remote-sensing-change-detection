@@ -144,7 +144,7 @@ This dataset has two hyperspectral images, which were acquired on May 3, 2013, a
 ## Reference
 - [chrieke/awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets)
 - [Zhang Bin's Blog. Remote Sensing Datasets](https://zhangbin0917.github.io/2018/06/12/%E9%81%A5%E6%84%9F%E6%95%B0%E6%8D%AE%E9%9B%86/)
-- [MinZHANG-WHU/Change-Detection-Review](https://github.com/MinZHANG-WHU/Change-Detection-Review)
+- [MinZHANG-WHU/Change-Detection-Review](https://github.com/MinZHANG-WHU/Change-Detection-Review): This may be the most comprehensive review of change detection to date and is more formal than this repo.
 - The picture of this page is from [Mou L et al. 2018](https://ieeexplore.ieee.org/document/8541102)
   
 
