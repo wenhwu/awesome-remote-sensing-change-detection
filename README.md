@@ -129,6 +129,11 @@ This dataset has two hyperspectral images, which were acquired on May 3, 2013, a
 
 
 ## 4.Contest
+- [**SpaceNet 7: Multi-Temporal Urban Development Challenge**](https://medium.com/the-downlinq/the-spacenet-7-multi-temporal-urban-development-challenge-dataset-release-9e6e5f65c8d5)*(CosmiQ Works, Planet, Aug 2020)*
+In this challenge, participants will identify and track buildings in satellite imagery time series collected over rapidly urbanizing areas. The competition centers around a new open source dataset of Planet satellite imagery mosaics, which will include 24 images (one per month) covering ~100 unique geographies. The dataset will comprise 40,000 km2 of imagery and exhaustive polygon labels of building footprints in the imagery, totaling over 3M individual annotations. Challenge participants will be asked to track building construction over time, thereby directly assessing urbanization.
+
+- [**商汤科技首届AI遥感解译大赛-变化检测赛道**](https://rs.sensetime.com/competition/index.html#/info)*(SenseTime, Aug 2020)*
+数据集：4662组，分辨率：0.5~3m，规格：512*512，变化类型为6种主要土地性质之间的相互转化：水体、地面、低矮植被、树木、建筑物、运动场。每组数据中，前后时相的两张图片各自对应一张标注图，表示发生变化的区域以及该图片变化区域内各时期的土地性质。
 
 - [**xView 2 Building Damage Asessment Challenge**](https://xview2.org) *(DIUx, Nov 2019)*  
 550k building footprints & 4 damage scale categories, 20 global locations and 7 disaster types (wildfire, landslides, dam collapses, volcanic eruptions, earthquakes/tsunamis, wind, flooding), Worldview-3 imagery (0.3m res.), pre-trained baseline model. Paper: [Gupta et al. 2019](https://arxiv.org/abs/1911.09296)
@@ -144,7 +149,7 @@ This dataset has two hyperspectral images, which were acquired on May 3, 2013, a
 ## Reference
 - [chrieke/awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets)
 - [Zhang Bin's Blog. Remote Sensing Datasets](https://zhangbin0917.github.io/2018/06/12/%E9%81%A5%E6%84%9F%E6%95%B0%E6%8D%AE%E9%9B%86/)
-- [MinZHANG-WHU/Change-Detection-Review](https://github.com/MinZHANG-WHU/Change-Detection-Review): This may be the most comprehensive review of change detection to date and is more formal than this repo.
+- [MinZHANG-WHU/Change-Detection-Review](https://github.com/MinZHANG-WHU/Change-Detection-Review): This may be the most comprehensive review of change detection in github to date.
 - The picture of this page is from [Mou L et al. 2018](https://ieeexplore.ieee.org/document/8541102)
   
 
