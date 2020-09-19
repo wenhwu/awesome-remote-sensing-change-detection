@@ -1,6 +1,6 @@
 # Awesome Remote Sensing Change Detection [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-List of datasets, codes, papers, and contests related to remote sensing change detection.
+List of datasets, codes, and contests related to remote sensing change detection.
 
 ![](/2018.recurrent&#32;convolutional&#32;neural&#32;network.jpg)
 
@@ -12,7 +12,7 @@ List of datasets, codes, papers, and contests related to remote sensing change d
 
 #### With label
 - 2020.[**Google Dataset**](https://github.com/daifeng2016/Change-Detection-Dataset-for-High-Resolution-Satellite-Imagery)   
-The images were acquired during the periods between 2006 and 2019, covering the suburb areas of Guangzhou City, China. To facilitate image pair generation, Google Earth service through the [BIGEMAP](http://www.bigemap.com) software was adopted to collect 19 season-varying VHR images pairs with three bands of red, green, and blue, a spatial resolution of 0.55 m, and the size ranging from 1006×1168 pixels to 4936×5224 pixels. The annotation is focused on buildings.Paper: [Peng et al.2020](https://ieeexplore.ieee.org/document/9161009)
+The images were acquired during the periods between 2006 and 2019, covering the suburb areas of Guangzhou City, China. To facilitate image pair generation, Google Earth service through the [BIGEMAP](http://www.bigemap.com) software was adopted to collect 19 season-varying VHR images pairs with three bands of red, green, and blue, a spatial resolution of 0.55 m, and the size ranging from 1006×1168 pixels to 4936×5224 pixels. The annotation is focused on buildings. Paper: [Peng et al.2020](https://ieeexplore.ieee.org/document/9161009)
 
 - 2020.[**LEVIR building Change Detection(LEVIR-CD) Dataset**](https://justchenhao.github.io/LEVIR/)   
 LEVIR-CD consists of 637 very high-resolution (VHR, 0.5m/pixel) Google Earth image patch pairs with a size of 1024 × 1024 pixels. These bitemporal images with time span of 5 to 14 years have significant land-use changes, especially the construction growth. LEVIR-CD covers various types of buildings, such as villa residences, tall apartments, small garages and large warehouses. The fully annotated LEVIR-CD contains a total of 31,333 individual change building instances. Paper: [Chen et al.2020](https://www.mdpi.com/2072-4292/12/10/1662)
@@ -25,10 +25,10 @@ This dataset contains 291 coregistered image pairs of RGB aerial images from IGS
 The dataset is mainly used for theoretical research and verification of scene change detection methods. It consists of two large-size VHR images, which have a size of 7200x6000 and are respectively acquired by IKONOS sensors in Feb 2002 and Jun 2009. The images cover the Hanyang District, Wuhan City, China and contain 4 spectral bands (Blue, Green, Red, and Near-Infrared). The spatial resolution of the images is 1m after fusion of the pan and multispectral images by the Gram–Schmidt algorithm. For a discussion of this dataset, please refer to [#3](https://github.com/wenhwu/awesome-remote-sensing-change-detection/issues/3). Paper: [Wu et al.2017](https://ieeexplore.ieee.org/document/7817860)
 
 - 2018.[**WHU Building change detection Dataset**](https://study.rsgis.whu.edu.cn/pages/download/building_dataset.html)   
-The dataset contains two aerial images(0.2m/pixel, 15354×32507) and provides a change vector, a change raster map, and two corresponding building vectors of these two aerial images. Paper: [Ji et al.2018](https://ieeexplore.ieee.org/document/8444434)
+The dataset contains two aerial images (0.2m/pixel, 15354×32507) and provides a change vector, a change raster map, and two corresponding building vectors of these two aerial images. Paper: [Ji et al.2018](https://ieeexplore.ieee.org/document/8444434)
 
 - 2018.[**Synthetic images and real season-varying remote sensing images**](https://drive.google.com/file/d/1GX656JqqOyBi_Ef0w65kDGVto-nHrNs9/edit)   
-This dataset has three types: synthetic images without objects relative shift, synthetic images with small relative shift of objects, real season-varying remote sensing images(obtained by Google Earth). The real season-varying remote sensing images have 16000 image sets with image size 256x256 pixels(10000 train sets and 3000 test and validation sets) and a spatial resolution of 3 to 100 cm/px. For a discussion of this dataset, please refer to [#5](https://github.com/wenhwu/awesome-remote-sensing-change-detection/issues/5). Paper: [Lebedev et al.2018](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-2/565/2018/isprs-archives-XLII-2-565-2018.pdf)
+This dataset has three types: synthetic images without objects relative shift, synthetic images with small relative shift of objects, real season-varying remote sensing images (obtained by Google Earth). The real season-varying remote sensing images have 16000 image sets with image size 256x256 pixels (10000 train sets and 3000 test and validation sets) and a spatial resolution of 3 to 100 cm/px. For a discussion of this dataset, please refer to [#5](https://github.com/wenhwu/awesome-remote-sensing-change-detection/issues/5). Paper: [Lebedev et al.2018](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-2/565/2018/isprs-archives-XLII-2-565-2018.pdf)
 
 - 2018.[**Onera Satellite Change Detection Dataset**](https://rcdaudt.github.io/oscd/)   
 This dataset addresses the issue of detecting changes between satellite images from different dates. It comprises 24 pairs of multispectral images taken from the Sentinel-2 satellites between 2015 and 2018. Locations are picked all over the world, in Brazil, USA, Europe, Middle-East and Asia. For each location, registered pairs of 13-band multispectral satellite images obtained by the Sentinel-2 satellites are provided. Images vary in spatial resolution between 10m, 20m, and 60m. Paper: [Daudt R C et al.2018](https://ieeexplore.ieee.org/document/8518015)
@@ -75,21 +75,23 @@ This dataset has two hyperspectral images, which were acquired on May 3, 2013, a
 #### 2.1.1 Traditional Method 
 - 2019.[Bobholamovic/ChangeDetectionToolbox](https://github.com/Bobholamovic/ChangeDetectionToolbox)
 
-- 2019.[M J Canty. Image Analysis, Classification and Change Detection in Remote Sensing(Fourth Revised Edition)](https://github.com/mortcanty/CRC4Docker)
+- 2019.[Canty M J. Image Analysis, Classification and Change Detection in Remote Sensing (Fourth Revised Edition)](https://github.com/mortcanty/CRC4Docker)
 
-- 2017.[M J Canty. Change Detection with Google Earth Engine Imagery](https://github.com/mortcanty/earthengine)
+- 2017.[Canty M J. Change Detection with Google Earth Engine Imagery](https://github.com/mortcanty/earthengine)
 
-- 2014.[M J Canty. Image Analysis, Classification and Change Detection in Remote Sensing(Third Revised Edition)](https://github.com/mortcanty/CRCPython)
+- 2014.[Canty M J. Image Analysis, Classification and Change Detection in Remote Sensing (Third Revised Edition)](https://github.com/mortcanty/CRCPython)
 
-- [Zhu Zhe.Algorithm developed for Continuous Change Detection and Classification (CCDC) of land cover using all available Landsat data](https://github.com/GERSL/CCDC)
+- [Zhu Z, Woodcock C E, et al. Algorithm developed for Continuous Change Detection and Classification (CCDC) of land cover using all available Landsat data](https://github.com/GERSL/CCDC)
 
 - Implementation of " [2009.Celik T. Unsupervised change detection in satellite images using principal component analysis and k-means clustering](https://ieeexplore.ieee.org/abstract/document/5196726/) ".  
 [Matlab](https://github.com/rulixiang/ChangeDetectionPCAKmeans), [Python](https://github.com/abhijeet3922/Change-Detection-in-Satellite-Imagery)
 
-- 2007.[Allan Aasbjerg Nielsen.IR-MAD(The Regularized Iteratively Reweighted Multivariate Alteration Detection)](http://people.compute.dtu.dk/alan/software.html)
+- 2007.[Nielsen A A.The Regularized Iteratively Reweighted Multivariate Alteration Detection (IR-MAD)](http://people.compute.dtu.dk/alan/software.html)
 
 
 #### 2.1.2 Deep Learning
+- 2020.[Zhang C, Yue P, Tapete D, et al. A deeply supervised image fusion network for change detection in high resolution bi-temporal remote sensing images](https://github.com/GeoZcx/A-deeply-supervised-image-fusion-network-for-change-detection-in-remote-sensing-images)
+  
 - 2020.[Chen H, Shi Z. A Spatial-Temporal Attention-Based Method and a New Dataset for Remote Sensing Image Change Detection](https://github.com/justchenhao/STANet)
 
 - 2020.[Zhang M, Shi W. A Feature Difference Convolutional Neural Network-Based Change Detection Method](https://github.com/MinZHANG-WHU/FDCNN)
@@ -100,7 +102,7 @@ This dataset has two hyperspectral images, which were acquired on May 3, 2013, a
   
 - 2020.[Chen J, Yuan Z, Peng J, et al. DASNet: Dual attentive fully convolutional siamese networks for change detection of high resolution satellite images](https://github.com/lehaifeng/DASNet)
 
-- 2019.[Maria Papadomanolaki, et al. Detecting Urban Changes with Recurrent Neural Networks from Multitemporal Sentinel-2 Data](https://github.com/granularai/ChangeDetection)
+- 2019.[Papadomanolaki M, Verma S, Vakalopoulou M, et al. Detecting Urban Changes with Recurrent Neural Networks from Multitemporal Sentinel-2 Data](https://github.com/granularai/ChangeDetection)
 
 - 2019.[Du B, Ru L, Wu C, et al. DSFANet (Deep Slow Feature Analysis Network)](https://github.com/rulixiang/DSFANet)
 
@@ -108,11 +110,11 @@ This dataset has two hyperspectral images, which were acquired on May 3, 2013, a
 
 - 2018.[Rahman F, Vasu B, Van Cor J, et al. Siamese Network with Multi-level Features for Patch-based Change Detection in Satellite Imagery](https://github.com/vbhavank/Siamese-neural-network-for-change-detection)
 
-- 2018.[Rodrigo Caye Daudt. Fully convolutional change detection](https://github.com/rcdaudt/fully_convolutional_change_detection)
+- 2018.[Daudt R C. Fully convolutional change detection](https://github.com/rcdaudt/fully_convolutional_change_detection)
   
-- 2018.[Enqiang Guo, Xinsha Fu, et al.Learning to Measure Changes: Fully Convolutional Siamese Metric Networks for Scene Change Detection](https://github.com/gmayday1997/SceneChangeDet)
+- 2018.[Enqiang Guo, Xinsha Fu, et al. Learning to Measure Changes: Fully Convolutional Siamese Metric Networks for Scene Change Detection](https://github.com/gmayday1997/SceneChangeDet)
 
-- 2018.[Shishira R Maiya,et al.Slum Segmentation and Change Detection: A Deep Learning Approach](https://github.com/cbsudux/Mumbai-slum-segmentation)
+- 2018.[Shishira R Maiya,et al. Slum Segmentation and Change Detection: A Deep Learning Approach](https://github.com/cbsudux/Mumbai-slum-segmentation)
 
 - 2016.[El Amin A M, Liu Q, Wang Y. Convolutional neural network features based change detection in satellite images](https://github.com/vbhavank/Unstructured-change-detection-using-CNN)
 
@@ -120,18 +122,15 @@ This dataset has two hyperspectral images, which were acquired on May 3, 2013, a
 
 ### 2.2 SAR
 
-- 2019.[Feng Gao.Sea ice change detection in SAR images based on convolutional-wavelet neural networks(Matlab)](https://github.com/summitgao/SAR_Change_Detection_CWNN)
+- 2019.[Gao F, Wang X, Gao Y, et al. Sea ice change detection in SAR images based on convolutional-wavelet neural networks (Matlab)](https://github.com/summitgao/SAR_Change_Detection_CWNN)
 
-- 2019.[Feng Gao.Transferred deep learning for sea ice change detection from synthetic aperture radar images(Matlab)](https://github.com/summitgao/SAR-Change-Detection-MLFN)
+- 2019.[Gao Y, Gao F, Dong J, et al. Transferred deep learning for sea ice change detection from synthetic-aperture radar images (Matlab)](https://github.com/summitgao/SAR-Change-Detection-MLFN)
   
-- 2015.[Knut Conradsen, et al.Change detection in polarimetric SAR images in Python](https://github.com/fouronnes/SAR-change-detection)
+- 2015.[Conradsen K, Nielsen A A, Skriver H, et al. Change detection in polarimetric SAR Data (Python)](https://github.com/fouronnes/SAR-change-detection)
 
 
-## 3 Paper
-**coming soon**
 
-
-## 4.Contest
+## 3.Contest
 - [**SpaceNet 7: Multi-Temporal Urban Development Challenge**](https://medium.com/the-downlinq/the-spacenet-7-multi-temporal-urban-development-challenge-dataset-release-9e6e5f65c8d5)*(CosmiQ Works, Planet, Aug 2020)*   
 In this challenge, participants will identify and track buildings in satellite imagery time series collected over rapidly urbanizing areas. The competition centers around a new open source dataset of Planet satellite imagery mosaics, which will include 24 images (one per month) covering ~100 unique geographies. The dataset will comprise 40,000 km2 of imagery and exhaustive polygon labels of building footprints in the imagery, totaling over 3M individual annotations. Challenge participants will be asked to track building construction over time, thereby directly assessing urbanization.
 
