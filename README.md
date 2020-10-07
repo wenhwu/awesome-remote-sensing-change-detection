@@ -5,7 +5,6 @@ List of datasets, codes, and contests related to remote sensing change detection
 ![](/2018.recurrent&#32;convolutional&#32;neural&#32;network.jpg)
 
 
-
 ## 1 Dateset
 
 ### 1.1 Multispectral 
@@ -14,7 +13,7 @@ List of datasets, codes, and contests related to remote sensing change detection
 - 2020.[**Google Dataset**](https://github.com/daifeng2016/Change-Detection-Dataset-for-High-Resolution-Satellite-Imagery)   
 The images were acquired during the periods between 2006 and 2019, covering the suburb areas of Guangzhou City, China. To facilitate image pair generation, Google Earth service through the [BIGEMAP](http://www.bigemap.com) software was adopted to collect 19 season-varying VHR images pairs with three bands of red, green, and blue, a spatial resolution of 0.55 m, and the size ranging from 1006×1168 pixels to 4936×5224 pixels. The annotation is focused on buildings. Paper: [Peng et al.2020](https://ieeexplore.ieee.org/document/9161009)
 
-- 2020.[**LEVIR building Change Detection(LEVIR-CD) Dataset**](https://justchenhao.github.io/LEVIR/)   
+- 2020.[**LEVIR building Change Detection (LEVIR-CD) Dataset**](https://justchenhao.github.io/LEVIR/)   
 LEVIR-CD consists of 637 very high-resolution (VHR, 0.5m/pixel) Google Earth image patch pairs with a size of 1024 × 1024 pixels. These bitemporal images with time span of 5 to 14 years have significant land-use changes, especially the construction growth. LEVIR-CD covers various types of buildings, such as villa residences, tall apartments, small garages and large warehouses. The fully annotated LEVIR-CD contains a total of 31,333 individual change building instances. Paper: [Chen et al.2020](https://www.mdpi.com/2072-4292/12/10/1662)
 
 - 2019.[**High Resolution Semantic Change Detection (HRSCD) Dataset**](https://ieee-dataport.org/open-access/hrscd-high-resolution-semantic-change-detection-dataset)   
@@ -90,6 +89,7 @@ This dataset has two hyperspectral images, which were acquired on May 3, 2013, a
 
 
 #### 2.1.2 Deep Learning
+- 2020.[Diakogiannis F I, Waldner F, Caccetta P. Looking for change? Roll the Dice and demand Attention](https://github.com/feevos/ceecnet)
 - 2020.[Zhang C, Yue P, Tapete D, et al. A deeply supervised image fusion network for change detection in high resolution bi-temporal remote sensing images](https://github.com/GeoZcx/A-deeply-supervised-image-fusion-network-for-change-detection-in-remote-sensing-images)
   
 - 2020.[Chen H, Shi Z. A Spatial-Temporal Attention-Based Method and a New Dataset for Remote Sensing Image Change Detection](https://github.com/justchenhao/STANet)
@@ -104,17 +104,17 @@ This dataset has two hyperspectral images, which were acquired on May 3, 2013, a
 
 - 2019.[Papadomanolaki M, Verma S, Vakalopoulou M, et al. Detecting Urban Changes with Recurrent Neural Networks from Multitemporal Sentinel-2 Data](https://github.com/granularai/ChangeDetection)
 
-- 2019.[Du B, Ru L, Wu C, et al. DSFANet (Deep Slow Feature Analysis Network)](https://github.com/rulixiang/DSFANet)
+- 2019.[Du B, Ru L, Wu C, et al. Deep Slow Feature Analysis Network (DSFANet)](https://github.com/rulixiang/DSFANet)
 
 - 2019.[Peng D, Zhang Y, Guan H. End-to-End Change Detection for High Resolution Satellite Images Using Improved UNet++](https://github.com/daifeng2016/End-to-end-CD-for-VHR-satellite-image)
 
 - 2018.[Rahman F, Vasu B, Van Cor J, et al. Siamese Network with Multi-level Features for Patch-based Change Detection in Satellite Imagery](https://github.com/vbhavank/Siamese-neural-network-for-change-detection)
 
-- 2018.[Daudt R C. Fully convolutional change detection](https://github.com/rcdaudt/fully_convolutional_change_detection)
+- 2018.[Daudt R C, Le Saux B, Boulch A. Fully convolutional siamese networks for change detection](https://github.com/rcdaudt/fully_convolutional_change_detection)
   
-- 2018.[Enqiang Guo, Xinsha Fu, et al. Learning to Measure Changes: Fully Convolutional Siamese Metric Networks for Scene Change Detection](https://github.com/gmayday1997/SceneChangeDet)
+- 2018.[Guo E, Fu X, Zhu J, et al. Learning to measure change: Fully convolutional siamese metric networks for scene change detection](https://github.com/gmayday1997/SceneChangeDet)
 
-- 2018.[Shishira R Maiya,et al. Slum Segmentation and Change Detection: A Deep Learning Approach](https://github.com/cbsudux/Mumbai-slum-segmentation)
+- 2018.[Maiya S R, Babu S C. Slum segmentation and change detection: A deep learning approach](https://github.com/cbsudux/Mumbai-slum-segmentation)
 
 - 2016.[El Amin A M, Liu Q, Wang Y. Convolutional neural network features based change detection in satellite images](https://github.com/vbhavank/Unstructured-change-detection-using-CNN)
 
@@ -131,10 +131,10 @@ This dataset has two hyperspectral images, which were acquired on May 3, 2013, a
 
 
 ## 3.Contest
-- [**SpaceNet 7: Multi-Temporal Urban Development Challenge**](https://medium.com/the-downlinq/the-spacenet-7-multi-temporal-urban-development-challenge-dataset-release-9e6e5f65c8d5)*(CosmiQ Works, Planet, Aug 2020)*   
+- [**SpaceNet 7: Multi-Temporal Urban Development Challenge**](https://medium.com/the-downlinq/the-spacenet-7-multi-temporal-urban-development-challenge-dataset-release-9e6e5f65c8d5) *(CosmiQ Works, Planet, Aug 2020)*   
 In this challenge, participants will identify and track buildings in satellite imagery time series collected over rapidly urbanizing areas. The competition centers around a new open source dataset of Planet satellite imagery mosaics, which will include 24 images (one per month) covering ~100 unique geographies. The dataset will comprise 40,000 km2 of imagery and exhaustive polygon labels of building footprints in the imagery, totaling over 3M individual annotations. Challenge participants will be asked to track building construction over time, thereby directly assessing urbanization.
 
-- [**商汤科技首届AI遥感解译大赛-变化检测赛道**](https://rs.sensetime.com/competition/index.html#/info)*(SenseTime, Aug 2020)*   
+- [**商汤科技首届AI遥感解译大赛-变化检测赛道**](https://rs.sensetime.com/competition/index.html#/info) *(SenseTime, Aug 2020)*   
 数据集：4662组，分辨率：0.5~3m，规格：512*512，变化类型为6种主要土地性质之间的相互转化：水体、地面、低矮植被、树木、建筑物、运动场。每组数据中，前后时相的两张图片各自对应一张标注图，表示发生变化的区域以及该图片变化区域内各时期的土地性质。
 
 - [**xView 2 Building Damage Asessment Challenge**](https://xview2.org) *(DIUx, Nov 2019)*  
