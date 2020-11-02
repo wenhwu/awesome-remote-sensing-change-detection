@@ -10,7 +10,7 @@ List of datasets, codes, and contests related to remote sensing change detection
 
 #### With label
 
-- [SEmantic Change detectiON Dataset (SECOND)](http://www.captain-whu.com/PROJECT/SCD/)   
+- 2020.[**SEmantic Change detectiON Dataset (SECOND)**](http://www.captain-whu.com/PROJECT/SCD/)   
 SECOND, a well-annotated semantic change detection dataset, which collects 4662 pairs of aerial images from several platforms and sensors. These pairs of images are distributed over the cities such as Hangzhou, Chengdu, and Shanghai. Each image has size 512 x 512 and is annotated at the pixel level. The annotation of SECOND is carried out by an expert group of earth vision applications, which guarantees high label accuracy. SECOND focus on 6 main land-cover classes, i.e. , non-vegetated ground surface, tree, low vegetation, water, buildings, and playgrounds, that are frequently involved in natural and man-made geographical changes. It is worth noticing that, in the new dataset, non-vegetated ground surface ( n.v.g. surface for short) mainly corresponds to impervious surface and bare land. In summary, these 6 selected land-cover categories result in 30 common change categories (including non-change ). Through the random selection of image pairs, the SECOND reflects real distributions of land-cover categories when changes occur. Paper: [Yang et al.2020](https://arxiv.org/abs/2010.05687)
 
 - 2020.[**Google Dataset**](https://github.com/daifeng2016/Change-Detection-Dataset-for-High-Resolution-Satellite-Imagery)   
