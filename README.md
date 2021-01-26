@@ -10,7 +10,7 @@ List of datasets, codes, and contests related to remote sensing change detection
 
 #### With label
 
-- 2021. [**Sentinel-2 Multitemporal Cities Pairs (S2MTCP) dataset**](https://zenodo.org/record/4280482#.YBBCX-j7RhE)
+- 2021. [**Sentinel-2 Multitemporal Cities Pairs (S2MTCP) dataset**](https://zenodo.org/record/4280482#.YBBCX-j7RhE)   
 The S2MTCP dataset contains N = 1520 image pairs, spread over all inhabited continents, with the highest concentration of image pairs in North-America, Europe, and Asia. Bands with a spatial resolution smaller than 10 m are resampled to 10 m and images are cropped to approximately 600x600 pixels. It was created for self-supervised training. Paper: [Leenstra et al.2021](https://arxiv.org/abs/2101.08122)
 
 - 2020.**Hi-UCD**   
