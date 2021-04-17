@@ -10,8 +10,14 @@ List of datasets, codes, researchers, and contests related to remote sensing cha
 
 ### 1.1 Multispectral 
   
+- 2020.[LEVIR-CD](https://justchenhao.github.io/LEVIR/)   
+This dataset consists of 637 very high-resolution (VHR, 0.5m/pixel) Google Earth (GE) image patch pairs with a size of 1024 × 1024 pixels. These bitemporal images with time span of 5 to 14 years have significant land-use changes, especially the construction growth. LEVIR-CD covers various types of buildings, such as villa residences, tall apartments, small garages and large warehouses. Here, we focus on building-related changes, including the building growth (the change from soil/grass/hardened ground or building under construction to new build-up regions) and the building decline. These bitemporal images are annotated by remote sensing image interpretation experts using binary labels (1 for change and 0 for unchanged). Each sample in our dataset is annotated by one annotator and then double-checked by another to produce high-quality annotations. The fully annotated LEVIR-CD contains a total of 31,333 individual change building instances.
+
 - 2019.[Wuhan multi-temperature scene (MtS-WH) Dataset](http://sigma.whu.edu.cn/newspage.php?q=2019_03_26)   
 The dataset is mainly used for theoretical research and verification of **scene change detection** methods. It consists of two large-size **VHR** images, which have a size of 7200x6000 and are respectively acquired by **IKONOS** sensors in Feb 2002 and Jun 2009. The images cover the Hanyang District, Wuhan City, China and contain 4 spectral bands (Blue, Green, Red, and Near-Infrared). The spatial resolution of the images is 1m after fusion of the pan and multispectral images by the Gram–Schmidt algorithm.
+
+- 2018.[WHU Building Dataset(Building change detection dataset)](http://study.rsgis.whu.edu.cn/pages/download/building_dataset.html)    
+This dataset covers an area where a 6.3-magnitude earthquake has occurred in February 2011 and rebuilt in the following years. This dataset consists of aerial images obtained in April 2012 that contains 12796 buildings in 20.5 km2 (16077 buildings in the same area in 2016 dataset). By manually selecting 30 GCPs on ground surface, the sub-dataset was geo-rectified to the aerial dataset with 1.6-pixel accuracy. This sub-dataset and the corresponding images from the original dataset are now openly provided along with building vector and raster maps.
 
 - 2018.[Lebedev M A, Vizilter Y V, Vygolov O V, et al. Change detection in remote sensing images using conditional adversarial networks](https://drive.google.com/file/d/1GX656JqqOyBi_Ef0w65kDGVto-nHrNs9/edit)   
 This dataset has three types: synthetic images without objects relative shift, synthetic images with small relative shift of objects, real season-varying remote sensing images(obtained by **Google Earth**). The real season-varying remote sensing images have 16000 image sets with image size 256x256 pixels(10000 train sets and 3000 test and validation sets) and a spatial resolution of **3 to 100 cm/px**.
@@ -88,6 +94,8 @@ This dataset consists of two subsets, named "TSUNAMI" and "GSV"."TSUNAMI" consis
 
 
 #### 2.1.2 Deep Learning
+- 2020.[Chen H, Shi Z. Spatial-Temporal Attention-Based Method and a New Dataset for Remote Sensing Image Change Detection](https://github.com/justchenhao/STANet)
+- 2020.[Chen J, Yuan Z, Peng J, et al. DASNet: Dual attentive fully convolutional siamese networks for change detection of high resolution satellite images](https://github.com/lehaifeng/DASNet)
 
 - [Rodrigo Caye Daudt](https://rcdaudt.github.io/)
   - 2019.[Guided anisotropic diffusion (GAD) ](https://github.com/rcdaudt/guided_anisotropic_diffusion)
@@ -139,6 +147,12 @@ This dataset consists of two subsets, named "TSUNAMI" and "GSV"."TSUNAMI" consis
 
 
 ## 4.Contest
+
+- [**2021 IEEE GRSS Data Fusion Contest-Track MSD: Multitemporal Semantic Change Detection**](https://www.grss-ieee.org/community/technical-committees/2021-ieee-grss-data-fusion-contest-results/)(*IEEE GRSS,et al. Mar 2021*)    
+Participants will need to infer high-resolution land cover maps that identify changes between the 2013 and 2017 high-resolution imagery for a subset of these 2250 tiles. The land cover change maps will be calculated between classes of a simplified scheme based on that of the noisy 30m low-resolution labels. The change maps will be scored on their accuracy in identifying areas with several particular kinds of change, described in the “Land cover change” section below.    
+The challenge is twofold: identifying what has changed between two high-resolution aerial images, and identifying what class of change it is based on weak labels.
+- [**AI瞰世界·2020人工智能遥感解译大赛**](https://rs.sensetime.com/competition/index.html#/info)(*SenseTime,Aug 2020*)    
+变化类型为6种主要土地性质之间的相互转化：水体、地面、低矮植被、树木、建筑物、运动场。每组数据中，前后时相的两张图片各自对应一张标注图，表示发生变化的区域以及该图片变化区域内各时期的土地性质。
 
 - [**xView 2 Building Damage Asessment Challenge**](https://xview2.org) *(DIUx, Nov 2019)*  
 550k building footprints & 4 damage scale categories, 20 global locations and 7 disaster types (wildfire, landslides, dam collapses, volcanic eruptions, earthquakes/tsunamis, wind, flooding), Worldview-3 imagery (0.3m res.), pre-trained baseline model. Paper: [Gupta et al. 2019](http://openaccess.thecvf.com/content_CVPRW_2019/html/cv4gc/Gupta_Creating_xBD_A_Dataset_for_Assessing_Building_Damage_from_Satellite_CVPRW_2019_paper.html)
