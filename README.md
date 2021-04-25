@@ -138,20 +138,22 @@ This dataset has two hyperspectral images, which were acquired on May 3, 2013, a
 - 2015.[Conradsen K, Nielsen A A, Skriver H, et al. Change detection in polarimetric SAR Data (Python)](https://github.com/fouronnes/SAR-change-detection)
 
 ## 3.Contest
+- [2021 IEEE GRSS Data Fusion Contest: Track MSD (Multitemporal Semantic Change Detection)](https://www.grss-ieee.org/community/technical-committees/2021-ieee-grss-data-fusion-contest-track-msd/) *(GRSS, Microsoft, Jan 2021)*   
+The task of Track MSD is to create bitemporal high resolution land cover maps using only low-resolution and noisy land cover labels for training. Such a scenario is often encountered around the world, as the proliferation of new sensors with either high spatial resolution (submeter) or high temporal resolution (weekly or even daily) remains unmatched by equally rich label data. Instead, detecting change would have to rely on the analysis of a sequence of input images in an unsupervised manner or with aid of weak, noisy, and outdated labels.
 
-- [**SpaceNet 7: Multi-Temporal Urban Development Challenge**](https://medium.com/the-downlinq/the-spacenet-7-multi-temporal-urban-development-challenge-dataset-release-9e6e5f65c8d5) *(CosmiQ Works, Planet, Aug 2020)*
+- [**SpaceNet 7: Multi-Temporal Urban Development Challenge**](https://medium.com/the-downlinq/the-spacenet-7-multi-temporal-urban-development-challenge-dataset-release-9e6e5f65c8d5) *(CosmiQ Works, Planet, Aug 2020)*   
 In this challenge, participants will identify and track buildings in satellite imagery time series collected over rapidly urbanizing areas. The competition centers around a new open source dataset of Planet satellite imagery mosaics, which will include 24 images (one per month) covering ~100 unique geographies. The dataset will comprise 40,000 km2 of imagery and exhaustive polygon labels of building footprints in the imagery, totaling over 3M individual annotations. Challenge participants will be asked to track building construction over time, thereby directly assessing urbanization.
 
-- [**商汤科技首届AI遥感解译大赛-变化检测赛道**](https://rs.sensetime.com/competition/index.html#/info) *(SenseTime, Aug 2020)*
+- [**商汤科技首届AI遥感解译大赛-变化检测赛道**](https://rs.sensetime.com/competition/index.html#/info) *(SenseTime, Aug 2020)*   
 数据集：4662组，分辨率：0.5~3m，规格：512*512，变化类型为6种主要土地性质之间的相互转化：水体、地面、低矮植被、树木、建筑物、运动场。每组数据中，前后时相的两张图片各自对应一张标注图，表示发生变化的区域以及该图片变化区域内各时期的土地性质。第一名的解决方案请详见 [LiheYoung/SenseEarth2020-ChangeDetection](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection)。
 
-- [**xView 2 Building Damage Asessment Challenge**](https://xview2.org) *(DIUx, Nov 2019)*  
+- [**xView 2 Building Damage Asessment Challenge**](https://xview2.org) *(DIUx, Nov 2019)*     
 550k building footprints & 4 damage scale categories, 20 global locations and 7 disaster types (wildfire, landslides, dam collapses, volcanic eruptions, earthquakes/tsunamis, wind, flooding), Worldview-3 imagery (0.3m res.), pre-trained baseline model. Paper: [Gupta et al. 2019](https://arxiv.org/abs/1911.09296)
 
-- [**遥感图像稀疏表征与智能分析竞赛-变化检测赛道**](http://rscup.bjxintong.com.cn/#/theme/4) *(Wuhan University,et al. Jul 2019)*
+- [**遥感图像稀疏表征与智能分析竞赛-变化检测赛道**](http://rscup.bjxintong.com.cn/#/theme/4) *(Wuhan University,et al. Jul 2019)*   
 本项竞赛以光学遥感图像为处理对象，参赛队伍使用主办方提供的遥感图像进行建筑物变化检测，主办方根据评分标准对变化检测结果进行综合评价。竞赛中将提供两个不同时间获取的大尺度高分辨率遥感图像（包含蓝、绿、红和近红外四个波段），以及图像中变化区域的二值化标注数据集。
 
-- [**广东政务数据创新大赛—智能算法赛**](https://tianchi.aliyun.com/competition/entrance/231615/introduction) *(Alibaba,et al. Nov 2017)* 
+- [**广东政务数据创新大赛—智能算法赛**](https://tianchi.aliyun.com/competition/entrance/231615/introduction) *(Alibaba,et al. Nov 2017)*    
 使用2015年和2017年分别获取到的广东省某地的Quickbird卫星影像（包含蓝、绿、红和近红外四个波段），识别出两年之间新增的人工地上建筑物（不包括道路）。获胜团队的解决方案可以在[天池](https://tianchi.aliyun.com/forum/postDetail?postId=3527)官网上找到。
 
 ## Reference
