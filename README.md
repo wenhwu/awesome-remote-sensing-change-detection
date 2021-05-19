@@ -93,7 +93,7 @@ This dataset has two hyperspectral images, which were acquired on May 3, 2013, a
 
 - 2007.[Nielsen A A.The Regularized Iteratively Reweighted Multivariate Alteration Detection (IR-MAD)](http://people.compute.dtu.dk/alan/software.html)
 
-#### 2.1.2 Deep Learning
+#### 2.1.2 Deep Learning (Only the last three years are shown)
 - 2021.[Fang S, Li K, Shao J, et al. SNUNet-CD: A Densely Connected Siamese Network for Change Detection of VHR Images](https://github.com/likyoo/Siam-NestedUNet)
 
 - 2020.[I-Hope-Peace/ChangeDetectionRepository](https://github.com/I-Hope-Peace/ChangeDetectionRepository)
@@ -118,16 +118,6 @@ This dataset has two hyperspectral images, which were acquired on May 3, 2013, a
 - 2019.[Du B, Ru L, Wu C, et al. Deep Slow Feature Analysis Network (DSFANet)](https://github.com/rulixiang/DSFANet)
 
 - 2019.[Peng D, Zhang Y, Guan H. End-to-End Change Detection for High Resolution Satellite Images Using Improved UNet++](https://github.com/daifeng2016/End-to-end-CD-for-VHR-satellite-image)
-
-- 2018.[Rahman F, Vasu B, Van Cor J, et al. Siamese Network with Multi-level Features for Patch-based Change Detection in Satellite Imagery](https://github.com/vbhavank/Siamese-neural-network-for-change-detection)
-
-- 2018.[Daudt R C, Le Saux B, Boulch A. Fully convolutional siamese networks for change detection](https://github.com/rcdaudt/fully_convolutional_change_detection)
-  
-- 2018.[Guo E, Fu X, Zhu J, et al. Learning to measure change: Fully convolutional siamese metric networks for scene change detection](https://github.com/gmayday1997/SceneChangeDet)
-
-- 2018.[Maiya S R, Babu S C. Slum segmentation and change detection: A deep learning approach](https://github.com/cbsudux/Mumbai-slum-segmentation)
-
-- 2016.[El Amin A M, Liu Q, Wang Y. Convolutional neural network features based change detection in satellite images](https://github.com/vbhavank/Unstructured-change-detection-using-CNN)
 
 ### 2.2 SAR
 
