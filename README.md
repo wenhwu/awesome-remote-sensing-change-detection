@@ -130,6 +130,9 @@ This dataset has two hyperspectral images, which were acquired on May 3, 2013, a
 - 2015.[Conradsen K, Nielsen A A, Skriver H, et al. Change detection in polarimetric SAR Data (Python)](https://github.com/fouronnes/SAR-change-detection)
 
 ## 3.Contest
+- [2021 DynamicEarthNet Challenge](http://www.classic.grss-ieee.org/earthvision2021/challenge.html) *(TUM, DLR, panet, Mar 2021)*    
+The challenge consists of two tracks (**Unsupervised Binary Land Cover Change Detection** and **Weakly-Supervised Multi-Class Change Detection**) in which participants are tasked to detect multi-temporal changes with few or no training labels. 
+
 - [2021 IEEE GRSS Data Fusion Contest: Track MSD (Multitemporal Semantic Change Detection)](https://www.grss-ieee.org/community/technical-committees/2021-ieee-grss-data-fusion-contest-track-msd/) *(GRSS, Microsoft, Jan 2021)*   
 The task of Track MSD is to create bitemporal high resolution land cover maps using only low-resolution and noisy land cover labels for training. Such a scenario is often encountered around the world, as the proliferation of new sensors with either high spatial resolution (submeter) or high temporal resolution (weekly or even daily) remains unmatched by equally rich label data. Instead, detecting change would have to rely on the analysis of a sequence of input images in an unsupervised manner or with aid of weak, noisy, and outdated labels.
 
