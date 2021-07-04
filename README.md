@@ -16,8 +16,12 @@ The S2MTCP dataset contains N = 1520 image pairs, spread over all inhabited cont
 - 2020.**Hi-UCD**   
 Hi-UCD focuses on urban changes and uses ultra-high resolution images to construct multi-temporal semantic changes to achieve refined change detection. The study area of Hi-UCD is a part of Tallinn, the capital of Estonia, with an area of 30km2. There are 359 image pairs in 2017-2018, 386 pairs in 2018-2019, and 548 pairs in 2017-2019, including images, semantic maps, and change maps at different times. Each image has a size of 1024 x 1024 and a spatial resolution of 0.1 m. There are 9 types of objects, including natural objects (water, grassland, woodland, bare land), artificial objects (Building,greenhouse, road, bridge), and others (change-related), basically include all types of urbanland cover in Estonia. Paper: [Tian et al.2020](https://arxiv.org/abs/2011.03247)
 
+- 2020.[**DSIFN Dataset**](https://github.com/GeoZcx/A-deeply-supervised-image-fusion-network-for-change-detection-in-remote-sensing-images/tree/master/dataset)   
+The dataset is manually collected from Google Earth. It consists of six large bi-temporal high resolution images covering six cities (i.e., Beijing, Chengdu, Shenzhen, Chongqing, Wuhan, Xian) in China. The five large image-pairs (i.e., Beijing, Chengdu, Shenzhen, Chongqing, Wuhan) are clipped into 394 subimage pairs with sizes of 512×512. After data augmentation, a collection of 3940 bi-temporal image pairs is acquired. Xian image pair is clipped into 48 image pairs for model testing. There are 3600 image pairs in the training dataset, 340 image paris in the validation dataset, and 48 image pairs in the test dataset.
+
 - 2020.[**SEmantic Change detectiON Dataset (SECOND)**](http://www.captain-whu.com/PROJECT/SCD/)   
 SECOND, a well-annotated semantic change detection dataset, which collects 4662 pairs of aerial images from several platforms and sensors. These pairs of images are distributed over the cities such as Hangzhou, Chengdu, and Shanghai. Each image has size 512 x 512 and is annotated at the pixel level. SECOND focus on 6 main land-cover classes, i.e. , non-vegetated ground surface, tree, low vegetation, water, buildings, and playgrounds, that are frequently involved in natural and man-made geographical changes. Paper: [Yang et al.2020](https://arxiv.org/abs/2010.05687)
+
 
 - 2020.[**Google Dataset**](https://github.com/daifeng2016/Change-Detection-Dataset-for-High-Resolution-Satellite-Imagery)   
 The images were acquired during the periods between 2006 and 2019, covering the suburb areas of Guangzhou City, China. To facilitate image pair generation, Google Earth service through the [BIGEMAP](http://www.bigemap.com) software was adopted to collect 19 season-varying VHR images pairs with three bands of red, green, and blue, a spatial resolution of 0.55 m, and the size ranging from 1006×1168 pixels to 4936×5224 pixels. The annotation is focused on buildings. Paper: [Peng et al.2020](https://ieeexplore.ieee.org/document/9161009)
@@ -94,6 +98,8 @@ This dataset has two hyperspectral images, which were acquired on May 3, 2013, a
 - 2007.[Nielsen A A.The Regularized Iteratively Reweighted Multivariate Alteration Detection (IR-MAD)](http://people.compute.dtu.dk/alan/software.html)
 
 #### 2.1.2 Deep Learning (Only the last three years are shown)
+- 2021.[Chen H, Qi Z, Shi Z. Remote Sensing Image Change Detection with Transformers](https://github.com/justchenhao/BIT_CD)   
+
 - 2021.[Chen H, Li W, Shi Z, .Adversarial Instance Augmentation for Building Change Detection in Remote Sensing Images](https://github.com/justchenhao/IAug_CDNet)
 
 - 2021.[Fang S, Li K, Shao J, et al. SNUNet-CD: A Densely Connected Siamese Network for Change Detection of VHR Images](https://github.com/likyoo/Siam-NestedUNet)
