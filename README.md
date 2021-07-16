@@ -104,6 +104,7 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 - 2007.[Nielsen A A.The Regularized Iteratively Reweighted Multivariate Alteration Detection (IR-MAD)](http://people.compute.dtu.dk/alan/software.html)
 
 #### 2.1.2 Deep Learning (Only the last three years are shown)
+- 2021.[Liu M, Shi Q, Marinoni A, et al. Super-resolution-based Change Detection Network with Stacked Attention Module for Images with Different Resolutions](https://github.com/liumency/SRCDNet)
 - 2021.[Xu Q, Chen K, Zhou G, et al. Change Capsule Network for Optical Remote Sensing Image Change Detection](https://github.com/xuquanfu/capsule_change_detection)
 
 - 2021.[Chen H, Qi Z, Shi Z. Remote Sensing Image Change Detection with Transformers](https://github.com/justchenhao/BIT_CD)   
