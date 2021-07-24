@@ -107,6 +107,8 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 - 2007.[Nielsen A A.The Regularized Iteratively Reweighted Multivariate Alteration Detection (IR-MAD)](http://people.compute.dtu.dk/alan/software.html)
 
 #### 2.1.2 Deep Learning (Only the last three years are shown)
+- 2021.[Mañas O, Lacoste A, Giro-i-Nieto X, et al. Seasonal Contrast: Unsupervised Pre-Training from Uncurated Remote Sensing Data](https://github.com/ElementAI/seasonal-contrast)
+
 - 2021.[Zheng Z, Ma A, Zhang L, et al. Change is Everywhere: Single-Temporal Supervised Object Change Detection for High Spatial Resolution Remote Sensing Imagery](https://github.com/Z-Zheng/ChangeStar)
 
 - 2021.[Liu M, Shi Q, Marinoni A, et al. Super-resolution-based Change Detection Network with Stacked Attention Module for Images with Different Resolutions](https://github.com/liumency/SRCDNet)
