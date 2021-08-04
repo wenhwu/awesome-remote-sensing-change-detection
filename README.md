@@ -107,6 +107,7 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 - 2007.[Nielsen A A.The Regularized Iteratively Reweighted Multivariate Alteration Detection (IR-MAD)](http://people.compute.dtu.dk/alan/software.html)
 
 #### 2.1.2 Deep Learning (Only the last three years are shown)
+- 2021.[Xu J, Luo C, Chen X, et al. Remote Sensing Change Detection Based on Multidirectional Adaptive Feature Fusion and Perceptual Similarity](https://github.com/wzjialang/MFPNet)
 - 2021.[geoyee/PdRSCD](https://github.com/geoyee/PdRSCD): Remote sensing change detection tool based on PaddlePaddle
 - 2021.[Zhang H, Lin M, Yang G, et al. ESCNet: An End-to-End Superpixel-Enhanced Change Detection Network for Very-High-Resolution Remote Sensing Images](https://github.com/Bobholamovic/ESCNet)
 
