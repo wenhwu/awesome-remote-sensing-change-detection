@@ -160,7 +160,7 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 - 2015.[Conradsen K, Nielsen A A, Skriver H, et al. Change detection in polarimetric SAR Data (Python)](https://github.com/fouronnes/SAR-change-detection)
 
 ## 3.Contest
-- [2021 第五届“中科星图杯”国际高分遥感图像解译大赛-高分辨率可见光图像中建筑物普查与变化检测](http://gaofen-challenge.com/challenge)   
+- [2021 第五届“中科星图杯”国际高分遥感图像解译大赛-高分辨率可见光图像中建筑物普查与变化检测](http://gaofen-challenge.com/challenge) *(Aircas,et al. Aug 2021)*    
 高分二号、吉林一号光学数据，分辨率优于1m。每幅图像对建筑物进行像素级标注，同一时相数据对变化的建筑物区域进行像素级标注。建筑物提取类别：建筑物和背景，变化检测类别：变化的建筑区域和非变化的建筑区域。
 
 - [2021 DynamicEarthNet Challenge](http://www.classic.grss-ieee.org/earthvision2021/challenge.html) *(TUM, DLR, panet, Mar 2021)*    
