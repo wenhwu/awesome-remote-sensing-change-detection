@@ -10,10 +10,10 @@ List of datasets, codes, and contests related to remote sensing change detection
 
 #### With label
 - 2021.[Multi-modal Supervised Change Detection Data](https://github.com/PatrickTUM/multimodalCD_ISPRS21)   
-Sentinel-1 SAR data were provided on the basis of [OSCD dataset](https://ieee-dataport.org/open-access/oscd-onera-satellite-change-detection) for multimodal supervised change detection. Paper: [Shen et al.2021](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B3-2021/243/2021/isprs-archives-XLIII-B3-2021-243-2021.pdf)
+Sentinel-1 SAR data were provided on the basis of [OSCD dataset](https://ieee-dataport.org/open-access/oscd-onera-satellite-change-detection) for multimodal supervised change detection. Paper: [Ebel et al.2021](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B3-2021/243/2021/isprs-archives-XLIII-B3-2021-243-2021.pdf)
 
 - 2021.[S2Looking](https://github.com/AnonymousForACMMM/Dataset)   
-S2Looking, a building change detection dataset that contains large-scale side-looking satellite images captured at varying off-nadir angles. It consists of 5000 registered bitemporal image pairs (size of 1024*1024, 0.5 ~ 0.8 m/pixel) of rural areas throughout the world and more than 65,920 annotated change instances. It provides two label maps to separately indicate the newly built and demolished building regions for each sample in the dataset. Paper: [Ebel et al.2021](https://arxiv.org/abs/2107.09244)
+S2Looking, a building change detection dataset that contains large-scale side-looking satellite images captured at varying off-nadir angles. It consists of 5000 registered bitemporal image pairs (size of 1024*1024, 0.5 ~ 0.8 m/pixel) of rural areas throughout the world and more than 65,920 annotated change instances. It provides two label maps to separately indicate the newly built and demolished building regions for each sample in the dataset. Paper: [Shen et al.2021](https://arxiv.org/abs/2107.09244)
 
 - 2021.[SYSU-CD](https://github.com/liumency/SYSU-CD)   
 The dataset contains 20000 pairs of 0.5-m aerial images of size 256×256 taken between the years 2007 and 2014 in Hong Kong.The main types of changes in the dataset include: (a) newly built urban buildings; (b) suburban dilation; (c) groundwork before construction; (d) change of vegetation; (e) road expansion; (f) sea construction. Paper: [Shi et al.2021](https://ieeexplore.ieee.org/document/9467555)
