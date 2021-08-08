@@ -167,7 +167,7 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 - [2021 第五届“中科星图杯”国际高分遥感图像解译大赛-高分辨率可见光图像中建筑物普查与变化检测](http://gaofen-challenge.com/challenge) *(Aircas,et al. Aug 2021)*    
 高分二号、吉林一号光学数据，分辨率优于1m。每幅图像对建筑物进行像素级标注，同一时相数据对变化的建筑物区域进行像素级标注。建筑物提取类别：建筑物和背景，变化检测类别：变化的建筑区域和非变化的建筑区域。
 
-- [2021 慧眼“天智杯”人工智能挑战赛-可见光建筑智能变化检测](https://www.rsaicp.com/portal/contestDetail?id=1&tab=rule) *(北京市遥感信息研究所，中国科学院人工智能创新研究院. Jun 2021)*
+- [2021 慧眼“天智杯”人工智能挑战赛-可见光建筑智能变化检测](https://www.rsaicp.com/portal/contestDetail?id=1&tab=rule) *(北京市遥感信息研究所，中国科学院人工智能创新研究院. Jun 2021)* 
 每组数据包含前时相遥感图像，后时相遥感图像以及对应的建筑变化标签图。影像格式为png，包含R、G、B三个波段，影像尺寸为1024 X 1024像素，分辨率为0.5~0.7米。标签图与图像等大，其中 (0,0,0) 代表没有建筑变化，(0,0,255) 代表建筑增加，(255,0,0) 代表建筑减少。
 
 - [2021 DynamicEarthNet Challenge](http://www.classic.grss-ieee.org/earthvision2021/challenge.html) *(TUM, DLR, panet, Mar 2021)*    
