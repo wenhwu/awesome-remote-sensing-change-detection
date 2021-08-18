@@ -110,6 +110,9 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 - 2007.[Nielsen A A.The Regularized Iteratively Reweighted Multivariate Alteration Detection (IR-MAD)](http://people.compute.dtu.dk/alan/software.html)
 
 #### 2.1.2 Deep Learning (Only the last three years are shown)
+- 2021.[Zheng Z, Zhong Y, Wang J, et al. Building damage assessment for rapid disaster response with a deep object-based semantic change detection framework:
+from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeOS)
+
 - 2021.[likyoo/change_detection.pytorch](https://github.com/likyoo/change_detection.pytorch): Deep learning models for change detection of remote sensing images
 
 - 2021.[Xu J, Luo C, Chen X, et al. Remote Sensing Change Detection Based on Multidirectional Adaptive Feature Fusion and Perceptual Similarity](https://github.com/wzjialang/MFPNet)
