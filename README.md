@@ -110,6 +110,8 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 - 2007.[Nielsen A A.The Regularized Iteratively Reweighted Multivariate Alteration Detection (IR-MAD)](http://people.compute.dtu.dk/alan/software.html)
 
 #### 2.1.2 Deep Learning (Only the last three years are shown)
+- 2021.[Papadomanolaki M, Vakalopoulou M, Karantzalos K. A Deep Multi-Task Learning Framework Coupling Semantic Segmentation and Fully Convolutional LSTM Networks for Urban Change Detection](https://github.com/mpapadomanolaki/multi-task-L-UNet)
+
 - 2021.[Zheng Z, Zhong Y, Wang J, et al. Building damage assessment for rapid disaster response with a deep object-based semantic change detection framework:
 from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeOS)
 
@@ -138,6 +140,7 @@ from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeO
 - 2020.[I-Hope-Peace/ChangeDetectionRepository](https://github.com/I-Hope-Peace/ChangeDetectionRepository)
 
 - 2020.[Diakogiannis F I, Waldner F, Caccetta P. Looking for change? Roll the Dice and demand Attention](https://github.com/feevos/ceecnet)
+
 - 2020.[Zhang C, Yue P, Tapete D, et al. A deeply supervised image fusion network for change detection in high resolution bi-temporal remote sensing images](https://github.com/GeoZcx/A-deeply-supervised-image-fusion-network-for-change-detection-in-remote-sensing-images)
   
 - 2020.[Chen H, Shi Z. A Spatial-Temporal Attention-Based Method and a New Dataset for Remote Sensing Image Change Detection](https://github.com/justchenhao/STANet)
@@ -167,6 +170,9 @@ from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeO
 - 2015.[Conradsen K, Nielsen A A, Skriver H, et al. Change detection in polarimetric SAR Data (Python)](https://github.com/fouronnes/SAR-change-detection)
 
 ## 3.Contest
+- [2021 遥感图像智能解译技术挑战赛-建筑物变化检测](https://captain-whu.github.io/PRCV2021_RS/index.html)*(Wuhan University, PIESAT, Aug 2021)*   
+本竞赛数据集主要包含涉及建筑物的地物变化。全部图像数据共10000对（训练集：6000对图像，验证集：2000对图像，测试样本：2000对图像），尺寸为512 x 512，主要分布于北京、上海、广州以及杭州等城市。部分数据源自[SECOND](http://www.captain-whu.com/PROJECT/SCD/)数据集。
+
 - [2021 第五届“中科星图杯”国际高分遥感图像解译大赛-高分辨率可见光图像中建筑物普查与变化检测](http://gaofen-challenge.com/challenge) *(Aircas,et al. Aug 2021)*    
 高分二号、吉林一号光学数据，分辨率优于1m。每幅图像对建筑物进行像素级标注，同一时相数据对变化的建筑物区域进行像素级标注。建筑物提取类别：建筑物和背景，变化检测类别：变化的建筑区域和非变化的建筑区域。
 
