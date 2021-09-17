@@ -110,6 +110,8 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 - 2007.[Nielsen A A.The Regularized Iteratively Reweighted Multivariate Alteration Detection (IR-MAD)](http://people.compute.dtu.dk/alan/software.html)
 
 #### 2.1.2 Deep Learning (Only the last three years are shown)
+- 2021.[Diakogiannis F I, Waldner F, Caccetta P. Looking for change? Roll the Dice and demand Attention](https://github.com/feevos/ceecnet)
+
 - 2021.[Papadomanolaki M, Vakalopoulou M, Karantzalos K. A Deep Multi-Task Learning Framework Coupling Semantic Segmentation and Fully Convolutional LSTM Networks for Urban Change Detection](https://github.com/mpapadomanolaki/multi-task-L-UNet)
 
 - 2021.[Zheng Z, Zhong Y, Wang J, et al. Building damage assessment for rapid disaster response with a deep object-based semantic change detection framework:
@@ -138,8 +140,6 @@ from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeO
 - 2021.[Fang S, Li K, Shao J, et al. SNUNet-CD: A Densely Connected Siamese Network for Change Detection of VHR Images](https://github.com/likyoo/Siam-NestedUNet)
 
 - 2020.[I-Hope-Peace/ChangeDetectionRepository](https://github.com/I-Hope-Peace/ChangeDetectionRepository)
-
-- 2020.[Diakogiannis F I, Waldner F, Caccetta P. Looking for change? Roll the Dice and demand Attention](https://github.com/feevos/ceecnet)
 
 - 2020.[Zhang C, Yue P, Tapete D, et al. A deeply supervised image fusion network for change detection in high resolution bi-temporal remote sensing images](https://github.com/GeoZcx/A-deeply-supervised-image-fusion-network-for-change-detection-in-remote-sensing-images)
   
