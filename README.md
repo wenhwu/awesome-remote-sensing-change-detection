@@ -9,6 +9,9 @@ List of datasets, codes, and contests related to remote sensing change detection
 ### 1.1 Multispectral
 
 #### With label
+- 2021.[HTCD dataset](https://github.com/ShaoRuizhe/SUNet-change_detection)   
+The HTCD dataset, a new Satellite-UAV heterogeneous image data set, was built using the satellite images from [Google Earth](https://www.google.com/earth/) and UAV images from [Open Aerial Map](https://map.openaerialmap.org/). The size of the satellite image is 11 K×15 K pixels. While the UAV image is consisted of 15 image blocks, in total 1.38 M×1.04 M pixels. The ground resolutions of them are 0.5971 m and 7.465 cm, respectively. Images and labels are all stored in GeoTiff format with location information, for the convenience of further analysis and research. Paper: [Shao et al.2021](https://www.mdpi.com/2072-4292/13/18/3750/htm)
+
 - 2021.[Multi-modal Supervised Change Detection Data](https://github.com/PatrickTUM/multimodalCD_ISPRS21)   
 Sentinel-1 SAR data were provided on the basis of [OSCD dataset](https://ieee-dataport.org/open-access/oscd-onera-satellite-change-detection) for multimodal supervised change detection (SAR-SAR CD or Optical-SAR multi-modal CD). Paper: [Ebel et al.2021](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B3-2021/243/2021/isprs-archives-XLIII-B3-2021-243-2021.pdf)
 
@@ -110,6 +113,8 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 - 2007.[Nielsen A A.The Regularized Iteratively Reweighted Multivariate Alteration Detection (IR-MAD)](http://people.compute.dtu.dk/alan/software.html)
 
 #### 2.1.2 Deep Learning (Only the last three years are shown)
+- 2021.[Shao R, Du C, Chen H, et al. SUNet: Change Detection for Heterogeneous Remote Sensing Images from Satellite and UAV Using a Dual-Channel Fully Convolution Network](https://github.com/ShaoRuizhe/SUNet-change_detection)
+
 - 2021.[Diakogiannis F I, Waldner F, Caccetta P. Looking for change? Roll the Dice and demand Attention](https://github.com/feevos/ceecnet)
 
 - 2021.[Papadomanolaki M, Vakalopoulou M, Karantzalos K. A Deep Multi-Task Learning Framework Coupling Semantic Segmentation and Fully Convolutional LSTM Networks for Urban Change Detection](https://github.com/mpapadomanolaki/multi-task-L-UNet)
