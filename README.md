@@ -181,7 +181,7 @@ from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeO
 通过前后两时相的遥感影像，提取出地物发生变化的像元并赋予变化标签。 依据所述地物变化标准，以耕地-建筑/动土的像素级变化检测为目标。数据为1-2米分辨率光学遥感影像，6000+张遥感影像变化检测样本数据(按512 X 512大小折算)。标签格式为单通道的png，每个像素的标签值由一个数值表示， 使用‘uint8’数据类型存储，该数值表示是否为变化，“0”代表未变化，“1”代表变化。     
 
 - [2021 遥感图像智能解译技术挑战赛-建筑物变化检测](https://captain-whu.github.io/PRCV2021_RS/index.html)*(Wuhan University, PIESAT, Aug 2021)*   
-本竞赛数据集主要包含涉及建筑物的地物变化。全部图像数据共10000对（训练集：6000对图像，验证集：2000对图像，测试样本：2000对图像），尺寸为512 x 512，主要分布于北京、上海、广州以及杭州等城市。部分数据源自[SECOND](http://www.captain-whu.com/PROJECT/SCD/)数据集。第三名解决方案详见[likyoo/PRCV2021_ChangeDetection_Top3](https://github.com/likyoo/PRCV2021_ChangeDetection_Top3)
+本竞赛数据集主要包含涉及建筑物的地物变化。全部图像数据共10000对（训练集：6000对图像，验证集：2000对图像，测试样本：2000对图像），尺寸为512 x 512，主要分布于北京、上海、广州以及杭州等城市。部分数据源自[SECOND](http://www.captain-whu.com/PROJECT/SCD/)数据集。第三名解决方案详见[likyoo/PRCV2021_ChangeDetection_Top3](https://github.com/likyoo/PRCV2021_ChangeDetection_Top3)。
 
 - [2021 第五届“中科星图杯”国际高分遥感图像解译大赛-高分辨率可见光图像中建筑物普查与变化检测](http://gaofen-challenge.com/challenge) *(Aircas,et al. Aug 2021)*    
 高分二号、吉林一号光学数据，分辨率优于1m。每幅图像对建筑物进行像素级标注，同一时相数据对变化的建筑物区域进行像素级标注。建筑物提取类别：建筑物和背景，变化检测类别：变化的建筑区域和非变化的建筑区域。
@@ -199,7 +199,7 @@ The task of Track MSD is to create bitemporal high resolution land cover maps us
 In this challenge, participants will identify and track buildings in satellite imagery time series collected over rapidly urbanizing areas. The competition centers around a new open source dataset of Planet satellite imagery mosaics, which will include 24 images (one per month) covering ~100 unique geographies. The dataset will comprise 40,000 km2 of imagery and exhaustive polygon labels of building footprints in the imagery, totaling over 3M individual annotations. Challenge participants will be asked to track building construction over time, thereby directly assessing urbanization.
 
 - [**商汤科技首届AI遥感解译大赛-变化检测赛道**](https://rs.sensetime.com/competition/index.html#/info) *(SenseTime, Aug 2020)*   
-数据集：4662组，分辨率：0.5~3m，规格：512*512，变化类型为6种主要土地性质之间的相互转化：水体、地面、低矮植被、树木、建筑物、运动场。每组数据中，前后时相的两张图片各自对应一张标注图，表示发生变化的区域以及该图片变化区域内各时期的土地性质。第一名的解决方案请详见 [LiheYoung/SenseEarth2020-ChangeDetection](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection)。
+数据集：4662组，分辨率：0.5~3m，规格：512*512，变化类型为6种主要土地性质之间的相互转化：水体、地面、低矮植被、树木、建筑物、运动场。每组数据中，前后时相的两张图片各自对应一张标注图，表示发生变化的区域以及该图片变化区域内各时期的土地性质。第一名的解决方案详见 [LiheYoung/SenseEarth2020-ChangeDetection](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection)。
 
 - [**xView 2 Building Damage Asessment Challenge**](https://xview2.org) *(DIUx, Nov 2019)*     
 550k building footprints & 4 damage scale categories, 20 global locations and 7 disaster types (wildfire, landslides, dam collapses, volcanic eruptions, earthquakes/tsunamis, wind, flooding), Worldview-3 imagery (0.3m res.), pre-trained baseline model. Paper: [Gupta et al. 2019](https://arxiv.org/abs/1911.09296)
