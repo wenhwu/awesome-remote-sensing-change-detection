@@ -166,14 +166,6 @@ from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeO
   
 - 2020.[Chen J, Yuan Z, Peng J, et al. DASNet: Dual attentive fully convolutional siamese networks for change detection of high resolution satellite images](https://github.com/lehaifeng/DASNet)
 
-- 2019.[Saha S et al. Unsupervised deep change vector analysis for multiple-change detection in VHR images](https://github.com/sudipansaha/dcvaVHROptical)
-
-- 2019.[Papadomanolaki M, Verma S, Vakalopoulou M, et al. Detecting Urban Changes with Recurrent Neural Networks from Multitemporal Sentinel-2 Data](https://github.com/granularai/ChangeDetection)
-
-- 2019.[Du B, Ru L, Wu C, et al. Deep Slow Feature Analysis Network (DSFANet)](https://github.com/rulixiang/DSFANet)
-
-- 2019.[Peng D, Zhang Y, Guan H. End-to-End Change Detection for High Resolution Satellite Images Using Improved UNet++](https://github.com/daifeng2016/End-to-end-CD-for-VHR-satellite-image)
-
 ### 2.2 SAR
 
 - 2019.[Gao F, Wang X, Gao Y, et al. Sea ice change detection in SAR images based on convolutional-wavelet neural networks (Matlab)](https://github.com/summitgao/SAR_Change_Detection_CWNN)
