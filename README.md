@@ -168,12 +168,8 @@ from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeO
 - 2020.[Chen J, Yuan Z, Peng J, et al. DASNet: Dual attentive fully convolutional siamese networks for change detection of high resolution satellite images](https://github.com/lehaifeng/DASNet)
 
 ### 2.2 SAR
+- 2021. [Qu X, Gao F, Dong J, et al. Change Detection in Synthetic Aperture Radar Images Using a Dual-Domain Network](https://github.com/summitgao/SAR_CD_DDNet)
 
-- 2019.[Gao F, Wang X, Gao Y, et al. Sea ice change detection in SAR images based on convolutional-wavelet neural networks (Matlab)](https://github.com/summitgao/SAR_Change_Detection_CWNN)
-
-- 2019.[Gao Y, Gao F, Dong J, et al. Transferred deep learning for sea ice change detection from synthetic-aperture radar images (Matlab)](https://github.com/summitgao/SAR-Change-Detection-MLFN)
-  
-- 2015.[Conradsen K, Nielsen A A, Skriver H, et al. Change detection in polarimetric SAR Data (Python)](https://github.com/fouronnes/SAR-change-detection)
 
 ## 3.Contest
 - [2021“昇腾杯”遥感影像智能处理算法大赛-耕地建筑物变化检测](http://rsipac.whu.edu.cn/subject_two)*(Wuhan University, Sep 2021)*   
