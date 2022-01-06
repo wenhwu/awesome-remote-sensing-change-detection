@@ -96,6 +96,7 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 ### 2.1 Multispectral
 
 #### 2.1.1 Traditional Method
+- 2021.[Lv Z, Wang F J, Liu T, et al. Novel Automatic Approach for Land Cover Change Detection by Using VHR Remote Sensing Images](https://github.com/TongfeiLiu/ASEA-CD)
 
 - 2019.[Bobholamovic/ChangeDetectionToolbox](https://github.com/Bobholamovic/ChangeDetectionToolbox)
 
