@@ -112,7 +112,8 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 
 - 2007.[Nielsen A A.The Regularized Iteratively Reweighted Multivariate Alteration Detection (IR-MAD)](http://people.compute.dtu.dk/alan/software.html)
 
-#### 2.1.2 Deep Learning (Only the last three years are shown)   
+#### 2.1.2 Deep Learning (Only the last three years are shown, except for the model library) 
+- 2022.[Wele Gedara Chaminda Bandara, Vishal M. Patel. A Transformer-Based Siamese Network for Change Detection](https://github.com/wgcban/ChangeFormer)
 
 - 2021.[shinianzhihou/ChangeDetection](https://github.com/shinianzhihou/ChangeDetection): A framework for change detection using PyTorch
 
