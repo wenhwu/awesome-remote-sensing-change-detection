@@ -176,7 +176,9 @@ from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeO
 通过前后两时相的遥感影像，提取出地物发生变化的像元并赋予变化标签。 依据所述地物变化标准，以耕地-建筑/动土的像素级变化检测为目标。数据为1-2米分辨率光学遥感影像，6000+张遥感影像变化检测样本数据(按512 X 512大小折算)。标签格式为单通道的png，每个像素的标签值由一个数值表示， 使用‘uint8’数据类型存储，该数值表示是否为变化，“0”代表未变化，“1”代表变化。     
 
 - [2021 遥感图像智能解译技术挑战赛-建筑物变化检测](https://captain-whu.github.io/PRCV2021_RS/index.html)*(Wuhan University, PIESAT, Aug 2021)*   
-本竞赛数据集主要包含涉及建筑物的地物变化。全部图像数据共10000对（训练集：6000对图像，验证集：2000对图像，测试样本：2000对图像），尺寸为512 x 512，主要分布于北京、上海、广州以及杭州等城市。部分数据源自[SECOND](http://www.captain-whu.com/PROJECT/SCD/)数据集。第三名解决方案详见[likyoo/PRCV2021_ChangeDetection_Top3](https://github.com/likyoo/PRCV2021_ChangeDetection_Top3)。
+本竞赛数据集主要包含涉及建筑物的地物变化。全部图像数据共10000对（训练集：6000对图像，验证集：2000对图像，测试样本：2000对图像），尺寸为512 x 512，主要分布于北京、上海、广州以及杭州等城市。部分数据源自[SECOND](http://www.captain-whu.com/PROJECT/SCD/)数据集。第二名解决方案详见[businiaoo
+/
+PRCV2021-Change-Detection-Contest-2nd-place-Solution](https://github.com/businiaoo/PRCV2021-Change-Detection-Contest-2nd-place-Solution), 第三名解决方案详见[likyoo/PRCV2021_ChangeDetection_Top3](https://github.com/likyoo/PRCV2021_ChangeDetection_Top3)。
 
 - [2021 第五届“中科星图杯”国际高分遥感图像解译大赛-高分辨率可见光图像中建筑物普查与变化检测](http://gaofen-challenge.com/challenge) *(Aircas,et al. Aug 2021)*    
 高分二号、吉林一号光学数据，分辨率优于1m。每幅图像对建筑物进行像素级标注，同一时相数据对变化的建筑物区域进行像素级标注。建筑物提取类别：建筑物和背景，变化检测类别：变化的建筑区域和非变化的建筑区域。
