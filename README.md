@@ -116,6 +116,8 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 #### 2.1.2 Deep Learning (Only the last three years are shown, except for the model library) 
 - 2022.[Wele Gedara Chaminda Bandara, Vishal M. Patel. A Transformer-Based Siamese Network for Change Detection](https://github.com/wgcban/ChangeFormer)
 
+- 2021.[Bobholamovic/CDLab](https://github.com/Bobholamovic/CDLab): Yet another repository for developing and benchmarking deep learning-based change detection methods
+
 - 2021.[shinianzhihou/ChangeDetection](https://github.com/shinianzhihou/ChangeDetection): A framework for change detection using PyTorch
 
 - 2021.[Chen P, Hong D, Chen Z, et al. FCCDN: Feature Constraint Network for VHR Image Change Detection](https://github.com/chenpan0615/FCCDN_pytorch)
