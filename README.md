@@ -8,8 +8,8 @@ List of datasets, codes, and contests related to remote sensing change detection
 
 ### 1.1 Multispectral
 
-#### With label
-- 2021. [WH-MAVS](http://sigma.whu.edu.cn/newspage.php?q=2021_06_27_eng)   
+#### With label   
+- 2021.[WH-MAVS](http://sigma.whu.edu.cn/newspage.php?q=2021_06_27_eng)   
 The WH-MAVS dataset is a large-range, multi-application, multi-temporal, and georeferenced high-resolution scene classification dataset annotated covering almost an entire mega-city so far. The dataset not only can facilitate the theoretical research of scene classification and scene change detection methods, but also can be directly applied to the practical production of land use/land cover (such as urban mapping, landscape ecology analysis, and urban environmental dynamic monitoring). 
 
 - 2021.[HTCD dataset](https://github.com/ShaoRuizhe/SUNet-change_detection)   
@@ -173,7 +173,7 @@ from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeO
 - 2020.[Chen J, Yuan Z, Peng J, et al. DASNet: Dual attentive fully convolutional siamese networks for change detection of high resolution satellite images](https://github.com/lehaifeng/DASNet)
 
 ### 2.2 SAR
-- 2021. [Qu X, Gao F, Dong J, et al. Change Detection in Synthetic Aperture Radar Images Using a Dual-Domain Network](https://github.com/summitgao/SAR_CD_DDNet)
+- 2021.[Qu X, Gao F, Dong J, et al. Change Detection in Synthetic Aperture Radar Images Using a Dual-Domain Network](https://github.com/summitgao/SAR_CD_DDNet)
 
 
 ## 3.Contest
