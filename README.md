@@ -114,6 +114,8 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 
 - [Zhu Z, Woodcock C E, et al. Algorithm developed for Continuous Change Detection and Classification (CCDC) of land cover using all available Landsat data](https://github.com/GERSL/CCDC)
 
+- [Geographical Simulation and Optimization System，GeoSOS](https://www.geosimulation.cn/index.html)
+
 - Implementation of " [2009.Celik T. Unsupervised change detection in satellite images using principal component analysis and k-means clustering](https://ieeexplore.ieee.org/abstract/document/5196726/) ".  
 [Matlab](https://github.com/rulixiang/ChangeDetectionPCAKmeans), [Python](https://github.com/abhijeet3922/Change-Detection-in-Satellite-Imagery)
 
