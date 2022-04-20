@@ -1,8 +1,8 @@
-# Awesome Remote Sensing Change Detection [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+# <p align=center>`Awesome Remote Sensing Change Detection`</p>
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
 
 List of datasets, codes, and contests related to remote sensing change detection.
 
-![ReCNN](/2018.recurrent&#32;convolutional&#32;neural&#32;network.jpg)
 
 ## 1 Dateset
 
@@ -233,4 +233,3 @@ In this challenge, participants will identify and track buildings in satellite i
 - [chrieke/awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets)
 - [Zhang Bin's Blog. Remote Sensing Datasets](https://zhangbin0917.github.io/2018/06/12/%E9%81%A5%E6%84%9F%E6%95%B0%E6%8D%AE%E9%9B%86/)
 - [MinZHANG-WHU/Change-Detection-Review](https://github.com/MinZHANG-WHU/Change-Detection-Review)
-- The picture of this page is from [Mou L et al. 2018](https://ieeexplore.ieee.org/document/8541102)
