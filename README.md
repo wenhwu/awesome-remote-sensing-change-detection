@@ -191,6 +191,9 @@ from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeO
 ### 2.2 SAR
 - 2021.[Qu X, Gao F, Dong J, et al. Change Detection in Synthetic Aperture Radar Images Using a Dual-Domain Network](https://github.com/summitgao/SAR_CD_DDNet)
 
+### 2.3 Hyperspectral
+- 2022.[Hu M, Wu C, Zhang L, et al. Hyperspectral anomaly change detection based on autoencoder](https://github.com/meiqihu/ACDA)
+
 
 ## 3.Contest
 - [2021“昇腾杯”遥感影像智能处理算法大赛-耕地建筑物变化检测](http://rsipac.whu.edu.cn/subject_two)*(Wuhan University, Sep 2021)*   
