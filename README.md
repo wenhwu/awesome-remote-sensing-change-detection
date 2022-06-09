@@ -9,6 +9,9 @@ List of datasets, codes, and contests related to remote sensing change detection
 ### 1.1 Multispectral
 
 #### With label   
+- 2022. [CLCD dataset](https://github.com/liumency/CropLand-CD)      
+The CLCD dataset consists of 600 pairs image of cropland change samples, with 320 pairs for training, 120 pairs for validation and 120 pairs for testing. The bi-temporal images in CLCD were collected by Gaofen-2 in Guangdong Province, China, in 2017 and 2019, respectively, with spatial resolution ranged from 0.5 to 2 m. Each group of samples is composed of two images of 512 × 512 and a corresponding binary label of cropland change. The main types of change annotated in CLCD include buildings, roads, lakes and bare soil lands, etc. Paper: [Liu et al.2022](https://ieeexplore.ieee.org/document/9780164)
+
 - 2021.[WH-MAVS](http://sigma.whu.edu.cn/newspage.php?q=2021_06_27_eng)   
 The WH-MAVS dataset is a large-range, multi-application, multi-temporal, and georeferenced high-resolution scene classification dataset annotated covering almost an entire mega-city so far. The dataset not only can facilitate the theoretical research of scene classification and scene change detection methods, but also can be directly applied to the practical production of land use/land cover (such as urban mapping, landscape ecology analysis, and urban environmental dynamic monitoring). 
 
@@ -122,6 +125,7 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 - 2007.[Nielsen A A.The Regularized Iteratively Reweighted Multivariate Alteration Detection (IR-MAD)](http://people.compute.dtu.dk/alan/software.html)
 
 #### 2.1.2 Deep Learning (Only the last three years are shown, except for the model library) 
+- 2022.[Liu M, Chai Z, Deng H, et al. A CNN-transformer Network with Multi-scale Context Aggregation for Fine-grained Cropland Change Detection](https://github.com/liumency/CropLand-CD)
 
 - 2022.[Liu J, Xuan W, Gan Y, et al. An End-to-end Supervised Domain Adaptation Framework for Cross-Domain Change Detection](https://github.com/Perfect-You/SDACD)   
 
