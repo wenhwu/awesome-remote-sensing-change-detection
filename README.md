@@ -133,6 +133,8 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 
 - 2022.[Ding L, Guo H, Liu S, et al. Bi-temporal semantic reasoning for the semantic change detection in HR remote sensing images](https://github.com/ggsDing/Bi-SRNet)
 
+- 2022.[Bandara W G C, Nair N G, Patel V M. DDPM-CD: Remote Sensing Change Detection using Denoising Diffusion Probabilistic Models](https://github.com/wgcban/ddpm-cd)
+
 - 2022.[Bandara W G C, Patel V M. Revisiting Consistency Regularization for Semi-supervised Change Detection in Remote Sensing Images](https://github.com/wgcban/SemiCD)
 
 - 2022.[Bandara W G C, Patel V M. A Transformer-Based Siamese Network for Change Detection](https://github.com/wgcban/ChangeFormer)
