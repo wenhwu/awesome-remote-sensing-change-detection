@@ -131,7 +131,7 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 
 - 2022.[Liu J, Xuan W, Gan Y, et al. An End-to-end Supervised Domain Adaptation Framework for Cross-Domain Change Detection](https://github.com/Perfect-You/SDACD)   
 
-- 2022.[PaddleRS, Awesome Remote Sensing Toolkit based on PaddlePaddle](https://github.com/PaddleCV-SIG/PaddleRS)
+- 2022.[PaddleRS](https://github.com/PaddleCV-SIG/PaddleRS): Awesome Remote Sensing Toolkit based on PaddlePaddle
 
 - 2022.[Ding L, Guo H, Liu S, et al. Bi-temporal semantic reasoning for the semantic change detection in HR remote sensing images](https://github.com/ggsDing/Bi-SRNet)
 
@@ -178,7 +178,7 @@ from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeO
 
 - 2021.[Chen H, Qi Z, Shi Z. Remote Sensing Image Change Detection with Transformers](https://github.com/justchenhao/BIT_CD)   
 
-- 2021.[Chen H, Li W, Shi Z, .Adversarial Instance Augmentation for Building Change Detection in Remote Sensing Images](https://github.com/justchenhao/IAug_CDNet)
+- 2021.[Chen H, Li W, Shi Z. Adversarial Instance Augmentation for Building Change Detection in Remote Sensing Images](https://github.com/justchenhao/IAug_CDNet)
 
 - 2021.[Fang S, Li K, Shao J, et al. SNUNet-CD: A Densely Connected Siamese Network for Change Detection of VHR Images](https://github.com/likyoo/Siam-NestedUNet)
 
