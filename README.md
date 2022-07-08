@@ -9,31 +9,31 @@ List of datasets, codes, and contests related to remote sensing change detection
 ### 1.1 Multispectral
 
 #### With label
-- 2022.[Multisource built-up change (MSBC) and multisource OSCD (MSOSCD) datasets](https://github.com/Lihy256/MSCDUnet)   
+- 2022.[**Multisource built-up change (MSBC) and multisource OSCD (MSOSCD) datasets**](https://github.com/Lihy256/MSCDUnet)   
 The datasets are made to fill the gap of built-up CD datasets including multispectral, SAR, and VHR. MSBC is labeled based on GF-2 VHR images, and the MSOSCD is reformed from an existing dataset—[Onera Satellite CD(OSCD) dataset](https://ieee-dataport.org/open-access/oscd-onera-satellite-change-detection). Paper: [Li et al.2022](https://ieeexplore.ieee.org/document/9791854)
 
-- 2022.[CLCD dataset](https://github.com/liumency/CropLand-CD)   
+- 2022.[**CLCD dataset**](https://github.com/liumency/CropLand-CD)   
 The CLCD dataset consists of 600 pairs image of cropland change samples, with 320 pairs for training, 120 pairs for validation and 120 pairs for testing. The bi-temporal images in CLCD were collected by Gaofen-2 in Guangdong Province, China, in 2017 and 2019, respectively, with spatial resolution ranged from 0.5 to 2 m. Each group of samples is composed of two images of 512 × 512 and a corresponding binary label of cropland change. The main types of change annotated in CLCD include buildings, roads, lakes and bare soil lands, etc. Paper: [Liu et al.2022](https://ieeexplore.ieee.org/document/9780164)
 
-- 2021.[WH-MAVS](http://sigma.whu.edu.cn/newspage.php?q=2021_06_27_eng)   
-The WH-MAVS dataset is a large-range, multi-application, multi-temporal, and georeferenced high-resolution scene classification dataset annotated covering almost an entire mega-city so far. The dataset not only can facilitate the theoretical research of scene classification and scene change detection methods, but also can be directly applied to the practical production of land use/land cover (such as urban mapping, landscape ecology analysis, and urban environmental dynamic monitoring). 
+- 2021.WH-MAVS[**Planned open source but not currently open source**]   
+The WH-MAVS dataset is a large-range, multi-application, multi-temporal, and georeferenced high-resolution scene classification dataset annotated covering almost an entire mega-city so far. The dataset not only can facilitate the theoretical research of scene classification and scene change detection methods, but also can be directly applied to the practical production of land use/land cover. Paper: [Yuan et al.2022](https://ieeexplore.ieee.org/document/9681304)
 
-- 2021.[HTCD dataset](https://github.com/ShaoRuizhe/SUNet-change_detection)   
+- 2021.[**HTCD dataset**](https://github.com/ShaoRuizhe/SUNet-change_detection)   
 The HTCD dataset, a new Satellite-UAV heterogeneous image data set, was built using the satellite images from [Google Earth](https://www.google.com/earth/) and UAV images from [Open Aerial Map](https://map.openaerialmap.org/). The size of the satellite image is 11 K×15 K pixels. While the UAV image is consisted of 15 image blocks, in total 1.38 M×1.04 M pixels. The ground resolutions of them are 0.5971 m and 7.465 cm, respectively. Images and labels are all stored in GeoTiff format with location information, for the convenience of further analysis and research. Paper: [Shao et al.2021](https://www.mdpi.com/2072-4292/13/18/3750/htm)
 
-- 2021.[Multi-modal Supervised Change Detection Data](https://github.com/PatrickTUM/multimodalCD_ISPRS21)   
+- 2021.[**Multi-modal Supervised Change Detection Data**](https://github.com/PatrickTUM/multimodalCD_ISPRS21)   
 Sentinel-1 SAR data were provided on the basis of [OSCD dataset](https://ieee-dataport.org/open-access/oscd-onera-satellite-change-detection) for multimodal supervised change detection (SAR-SAR CD or Optical-SAR multi-modal CD). Paper: [Ebel et al.2021](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B3-2021/243/2021/isprs-archives-XLIII-B3-2021-243-2021.pdf)
 
-- 2021.[S2Looking](https://github.com/AnonymousForACMMM/Dataset)   
+- 2021.[**S2Looking**](https://github.com/AnonymousForACMMM/Dataset)   
 S2Looking, a building change detection dataset that contains large-scale side-looking satellite images captured at varying off-nadir angles. It consists of 5000 registered bitemporal image pairs (size of 1024*1024, 0.5 ~ 0.8 m/pixel) of rural areas throughout the world and more than 65,920 annotated change instances. It provides two label maps to separately indicate the newly built and demolished building regions for each sample in the dataset. Paper: [Shen et al.2021](https://www.mdpi.com/2072-4292/13/24/5094)
 
-- 2021.[SYSU-CD](https://github.com/liumency/SYSU-CD)   
+- 2021.[**SYSU-CD**](https://github.com/liumency/SYSU-CD)   
 The dataset contains 20000 pairs of 0.5-m aerial images of size 256×256 taken between the years 2007 and 2014 in Hong Kong.The main types of changes in the dataset include: (a) newly built urban buildings; (b) suburban dilation; (c) groundwork before construction; (d) change of vegetation; (e) road expansion; (f) sea construction. Paper: [Shi et al.2021](https://ieeexplore.ieee.org/document/9467555)
 
 - 2021.[**Sentinel-2 Multitemporal Cities Pairs (S2MTCP) dataset**](https://zenodo.org/record/4280482#.YBBCX-j7RhE)   
 The S2MTCP dataset contains N = 1520 image pairs, spread over all inhabited continents, with the highest concentration of image pairs in North-America, Europe, and Asia. Bands with a spatial resolution smaller than 10 m are resampled to 10 m and images are cropped to approximately 600x600 pixels. It was created for self-supervised training. Paper: [Leenstra et al.2021](https://arxiv.org/abs/2101.08122)
 
-- 2020.**Hi-UCD**   
+- 2020.Hi-UCD[**Planned open source but not currently open source**]    
 Hi-UCD focuses on urban changes and uses ultra-high resolution images to construct multi-temporal semantic changes to achieve refined change detection. The study area of Hi-UCD is a part of Tallinn, the capital of Estonia, with an area of 30km2. There are 359 image pairs in 2017-2018, 386 pairs in 2018-2019, and 548 pairs in 2017-2019, including images, semantic maps, and change maps at different times. Each image has a size of 1024 x 1024 and a spatial resolution of 0.1 m. There are 9 types of objects, including natural objects (water, grassland, woodland, bare land), artificial objects (Building,greenhouse, road, bridge), and others (change-related), basically include all types of urbanland cover in Estonia. Paper: [Tian et al.2020](https://arxiv.org/abs/2011.03247)
 
 - 2020.[**DSIFN Dataset**](https://github.com/GeoZcx/A-deeply-supervised-image-fusion-network-for-change-detection-in-remote-sensing-images/tree/master/dataset)   
