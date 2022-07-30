@@ -122,7 +122,7 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 - 2007.[Nielsen A A.The Regularized Iteratively Reweighted Multivariate Alteration Detection (IR-MAD)](http://people.compute.dtu.dk/alan/software.html)
 
 #### 2.1.2 Deep Learning (Only the last three years are shown, except for the model library) 
-- 2022.[likyoo/open-cd](https://github.com/likyoo/open-cd): A Change Detection Repo Standing on the Shoulders of Giants
+- 2022.[likyoo/Open-CD](https://github.com/likyoo/open-cd): A Change Detection Repo Standing on the Shoulders of Giants
 
 - 2022.[Shi N, Chen K, Zhou G. A Divided Spatial and Temporal Context Network for Remote Sensing Change Detection](https://github.com/shinianzhihou/ChangeDetection#)
 
