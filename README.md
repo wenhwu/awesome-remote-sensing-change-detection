@@ -122,7 +122,9 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 - 2007.[Nielsen A A.The Regularized Iteratively Reweighted Multivariate Alteration Detection (IR-MAD)](http://people.compute.dtu.dk/alan/software.html)
 
 #### 2.1.2 Deep Learning (Only the last three years are shown, except for the model library) 
-- 2022.[Pei G and Zhang L. Feature Hierarchical Differentiation for Remote Sensing Image Change Detection](https://github.com/ZSVOS/FHD)
+- 2022.[Codegoni A, Lombardi G, Ferrari A. TINYCD: A (Not So) Deep Learning Model For Change Detection](https://github.com/AndreaCodegoni/Tiny_model_4_CD)
+
+- 2022.[Pei G, Zhang L. Feature Hierarchical Differentiation for Remote Sensing Image Change Detection](https://github.com/ZSVOS/FHD)
 
 - 2022.[likyoo/Open-CD](https://github.com/likyoo/open-cd): A Change Detection Repo Standing on the Shoulders of Giants
 
