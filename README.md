@@ -207,37 +207,41 @@ from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeO
 
 
 ## 3.Contest
-- [2021“昇腾杯”遥感影像智能处理算法大赛-耕地建筑物变化检测](http://rsipac.whu.edu.cn/subject_two)*(Wuhan University, Sep 2021)*   
+
+- [**2022 “航天宏图杯”遥感影像智能处理算法大赛-遥感影像变化检测**](http://rsipac.whu.edu.cn/subject_two) *(航天宏图, 武汉大学，华为. 2022年8月)*   
+请参考**2021“昇腾杯”遥感影像智能处理算法大赛-耕地建筑物变化检测**。
+
+- **2021 “昇腾杯”遥感影像智能处理算法大赛-耕地建筑物变化检测** *(武汉大学, 2021年9月)*   
 通过前后两时相的遥感影像，提取出地物发生变化的像元并赋予变化标签。 依据所述地物变化标准，以耕地-建筑/动土的像素级变化检测为目标。数据为1-2米分辨率光学遥感影像，6000+张遥感影像变化检测样本数据(按512 X 512大小折算)。标签格式为单通道的png，每个像素的标签值由一个数值表示， 使用‘uint8’数据类型存储，该数值表示是否为变化，“0”代表未变化，“1”代表变化。Top4解决方案详见[WangZhenqing-RS/2021rsipac_changeDetection_TOP4](https://github.com/WangZhenqing-RS/2021rsipac_changeDetection_TOP4)，Top5解决方案详见[78666621/2021rsipac_changeDetection_TOP5](https://github.com/78666621/2021rsipac_changeDetection_TOP5)  
 
-- [2021 遥感图像智能解译技术挑战赛-建筑物变化检测](https://captain-whu.github.io/PRCV2021_RS/index.html)*(Wuhan University, PIESAT, Aug 2021)*   
+- [**2021 遥感图像智能解译技术挑战赛-建筑物变化检测**](https://captain-whu.github.io/PRCV2021_RS/index.html) *(武汉大学, 航天宏图. 2021年8月)*   
 本竞赛数据集主要包含涉及建筑物的地物变化。全部图像数据共10000对（训练集：6000对图像，验证集：2000对图像，测试样本：2000对图像），尺寸为512 x 512，主要分布于北京、上海、广州以及杭州等城市。部分数据源自[SECOND](http://www.captain-whu.com/PROJECT/SCD/)数据集。第二名解决方案详见[businiaoo/PRCV2021-Change-Detection-Contest-2nd-place-Solution](https://github.com/businiaoo/PRCV2021-Change-Detection-Contest-2nd-place-Solution), 第三名解决方案详见[likyoo/PRCV2021_ChangeDetection_Top3](https://github.com/likyoo/PRCV2021_ChangeDetection_Top3)。
 
-- [2021 第五届“中科星图杯”国际高分遥感图像解译大赛-高分辨率可见光图像中建筑物普查与变化检测](http://gaofen-challenge.com/challenge) *(Aircas,et al. Aug 2021)*    
+- [**2021 第五届“中科星图杯”国际高分遥感图像解译大赛-高分辨率可见光图像中建筑物普查与变化检测**](http://gaofen-challenge.com/challenge) *(中国科学院空天信息创新研究院. 2021年8月)*    
 高分二号、吉林一号光学数据，分辨率优于1m。每幅图像对建筑物进行像素级标注，同一时相数据对变化的建筑物区域进行像素级标注。建筑物提取类别：建筑物和背景，变化检测类别：变化的建筑区域和非变化的建筑区域。
 
-- [2021 慧眼“天智杯”人工智能挑战赛-可见光建筑智能变化检测](https://www.rsaicp.com/portal/contestDetail?id=1&tab=rule) *(北京市遥感信息研究所，中国科学院人工智能创新研究院. Jun 2021)*    
+- [**2021 慧眼“天智杯”人工智能挑战赛-可见光建筑智能变化检测**](https://www.rsaicp.com/portal/contestDetail?id=1&tab=rule) *(北京市遥感信息研究所，中国科学院人工智能创新研究院. 2021年6月)*    
 每组数据包含前时相遥感图像，后时相遥感图像以及对应的建筑变化标签图。影像格式为png，包含R、G、B三个波段，影像尺寸为1024 X 1024像素，分辨率为0.5~0.7米。标签图与图像等大，其中 (0,0,0) 代表没有建筑变化，(0,0,255) 代表建筑增加，(255,0,0) 代表建筑减少。
 
-- [2021 DynamicEarthNet Challenge](http://www.classic.grss-ieee.org/earthvision2021/challenge.html) *(TUM, DLR, panet, Mar 2021)*    
+- [**2021 DynamicEarthNet Challenge**](http://www.classic.grss-ieee.org/earthvision2021/challenge.html) *(TUM, DLR, panet. Mar 2021)*    
 The challenge consists of two tracks (**Unsupervised Binary Land Cover Change Detection** and **Weakly-Supervised Multi-Class Change Detection**) in which participants are tasked to detect multi-temporal changes with few or no training labels. The first solution can be found [solcummings/earthvision2021-weakly-supervised](https://github.com/solcummings/earthvision2021-weakly-supervised).
 
-- [2021 IEEE GRSS Data Fusion Contest: Track MSD (Multitemporal Semantic Change Detection)](https://www.grss-ieee.org/community/technical-committees/2021-ieee-grss-data-fusion-contest-track-msd/) *(GRSS, Microsoft, Jan 2021)*   
+- [**2021 IEEE GRSS Data Fusion Contest: Track MSD (Multitemporal Semantic Change Detection)**](https://www.grss-ieee.org/community/technical-committees/2021-ieee-grss-data-fusion-contest-track-msd/) *(GRSS, Microsoft. Jan 2021)*   
 The task of Track MSD is to create bitemporal high resolution land cover maps using only low-resolution and noisy land cover labels for training. Such a scenario is often encountered around the world, as the proliferation of new sensors with either high spatial resolution (submeter) or high temporal resolution (weekly or even daily) remains unmatched by equally rich label data. Instead, detecting change would have to rely on the analysis of a sequence of input images in an unsupervised manner or with aid of weak, noisy, and outdated labels. Paper: [Li Z et al. 2022](https://ieeexplore.ieee.org/document/9690575).
 
-- [**SpaceNet 7: Multi-Temporal Urban Development Challenge**](https://medium.com/the-downlinq/the-spacenet-7-multi-temporal-urban-development-challenge-dataset-release-9e6e5f65c8d5) *(CosmiQ Works, Planet, Aug 2020)*   
+- [**2020 SpaceNet 7: Multi-Temporal Urban Development Challenge**](https://medium.com/the-downlinq/the-spacenet-7-multi-temporal-urban-development-challenge-dataset-release-9e6e5f65c8d5) *(CosmiQ Works, Planet. Aug 2020)*   
 In this challenge, participants will identify and track buildings in satellite imagery time series collected over rapidly urbanizing areas. The competition centers around a new open source dataset of Planet satellite imagery mosaics, which will include 24 images (one per month) covering ~100 unique geographies. The dataset will comprise 40,000 km2 of imagery and exhaustive polygon labels of building footprints in the imagery, totaling over 3M individual annotations. Challenge participants will be asked to track building construction over time, thereby directly assessing urbanization. For details about the solution, see [SpaceNetChallenge/SpaceNet7_Multi-Temporal_Solutions](https://github.com/SpaceNetChallenge/SpaceNet7_Multi-Temporal_Solutions).
 
-- [**商汤科技首届AI遥感解译大赛-变化检测赛道**](https://rs.sensetime.com/competition/index.html#/info) *(SenseTime, Aug 2020)*   
+- [**2020 商汤科技首届AI遥感解译大赛-变化检测赛道**](https://rs.sensetime.com/competition/index.html#/info) *(商汤. 2020年8月)*   
 数据集：4662组，分辨率：0.5~3m，规格：512*512，变化类型为6种主要土地性质之间的相互转化：水体、地面、低矮植被、树木、建筑物、运动场。每组数据中，前后时相的两张图片各自对应一张标注图，表示发生变化的区域以及该图片变化区域内各时期的土地性质。第一名的解决方案详见 [LiheYoung/SenseEarth2020-ChangeDetection](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection)。
 
-- [**xView 2 Building Damage Asessment Challenge**](https://xview2.org) *(DIUx, Nov 2019)*     
+- [**2019 xView 2 Building Damage Asessment Challenge**](https://xview2.org) *(DIUx, Nov 2019)*     
 550k building footprints & 4 damage scale categories, 20 global locations and 7 disaster types (wildfire, landslides, dam collapses, volcanic eruptions, earthquakes/tsunamis, wind, flooding), Worldview-3 imagery (0.3m res.), pre-trained baseline model. Paper: [Gupta et al. 2019](https://arxiv.org/abs/1911.09296)
 
-- [**遥感图像稀疏表征与智能分析竞赛-变化检测赛道**](http://rscup.bjxintong.com.cn/#/theme/4) *(Wuhan University,et al. Jul 2019)*   
+- [**2019 遥感图像稀疏表征与智能分析竞赛-变化检测赛道**](http://rscup.bjxintong.com.cn/#/theme/4) *(武汉大学. 2019年7月)*   
 本项竞赛以光学遥感图像为处理对象，参赛队伍使用主办方提供的遥感图像进行建筑物变化检测，主办方根据评分标准对变化检测结果进行综合评价。竞赛中将提供两个不同时间获取的大尺度高分辨率遥感图像（包含蓝、绿、红和近红外四个波段），以及图像中变化区域的二值化标注数据集。
 
-- [**广东政务数据创新大赛—智能算法赛**](https://tianchi.aliyun.com/competition/entrance/231615/introduction) *(Alibaba,et al. Nov 2017)*    
+- [**2017 广东政务数据创新大赛—智能算法赛**](https://tianchi.aliyun.com/competition/entrance/231615/introduction) *(阿里巴巴. 2017年11月)*    
 使用2015年和2017年分别获取到的广东省某地的Quickbird卫星影像（包含蓝、绿、红和近红外四个波段），识别出两年之间新增的人工地上建筑物（不包括道路）。获胜团队的解决方案可以在[天池](https://tianchi.aliyun.com/forum/postDetail?postId=3527)官网上找到。
 
 ## Reference
