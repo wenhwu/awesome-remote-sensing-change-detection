@@ -69,8 +69,8 @@ This dataset contains 13 aerial image pairs of size 952x640 and resolution 1.5m/
 - [Planet Disaster Datasets](https://www.planet.com/disasterdata/datasets/)   
 Planet will make PlanetScope imagery available to the public during a select disaster event.
 
-- [DigitalGlobe's Open Data Program](https://www.digitalglobe.com/opendata/all-events)   
- DigitalGlobe will release open imagery (worldview-3 or other) for select sudden onset major crisis events, including pre-event imagery, post-event imagery, and a crowdsourced damage assessment.
+- [Maxar's Open Data Program](https://www.maxar.com/open-data)   
+Maxar will release open imagery (worldview-3 or other) for select sudden onset major crisis events, including pre-event imagery, post-event imagery, and a crowdsourced damage assessment.
 
 - [French National Institute of Geographical and Forest Information (IGN),BD ORTHO](http://professionnels.ign.fr/bdortho)   
 The datasets are mosaics of aerial images taken by the French National Institute of Geographical and Forest Information (IGN). They come from a database named BD ORTHO which contains orthorectified aerial images of several regions of France from different years at a resolution of 20 cm or 50 cm per pixel. 
