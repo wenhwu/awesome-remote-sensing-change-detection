@@ -251,5 +251,5 @@ In this challenge, participants will identify and track buildings in satellite i
 ## Reference
 
 - [chrieke/awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets)
-- [Zhang Bin's Blog. Remote Sensing Datasets](https://zhangbin0917.github.io/2018/06/12/%E9%81%A5%E6%84%9F%E6%95%B0%E6%8D%AE%E9%9B%86/)
+- [zhangbin0917/Awesome-Remote-Sensing-Dataset](https://github.com/zhangbin0917/Awesome-Remote-Sensing-Dataset)
 - [MinZHANG-WHU/Change-Detection-Review](https://github.com/MinZHANG-WHU/Change-Detection-Review)
