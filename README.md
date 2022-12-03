@@ -3,12 +3,28 @@
 
 List of datasets, codes, and contests related to remote sensing change detection.
 
+## Contents
 
-## 1 Dateset
+- [Dateset](#dateset)
+  - [Multispectral](#multispectral)
+    - [With Label](#with-label)
+    - [Without Label](#without-label)
+  - [Hyperspectral](#hyperspectral)
+  - [3D](#3d)
+- [Code](#code)
+  - [Multispectral](#multispectral-1)
+    - [Traditional Method](#traditional-method)
+    - [Deep Learning](#deep-learning) 
+  - [SAR](#sar)
+  - [Hyperspectral](#hyperspectral-1)
+- [Contest](#contest)     
+- [Reference](#reference)
 
-### 1.1 Multispectral
+## Dateset
 
-#### With label
+### Multispectral
+
+#### With Label
 - 2022.[**Multisource built-up change (MSBC) and multisource OSCD (MSOSCD) datasets**](https://github.com/Lihy256/MSCDUnet)   
 The datasets are made to fill the gap of built-up CD datasets including multispectral, SAR, and VHR. MSBC is labeled based on GF-2 VHR images, and the MSOSCD is reformed from an existing dataset—[Onera Satellite CD(OSCD) dataset](https://ieee-dataport.org/open-access/oscd-onera-satellite-change-detection). Paper: [Li et al.2022](https://ieeexplore.ieee.org/document/9791854)
 
@@ -64,7 +80,7 @@ This dataset contains synthetic aerial images with artificial changes generated 
 - 2008.[**SZTAKI AirChange Benchmark set**](http://web.eee.sztaki.hu/remotesensing/airchange_benchmark.html)   
 This dataset contains 13 aerial image pairs of size 952x640 and resolution 1.5m/pixel and binary change masks (drawn by hand). Each record contains a pair of preliminary registered input images and a mask of the 'relevant' changes. The input images are taken with 5, 7 resp. 23 years of time differences. During the generation of the change mask, we have considered the following differences as relevant changes: (a) new built-up regions (b) building operations (c) planting of large group of trees (d) fresh plow-land (e) groundwork before building over. Note that the ground truth does NOT contain change classification, only binary change-no change decision for each pixel. Paper: [Benedek et al.2008](https://ieeexplore.ieee.org/document/5169964)
 
-#### Without label
+#### Without Label
 
 - [Planet Disaster Datasets](https://www.planet.com/disasterdata/datasets/)   
 Planet will make PlanetScope imagery available to the public during a select disaster event.
@@ -81,7 +97,7 @@ The New Zealand Land Information Services website provides multi-temporal aerial
 - [USGS EarthExplorer](https://earthexplorer.usgs.gov)   
 An epic level database, which can provide multi-temporal，multi-sensor and multi-resolution data.
 
-### 1.2 Hyperspectral
+### Hyperspectral
 
 - 2018.[Hyperspectral Change Detection Dataset](https://citius.usc.es/investigacion/datasets/hyperspectral-change-detection-dataset)   
 This dataset can be used to perform change detection techniques in multi-temporal hyperspectral images. It includes two different hyperspectral scenes from the AVIRIS sensor: The Santa Barbara scene, taken on the years 2013 and 2014 with the AVIRIS sensor over the Santa Barbara region (California) whose spatial dimensions are 984 x 740 pixels and includes 224 spectral bands. The Bay Area scene, taken on the years 2013 and 2015 with the AVIRIS sensor surrounding the city of Patterson (California) whose spatial dimensions are 600 x 500 pixels and includes 224 spectral bands.
@@ -90,15 +106,15 @@ It also includes a hyperspectral scene from the HYPERION sensor: The Hermiston c
 - 2018.[GETNET](https://drive.google.com/file/d/1cWy6KqE0rymSk5-ytqr7wM1yLMKLukfP/view)   
 This dataset has two hyperspectral images, which were acquired on May 3, 2013, and December 31, 2013, respectively in Jiangsu province, China. It has a size of 463×241 pixels, with 198 bands available after noisy band removal. In the ground-truth map, white pixels represent changed portions and black pixels mean unchanged parts. Paper: [Wang et al.2018](https://ieeexplore.ieee.org/document/8418840/?denied=)
 
-### 1.3 3D
+### 3D
 - 2021.[URB3DCD](https://ieee-dataport.org/open-access/urb3dcd-urban-point-clouds-simulated-dataset-3d-change-detection)   
 The dataset is based on LoD2 models of [the first and second districts of Lyon](https://geo.data.gouv.fr/datasets/0731989349742867f8e659b4d70b707612bece89), France. To conduct fair qualitative and quantitative evaluation of point clouds change detection techniques. This first version of the dataset is composed of point clouds at a challenging low resolution of around 0.5 points/meter². Paper: [de Gélis et al.2021](https://www.mdpi.com/2072-4292/13/13/2629)
 
-## 2 Code
+## Code
 
-### 2.1 Multispectral
+### Multispectral
 
-#### 2.1.1 Traditional Method
+#### Traditional Method
 
 - 2022.[Kondmann L, Toker A, Saha S, et al. SiROC: Spatial Context Awareness for Unsupervised Change Detection in Optical Satellite Images](https://github.com/lukaskondmann/SiROC)
 
@@ -121,7 +137,10 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 
 - 2007.[Nielsen A A.The Regularized Iteratively Reweighted Multivariate Alteration Detection (IR-MAD)](http://people.compute.dtu.dk/alan/software.html)
 
-#### 2.1.2 Deep Learning (Only the last three years are shown, except for the model library) 
+#### Deep Learning
+
+**Only the last three years are shown, except for the model library.**
+
 - 2022.[Fang S, Li K, Li Z. Changer: Feature Interaction is What You Need for Change Detection](https://github.com/likyoo/open-cd/tree/main/configs/changer)
 
 - 2022.[Chen H, Li W, Chen S, et al. Semantic-aware Dense Representation Learning for Remote Sensing Image Change Detection](https://github.com/justchenhao/SaDL_CD)
@@ -203,14 +222,14 @@ from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeO
   
 - 2020.[Chen J, Yuan Z, Peng J, et al. DASNet: Dual attentive fully convolutional siamese networks for change detection of high resolution satellite images](https://github.com/lehaifeng/DASNet)
 
-### 2.2 SAR
+### SAR
 - 2021.[Qu X, Gao F, Dong J, et al. Change Detection in Synthetic Aperture Radar Images Using a Dual-Domain Network](https://github.com/summitgao/SAR_CD_DDNet)
 
-### 2.3 Hyperspectral
+### Hyperspectral
 - 2022.[Hu M, Wu C, Zhang L, et al. Hyperspectral anomaly change detection based on autoencoder](https://github.com/meiqihu/ACDA)
 
 
-## 3.Contest   
+## Contest   
 
 - [**2022 The SpaceNet 8 Flood Detection Challenge**](https://medium.com/@SpaceNet_Project/the-spacenet-8-flood-detection-challenge-dataset-and-algorithmic-baseline-release-e0c9f5a44154) *(SpaceNet, Maxar, Jul 2022)*   
 Three areas of interest (AOIs) were selected for the dataset consisting of 12 Maxar satellite images of both pre- and post-flooding event imagery. Along with the imagery, hand labeled building footprints, road and flood attributes are provided for training and scoring. The AOIs include Germany with flooding from heavy rains in July 2021, Louisiana following Hurricane Ida in August 2021, and a “mystery” location that will be used to test the top 10 algorithms from the public leaderboard for final scoring after the challenge has concluded. Baseline: [SpaceNetChallenge/SpaceNet8](https://github.com/SpaceNetChallenge/SpaceNet8). Paper: [Hänsch, Ronny, et al.2022](https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/papers/Hansch_SpaceNet_8_-_The_Detection_of_Flooded_Roads_and_Buildings_CVPRW_2022_paper.pdf).
