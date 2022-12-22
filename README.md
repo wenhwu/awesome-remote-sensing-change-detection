@@ -141,6 +141,8 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 
 **Only the last three years are shown, except for the model library.**
 
+- 2022.[Seo M, Lee H, Jeon Y, et al. Self-Pair: Synthesizing Changes from Single Source for Object Change Detection in Remote Sensing Imagery](https://github.com/seominseok0429/Self-Pair-for-Change-Detection)   
+
 - 2022.[Cao Y, Huang X. A full-level fused cross-task transfer learning method for building change detection using noise-robust pretrained networks on crowdsourced labels](https://github.com/lauraset/FFCTL)
 
 - 2022.[Fang S, Li K, Li Z. Changer: Feature Interaction is What You Need for Change Detection](https://github.com/likyoo/open-cd/tree/main/configs/changer)
