@@ -107,6 +107,10 @@ It also includes a hyperspectral scene from the HYPERION sensor: The Hermiston c
 This dataset has two hyperspectral images, which were acquired on May 3, 2013, and December 31, 2013, respectively in Jiangsu province, China. It has a size of 463×241 pixels, with 198 bands available after noisy band removal. In the ground-truth map, white pixels represent changed portions and black pixels mean unchanged parts. Paper: [Wang et al.2018](https://ieeexplore.ieee.org/document/8418840/?denied=)
 
 ### 3D
+
+- 2023.[3DCD Dataset](https://sites.google.com/uniroma1.it/3dchangedetection/home-page?pli=1)   
+The 3DCD Dataset is designed to facilitate the development of deep learning algorithms that can infer 3D CD maps from remote sensing optical bitemporal images alone, without the need for Digital Elevation Models (DEMs). The dataset comprises pairs of optical images acquired in 2010 and 2017, corresponding 2D and 3D CD maps in raster format (.tiff), and pairs of Digital Surface Models (DSMs) covering the same area and years in the same format (.tiff). Paper: [Marsocci V et al.2023](https://www.sciencedirect.com/science/article/pii/S0924271622003240)
+
 - 2021.[URB3DCD](https://ieee-dataport.org/open-access/urb3dcd-urban-point-clouds-simulated-dataset-3d-change-detection)   
 The dataset is based on LoD2 models of [the first and second districts of Lyon](https://geo.data.gouv.fr/datasets/0731989349742867f8e659b4d70b707612bece89), France. To conduct fair qualitative and quantitative evaluation of point clouds change detection techniques. This first version of the dataset is composed of point clouds at a challenging low resolution of around 0.5 points/meter². Paper: [de Gélis et al.2021](https://www.mdpi.com/2072-4292/13/13/2629)
 
