@@ -149,6 +149,8 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 
 **Only the last three years are shown, except for the model library.**
 
+- 2023.[Feng Y, Jiang J, Xu H, et al. Change Detection on Remote Sensing Images using Dual-branch Multi-level Inter-temporal Network](https://github.com/ZhengJianwei2/DMINet)
+
 - 2022.[Seo M, Lee H, Jeon Y, et al. Self-Pair: Synthesizing Changes from Single Source for Object Change Detection in Remote Sensing Imagery](https://github.com/seominseok0429/Self-Pair-for-Change-Detection)   
 
 - 2022.[Cao Y, Huang X. A full-level fused cross-task transfer learning method for building change detection using noise-robust pretrained networks on crowdsourced labels](https://github.com/lauraset/FFCTL)
@@ -222,17 +224,9 @@ from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeO
 
 - 2020.[I-Hope-Peace/ChangeDetectionRepository](https://github.com/I-Hope-Peace/ChangeDetectionRepository)
 
-- 2020.[Zhang C, Yue P, Tapete D, et al. A deeply supervised image fusion network for change detection in high resolution bi-temporal remote sensing images](https://github.com/GeoZcx/A-deeply-supervised-image-fusion-network-for-change-detection-in-remote-sensing-images)
-  
-- 2020.[Chen H, Shi Z. A Spatial-Temporal Attention-Based Method and a New Dataset for Remote Sensing Image Change Detection](https://github.com/justchenhao/STANet)
-
-- 2020.[Zhang M, Shi W. A Feature Difference Convolutional Neural Network-Based Change Detection Method](https://github.com/MinZHANG-WHU/FDCNN)
-
 - 2020.[llu025/Heterogeneous_CD](https://github.com/llu025/Heterogeneous_CD)
-  
+
 - 2020.[neverstoplearn/remote_sensing_change_detection](https://github.com/neverstoplearn/remote_sensing_change_detection)
-  
-- 2020.[Chen J, Yuan Z, Peng J, et al. DASNet: Dual attentive fully convolutional siamese networks for change detection of high resolution satellite images](https://github.com/lehaifeng/DASNet)
 
 ### SAR
 - 2021.[Qu X, Gao F, Dong J, et al. Change Detection in Synthetic Aperture Radar Images Using a Dual-Domain Network](https://github.com/summitgao/SAR_CD_DDNet)
