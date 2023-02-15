@@ -226,8 +226,6 @@ from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeO
 
 - 2020.[llu025/Heterogeneous_CD](https://github.com/llu025/Heterogeneous_CD)
 
-- 2020.[neverstoplearn/remote_sensing_change_detection](https://github.com/neverstoplearn/remote_sensing_change_detection)
-
 ### SAR
 - 2021.[Qu X, Gao F, Dong J, et al. Change Detection in Synthetic Aperture Radar Images Using a Dual-Domain Network](https://github.com/summitgao/SAR_CD_DDNet)
 
