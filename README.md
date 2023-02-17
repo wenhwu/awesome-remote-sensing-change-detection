@@ -149,6 +149,8 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 
 **Only the last three years are shown, except for the model library.**
 
+- 2023.[Li Z, Tang C, Liu X, et al. Lightweight Remote Sensing Change Detection with Progressive Feature Aggregation and Supervised Attention](https://github.com/guanyuezhen/A2Net)
+
 - 2023.[Feng Y, Jiang J, Xu H, et al. Change Detection on Remote Sensing Images using Dual-branch Multi-level Inter-temporal Network](https://github.com/ZhengJianwei2/DMINet)
 
 - 2022.[Seo M, Lee H, Jeon Y, et al. Self-Pair: Synthesizing Changes from Single Source for Object Change Detection in Remote Sensing Imagery](https://github.com/seominseok0429/Self-Pair-for-Change-Detection)   
