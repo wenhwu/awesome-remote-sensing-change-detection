@@ -233,7 +233,7 @@ from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeO
 
 #### 3D
 - 2023.[Marsocci V, Coletta V, Ravanelli R, et al. Inferring 3D change detection from bitemporal optical images](https://github.com/VMarsocci/3DCD)
-- 2023.[de Gélis I, Lefèvre S, Corpetti T. Siamese KPConv: 3D multiple change detection from raw point clouds using deep learning](https://github.com/nicolas-chaulet/torch-points3d)
+- 2023.[de Gélis I, Lefèvre S, Corpetti T. Siamese KPConv: 3D multiple change detection from raw point clouds using deep learning](https://github.com/IdeGelis/torch-points3d-SiameseKPConv)
 
 ## SAR
 - 2021.[Qu X, Gao F, Dong J, et al. Change Detection in Synthetic Aperture Radar Images Using a Dual-Domain Network](https://github.com/summitgao/SAR_CD_DDNet)
