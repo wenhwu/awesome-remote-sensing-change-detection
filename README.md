@@ -3,7 +3,7 @@
 
 List of datasets, codes, and contests related to remote sensing change detection.
 
-## Contents
+# Contents
 
 - [Dateset](#dateset)
   - [Multispectral](#multispectral)
@@ -20,11 +20,11 @@ List of datasets, codes, and contests related to remote sensing change detection
 - [Contest](#contest)     
 - [Reference](#reference)
 
-## Dateset
+# Dateset
 
-### Multispectral
+## Multispectral
 
-#### With Label
+### With Label
 
 - 2023.[**BANDON (Building Change Detection with Off-nadir Aerial Images Dataset)**](https://arxiv.org/abs/2301.10922)   
 The BANDON dataset is designed for building change detection using off-nadir aerial images. It consists of 2283 image pairs from urban and rural areas with corresponding change, BT-flows, segmentation, and ST-offsets labels (test sets don't have auxiliary annotations). BANDON provides novel data for the off-nadir building change detection task, and its detailed annotations support multi-task learning in aerial images.Paper: [Pang et al.2023](https://arxiv.org/abs/2301.10922)
@@ -84,7 +84,7 @@ This dataset contains synthetic aerial images with artificial changes generated 
 - 2008.[**SZTAKI AirChange Benchmark set**](http://web.eee.sztaki.hu/remotesensing/airchange_benchmark.html)   
 This dataset contains 13 aerial image pairs of size 952x640 and resolution 1.5m/pixel and binary change masks (drawn by hand). Each record contains a pair of preliminary registered input images and a mask of the 'relevant' changes. The input images are taken with 5, 7 resp. 23 years of time differences. During the generation of the change mask, we have considered the following differences as relevant changes: (a) new built-up regions (b) building operations (c) planting of large group of trees (d) fresh plow-land (e) groundwork before building over. Note that the ground truth does NOT contain change classification, only binary change-no change decision for each pixel. Paper: [Benedek et al.2008](https://ieeexplore.ieee.org/document/5169964)
 
-#### Without Label
+### Without Label
 
 - [Planet Disaster Datasets](https://www.planet.com/disasterdata/datasets/)   
 Planet will make PlanetScope imagery available to the public during a select disaster event.
@@ -118,11 +118,11 @@ The 3DCD Dataset is designed to facilitate the development of deep learning algo
 - 2021.[URB3DCD](https://ieee-dataport.org/open-access/urb3dcd-urban-point-clouds-simulated-dataset-3d-change-detection)   
 The dataset is based on LoD2 models of [the first and second districts of Lyon](https://geo.data.gouv.fr/datasets/0731989349742867f8e659b4d70b707612bece89), France. To conduct fair qualitative and quantitative evaluation of point clouds change detection techniques. This first version of the dataset is composed of point clouds at a challenging low resolution of around 0.5 points/meter². Paper: [de Gélis et al.2021](https://www.mdpi.com/2072-4292/13/13/2629)
 
-## Code
+# Code
 
-### Multispectral
+## Multispectral
 
-#### Traditional Method
+### Traditional Method
 
 - 2022.[Kondmann L, Toker A, Saha S, et al. SiROC: Spatial Context Awareness for Unsupervised Change Detection in Optical Satellite Images](https://github.com/lukaskondmann/SiROC)
 
@@ -145,8 +145,9 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 
 - 2007.[Nielsen A A.The Regularized Iteratively Reweighted Multivariate Alteration Detection (IR-MAD)](http://people.compute.dtu.dk/alan/software.html)
 
-#### Deep Learning
+### Deep Learning
 
+#### 2D
 **Only the last three years are shown, except for the model library.**
 
 - 2023.[Li Z, Tang C, Liu X, et al. Lightweight Remote Sensing Change Detection with Progressive Feature Aggregation and Supervised Attention](https://github.com/guanyuezhen/A2Net)
@@ -230,14 +231,18 @@ from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeO
 
 - 2020.[llu025/Heterogeneous_CD](https://github.com/llu025/Heterogeneous_CD)
 
-### SAR
+#### 3D
+- 2023.[Marsocci V, Coletta V, Ravanelli R, et al. Inferring 3D change detection from bitemporal optical images](https://github.com/VMarsocci/3DCD)
+- 2023.[de Gélis I, Lefèvre S, Corpetti T. Siamese KPConv: 3D multiple change detection from raw point clouds using deep learning](https://github.com/nicolas-chaulet/torch-points3d)
+
+## SAR
 - 2021.[Qu X, Gao F, Dong J, et al. Change Detection in Synthetic Aperture Radar Images Using a Dual-Domain Network](https://github.com/summitgao/SAR_CD_DDNet)
 
-### Hyperspectral
+## Hyperspectral
 - 2022.[Hu M, Wu C, Zhang L, et al. Hyperspectral anomaly change detection based on autoencoder](https://github.com/meiqihu/ACDA)
 
 
-## Contest   
+# Contest   
 
 - [**2022 The SpaceNet 8 Flood Detection Challenge**](https://medium.com/@SpaceNet_Project/the-spacenet-8-flood-detection-challenge-dataset-and-algorithmic-baseline-release-e0c9f5a44154) *(SpaceNet, Maxar, Jul 2022)*   
 Three areas of interest (AOIs) were selected for the dataset consisting of 12 Maxar satellite images of both pre- and post-flooding event imagery. Along with the imagery, hand labeled building footprints, road and flood attributes are provided for training and scoring. The AOIs include Germany with flooding from heavy rains in July 2021, Louisiana following Hurricane Ida in August 2021, and a “mystery” location that will be used to test the top 10 algorithms from the public leaderboard for final scoring after the challenge has concluded. Baseline: [SpaceNetChallenge/SpaceNet8](https://github.com/SpaceNetChallenge/SpaceNet8). Paper: [Hänsch, Ronny, et al.2022](https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/papers/Hansch_SpaceNet_8_-_The_Detection_of_Flooded_Roads_and_Buildings_CVPRW_2022_paper.pdf).
@@ -278,7 +283,7 @@ In this challenge, participants will identify and track buildings in satellite i
 - [**2017 广东政务数据创新大赛—智能算法赛**](https://tianchi.aliyun.com/competition/entrance/231615/introduction) *(阿里巴巴. 2017年11月)*    
 使用2015年和2017年分别获取到的广东省某地的Quickbird卫星影像（包含蓝、绿、红和近红外四个波段），识别出两年之间新增的人工地上建筑物（不包括道路）。获胜团队的解决方案可以在[天池](https://tianchi.aliyun.com/forum/postDetail?postId=3527)官网上找到。
 
-## Reference
+# Reference
 
 - [chrieke/awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets)
 - [zhangbin0917/Awesome-Remote-Sensing-Dataset](https://github.com/zhangbin0917/Awesome-Remote-Sensing-Dataset)
