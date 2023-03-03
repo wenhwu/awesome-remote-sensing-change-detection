@@ -250,6 +250,8 @@ from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeO
 
 # Contest   
 
+**Please note that some of the datasets in these competitions are publicly available, such as xView2 and SpaceNet7.**
+
 - [**2022 The SpaceNet 8 Flood Detection Challenge**](https://medium.com/@SpaceNet_Project/the-spacenet-8-flood-detection-challenge-dataset-and-algorithmic-baseline-release-e0c9f5a44154) *(SpaceNet, Maxar, Jul 2022)*   
 Three areas of interest (AOIs) were selected for the dataset consisting of 12 Maxar satellite images of both pre- and post-flooding event imagery. Along with the imagery, hand labeled building footprints, road and flood attributes are provided for training and scoring. The AOIs include Germany with flooding from heavy rains in July 2021, Louisiana following Hurricane Ida in August 2021, and a “mystery” location that will be used to test the top 10 algorithms from the public leaderboard for final scoring after the challenge has concluded. Baseline: [SpaceNetChallenge/SpaceNet8](https://github.com/SpaceNetChallenge/SpaceNet8). Paper: [Hänsch, Ronny, et al.2022](https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/papers/Hansch_SpaceNet_8_-_The_Detection_of_Flooded_Roads_and_Buildings_CVPRW_2022_paper.pdf).
 
