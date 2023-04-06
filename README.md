@@ -27,7 +27,10 @@ List of datasets, codes, and contests related to remote sensing change detection
 ### With Label
 
 - 2023.[**BANDON (Building Change Detection with Off-nadir Aerial Images Dataset)**](https://arxiv.org/abs/2301.10922)   
-The BANDON dataset is designed for building change detection using off-nadir aerial images. It consists of 2283 image pairs from urban and rural areas with corresponding change, BT-flows, segmentation, and ST-offsets labels (test sets don't have auxiliary annotations). BANDON provides novel data for the off-nadir building change detection task, and its detailed annotations support multi-task learning in aerial images.Paper: [Pang et al.2023](https://arxiv.org/abs/2301.10922)
+The BANDON dataset is designed for building change detection using off-nadir aerial images. It consists of 2283 image pairs from urban and rural areas with corresponding change, BT-flows, segmentation, and ST-offsets labels (test sets don't have auxiliary annotations). BANDON provides novel data for the off-nadir building change detection task, and its detailed annotations support multi-task learning in aerial images. Paper: [Pang et al.2023](https://arxiv.org/abs/2301.10922)
+
+- 2022.[LEVIR Change Captioning (LEVIR-CC) dataset](https://github.com/Chen-Yang-Liu/RSICC)   
+LEVIR-CC dataset contains 10077 pairs of bitemporal RS images and 50385 sentences describing the differences between images. The images of the LEVIR-CC dataset are mainly from the CD dataset LEVIR-CD. LEVIR-CC dataset may help explore models to align visual changes and language in RS images. Paper: [Liu et al.2022](https://ieeexplore.ieee.org/document/9934924)
 
 - 2022.[**DynamicEarthNet**](https://mediatum.ub.tum.de/1650201)   
 The DynamicEarthNet dataset includes daily satellite data from January 2018 to December 2019, covering 75 areas of interest around the world with diverse land cover changes. It provides a sequence of daily revisited images for each region, as well as pixel-wise semantic labels for the first day of each month at a resolution of 1024x1024 and pixel granularity of 3 meters, which serve as ground-truth for defining land cover changes over the two-year period. Paper: [Toker A et al.2022](https://arxiv.org/abs/2203.12560)
