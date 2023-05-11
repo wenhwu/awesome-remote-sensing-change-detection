@@ -26,6 +26,9 @@ List of datasets, codes, and contests related to remote sensing change detection
 
 ### With Label
 
+- 2023.[CNAM-CD](https://github.com/Silvestezhou/CNAM-CD)   
+CNAM-CD is a multi-class change detection dataset that collects images of 12 different urban scenes from the past decade. The dataset selects 12 State-level New Areas in China as the study area and contains 2503 pairs of GeoTiff format images with a pixel size of 512×512. The images were captured at different times from 2013 to 2022. The data source is Google Earth, and the resolution is 0.5m. Paper: [Zhou et al.2023](https://www.mdpi.com/2072-4292/15/9/2464)
+
 - 2023.[**BANDON (Building Change Detection with Off-nadir Aerial Images Dataset)**](https://arxiv.org/abs/2301.10922)   
 The BANDON dataset is designed for building change detection using off-nadir aerial images. It consists of 2283 image pairs from urban and rural areas with corresponding change, BT-flows, segmentation, and ST-offsets labels (test sets don't have auxiliary annotations). BANDON provides novel data for the off-nadir building change detection task, and its detailed annotations support multi-task learning in aerial images. Paper: [Pang et al.2023](https://arxiv.org/abs/2301.10922)
 
