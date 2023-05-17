@@ -26,6 +26,9 @@ List of datasets, codes, and contests related to remote sensing change detection
 
 ### With Label
 
+- 2023.[SI-BU dataset](https://github.com/liaochengcsu/BCE-Net)   
+The SI-BU dataset comprises post-phase satellite imagery captured from Google Earth (Google Inc.) in 2021 of Guiyang, Guizhou province, China, along with corresponding labels. The dataset covers an area of approximately 172 km2 and contains buildings of varying height, scale, and appearance.  The images and labels were cropped into non-overlapping pairs of 512 × 512 pixels, with 3,604 pairs for training and 1,328 pairs for testing.  The labels indicate four categories: background, unchanged buildings, newly constructed buildings, and removed buildings, which are assigned values of 0, 1, 2, and 3, respectively.  The labels were meticulously annotated by image interpretation experts to indicate changes between the images and building masks collected from the same location in 2019.  However, the dataset exhibits an off-nadir problem, particularly for high-rise buildings, due to the offset between building rooftops and footprints, which makes it challenging to automatically extract building changes from the dataset. Paper: [Liao et al.2023](https://arxiv.org/abs/2304.07076)
+
 - 2023.[CNAM-CD](https://github.com/Silvestezhou/CNAM-CD)   
 CNAM-CD is a multi-class change detection dataset that collects images of 12 different urban scenes from the past decade. The dataset selects 12 State-level New Areas in China as the study area and contains 2503 pairs of GeoTiff format images with a pixel size of 512×512. The images were captured at different times from 2013 to 2022. The data source is Google Earth, and the resolution is 0.5m. Paper: [Zhou et al.2023](https://www.mdpi.com/2072-4292/15/9/2464)
 
