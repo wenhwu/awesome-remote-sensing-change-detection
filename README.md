@@ -261,11 +261,11 @@ from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeO
 
 **Please note that some of the datasets in these competitions are publicly available, such as xView2 and SpaceNet7.**
 
+- [**2023 “吉林一号”杯卫星遥感应用青年创新创业大赛-基于高分辨率卫星影像的耕地变化检测**](https://www.jl1mall.com/contest/match/info?id=1645664411716952066) *(长光卫星, 武汉大学，华为. 2023年5月)*   
+耕地变化检测存在变化类型多、变化目标小的检测难点，因此需要研发一种基于高分辨率遥感影像的耕地变化检测算法，提高耕地变化检测中小目标的召回率和耕地变化类型的分类准确率，推动算法在“非农化”、耕地保护等实际需求中的应用。数据: 吉林一号，分辨率优于0.75米。类别描述：耕地变为道路，耕地变为林草，耕地变为建筑，耕地变为其他，道路变为耕地，林草变为耕地，建筑变为耕地，其他变为耕地，非“耕地变化”变化区域。图像尺寸：256×256像素。初赛数据量：共计8000余组，训练集6000余组,每组包含2个时相影像及标签；测试集2000余组,每组包含2个时相影像。
+
 - [**2022 The SpaceNet 8 Flood Detection Challenge**](https://medium.com/@SpaceNet_Project/the-spacenet-8-flood-detection-challenge-dataset-and-algorithmic-baseline-release-e0c9f5a44154) *(SpaceNet, Maxar, Jul 2022)*   
 Three areas of interest (AOIs) were selected for the dataset consisting of 12 Maxar satellite images of both pre- and post-flooding event imagery. Along with the imagery, hand labeled building footprints, road and flood attributes are provided for training and scoring. The AOIs include Germany with flooding from heavy rains in July 2021, Louisiana following Hurricane Ida in August 2021, and a “mystery” location that will be used to test the top 10 algorithms from the public leaderboard for final scoring after the challenge has concluded. Baseline: [SpaceNetChallenge/SpaceNet8](https://github.com/SpaceNetChallenge/SpaceNet8). Paper: [Hänsch, Ronny, et al.2022](https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/papers/Hansch_SpaceNet_8_-_The_Detection_of_Flooded_Roads_and_Buildings_CVPRW_2022_paper.pdf).
-
-- [**2022 “航天宏图杯”遥感影像智能处理算法大赛-遥感影像变化检测**](http://rsipac.whu.edu.cn/subject_two) *(航天宏图, 武汉大学，华为. 2022年8月)*   
-请参考**2021“昇腾杯”遥感影像智能处理算法大赛-耕地建筑物变化检测**。
 
 - **2021 “昇腾杯”遥感影像智能处理算法大赛-耕地建筑物变化检测** *(武汉大学, 2021年9月)*   
 通过前后两时相的遥感影像，提取出地物发生变化的像元并赋予变化标签。 依据所述地物变化标准，以耕地-建筑/动土的像素级变化检测为目标。数据为1-2米分辨率光学遥感影像，6000+张遥感影像变化检测样本数据(按512 X 512大小折算)。标签格式为单通道的png，每个像素的标签值由一个数值表示， 使用‘uint8’数据类型存储，该数值表示是否为变化，“0”代表未变化，“1”代表变化。Top4解决方案详见[WangZhenqing-RS/2021rsipac_changeDetection_TOP4](https://github.com/WangZhenqing-RS/2021rsipac_changeDetection_TOP4)，Top5解决方案详见[78666621/2021rsipac_changeDetection_TOP5](https://github.com/78666621/2021rsipac_changeDetection_TOP5)  
