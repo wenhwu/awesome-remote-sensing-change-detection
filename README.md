@@ -261,7 +261,7 @@ from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeO
 
 **Please note that some of the datasets in these competitions are publicly available, such as xView2 and SpaceNet7.**
 
-- [**2023 “吉林一号”杯卫星遥感应用青年创新创业大赛-基于高分辨率卫星影像的耕地变化检测**](https://www.jl1mall.com/contest/match/info?id=1645664411716952066) *(长光卫星, 武汉大学，华为. 2023年5月)*   
+- [**2023 “吉林一号”杯卫星遥感应用青年创新创业大赛-基于高分辨率卫星影像的耕地变化检测**](https://www.jl1mall.com/contest/match/info?id=1645664411716952066) *(长光卫星, 2023年5月)*   
 耕地变化检测存在变化类型多、变化目标小的检测难点，因此需要研发一种基于高分辨率遥感影像的耕地变化检测算法，提高耕地变化检测中小目标的召回率和耕地变化类型的分类准确率，推动算法在“非农化”、耕地保护等实际需求中的应用。数据: 吉林一号，分辨率优于0.75米。类别描述：耕地变为道路，耕地变为林草，耕地变为建筑，耕地变为其他，道路变为耕地，林草变为耕地，建筑变为耕地，其他变为耕地，非“耕地变化”变化区域。图像尺寸：256×256像素。初赛数据量：共计8000余组，训练集6000余组,每组包含2个时相影像及标签；测试集2000余组,每组包含2个时相影像。
 
 - [**2022 The SpaceNet 8 Flood Detection Challenge**](https://medium.com/@SpaceNet_Project/the-spacenet-8-flood-detection-challenge-dataset-and-algorithmic-baseline-release-e0c9f5a44154) *(SpaceNet, Maxar, Jul 2022)*   
