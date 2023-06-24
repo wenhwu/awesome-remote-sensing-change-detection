@@ -26,7 +26,7 @@ List of datasets, codes, and contests related to remote sensing change detection
 
 ### With Label
 
-- 2023.[EGY-BCD](https://github.com/oshholail/EGY-BCD)
+- 2023.[EGY-BCD](https://github.com/oshholail/EGY-BCD)   
 The EGY-BCD dataset is designed to detect building changes from high-resolution satellite imagery with a resolution of 0.25 m/pixel (level 19). The dataset includes four urban and coastal areas in Egypt, collected from Google Earth over two different periods between 2015 and 2022. The dataset contains 6091 pairs of small images of size 256×256 and is randomly divided into three sets: a training set (70%), a validation set (20%), and a test set (10%). The ground-truth data for each pair of images is labeled into two categories, "no-change" or "change," to train the proposed network. Paper: [Holail et al.2023](https://ieeexplore.ieee.org/document/10145434)
 
 - 2023.[SI-BU dataset](https://github.com/liaochengcsu/BCE-Net)   
