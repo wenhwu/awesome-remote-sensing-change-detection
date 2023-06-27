@@ -257,6 +257,7 @@ from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeO
 - 2021.[Qu X, Gao F, Dong J, et al. Change Detection in Synthetic Aperture Radar Images Using a Dual-Domain Network](https://github.com/summitgao/SAR_CD_DDNet)
 
 ## Hyperspectral
+- 2022.[Wang Y, Hong D, Sha J, et al. Spectral–spatial–temporal transformers for hyperspectral image change detection](https://github.com/yanhengwang-heu/IEEE_TGRS_SSTFormer)
 - 2022.[Hu M, Wu C, Zhang L, et al. Hyperspectral anomaly change detection based on autoencoder](https://github.com/meiqihu/ACDA)
 
 
