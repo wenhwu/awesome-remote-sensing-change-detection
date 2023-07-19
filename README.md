@@ -168,6 +168,8 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 #### 2D
 **Only the last three years are shown, except for the model library.**
 
+- 2023.[Lei T, Geng X, Ning H, et al. Ultralightweight Spatial–Spectral Feature Cooperation Network for Change Detection in Remote Sensing Images](https://github.com/SUST-reynole/USSFC-Net)
+
 - 2023.[Li Z, Tang C, Liu X, et al. Lightweight Remote Sensing Change Detection with Progressive Feature Aggregation and Supervised Attention](https://github.com/guanyuezhen/A2Net)
 
 - 2023.[Feng Y, Jiang J, Xu H, et al. Change Detection on Remote Sensing Images using Dual-branch Multi-level Inter-temporal Network](https://github.com/ZhengJianwei2/DMINet)
