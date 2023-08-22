@@ -25,23 +25,27 @@ List of datasets, codes, and contests related to remote sensing change detection
 ## Multispectral
 
 ### With Label
-- 2023.[GVLM](https://github.com/zxk688/GVLM)   
+
+- 2023.[**HRCUS-CD (High-Resolution Complex Urban Scene Change Detection)**](https://github.com/zjd1836/AERNet)
+- The proposed High-Resolution Complex Urban Scene Change Detection (HRCUS-CD) dataset consists of 11,388 pairs of cropped high-resolution remote sensing images. The image size is 256 × 256 pixels with a resolution of 0.5 meters. The dataset includes over 12,000 annotated instances of changes. The data was collected in Zhuhai, China. It contains two main acquisition areas from two image sources: the first is mainly the urban built-up area, with a time span from 2019 to 2022. Considering the short time interval and the fact that this area is mostly built-up, the building changes’ areas are small. The second area spans from 2010 to 2018, and contains farmland and mountains, with a small number of old civil houses and buildings in the early period, and the area of building change is large later. These two types of high-resolution RSIs focus on built-up areas and new urban areas. Paper: [Zhang et al., 2023](https://ieeexplore.ieee.org/document/10209204)
+
+- 2023.[**GVLM**](https://github.com/zxk688/GVLM)   
 The Global Very-High-Resolution Landslide Mapping (GVLM) dataset is the first large-scale and open-source VHR landslide mapping dataset. It includes 
  17 bitemporal very-high-resolution imagery pairs with a spatial resolution of 0.59 m acquired via Google Earth service. Each sub-dataset contains a pair of bitemporal images and the corresponding ground-truth map. The landslide sites in different geographical locations have various sizes, shapes, occurrence times, spatial distributions, phenology states, and land cover types, resulting in considerable spectral heterogeneity and intensity variations in the remote sensing imagery. The GVLM dataset can be used to develop and evaluate machine/deep learning models for change detection, semantic segmentation and landslide extraction. Paper: [Zhang et al., 2023](https://www.sciencedirect.com/science/article/pii/S0924271623000242?dgcid)
 
-- 2023.[EGY-BCD](https://github.com/oshholail/EGY-BCD)   
+- 2023.[**EGY-BCD**](https://github.com/oshholail/EGY-BCD)   
 The EGY-BCD dataset is designed to detect building changes from high-resolution satellite imagery with a resolution of 0.25 m/pixel (level 19). The dataset includes four urban and coastal areas in Egypt, collected from Google Earth over two different periods between 2015 and 2022. The dataset contains 6091 pairs of small images of size 256×256 and is randomly divided into three sets: a training set (70%), a validation set (20%), and a test set (10%). The ground-truth data for each pair of images is labeled into two categories, "no-change" or "change," to train the proposed network. Paper: [Holail et al.2023](https://ieeexplore.ieee.org/document/10145434)
 
-- 2023.[SI-BU dataset](https://github.com/liaochengcsu/BCE-Net)   
+- 2023.[**SI-BU dataset**](https://github.com/liaochengcsu/BCE-Net)   
 The SI-BU dataset comprises post-phase satellite imagery captured from Google Earth (Google Inc.) in 2021 of Guiyang, Guizhou province, China, along with corresponding labels. The dataset covers an area of approximately 172 km2 and contains buildings of varying height, scale, and appearance. The images and labels were cropped into non-overlapping pairs of 512 × 512 pixels, with 3,604 pairs for training and 1,328 pairs for testing. The labels indicate four categories: background, unchanged buildings, newly constructed buildings, and removed buildings, which are assigned values of 0, 1, 2, and 3, respectively. The labels were meticulously annotated by image interpretation experts to indicate changes between the images and building masks collected from the same location in 2019. The dataset exhibits an off-nadir problem, particularly for high-rise buildings, due to the offset between building rooftops and footprints, which makes it challenging to automatically extract building changes from the dataset. Paper: [Liao et al.2023](https://arxiv.org/abs/2304.07076)
 
-- 2023.[CNAM-CD](https://github.com/Silvestezhou/CNAM-CD)   
+- 2023.[**CNAM-CD**](https://github.com/Silvestezhou/CNAM-CD)   
 CNAM-CD is a multi-class change detection dataset that collects images of 12 different urban scenes from the past decade. The dataset selects 12 State-level New Areas in China as the study area and contains 2503 pairs of GeoTiff format images with a pixel size of 512×512. The images were captured at different times from 2013 to 2022. The data source is Google Earth, and the resolution is 0.5m. Paper: [Zhou et al.2023](https://www.mdpi.com/2072-4292/15/9/2464)
 
 - 2023.[**BANDON (Building Change Detection with Off-nadir Aerial Images Dataset)**](https://arxiv.org/abs/2301.10922)   
 The BANDON dataset is designed for building change detection using off-nadir aerial images. It consists of 2283 image pairs from urban and rural areas with corresponding change, BT-flows, segmentation, and ST-offsets labels (test sets don't have auxiliary annotations). BANDON provides novel data for the off-nadir building change detection task, and its detailed annotations support multi-task learning in aerial images. Paper: [Pang et al.2023](https://arxiv.org/abs/2301.10922)
 
-- 2022.[LEVIR Change Captioning (LEVIR-CC) dataset](https://github.com/Chen-Yang-Liu/RSICC)   
+- 2022.[**LEVIR Change Captioning (LEVIR-CC) dataset**](https://github.com/Chen-Yang-Liu/RSICC)   
 LEVIR-CC dataset contains 10077 pairs of bitemporal RS images and 50385 sentences describing the differences between images. The images of the LEVIR-CC dataset are mainly from the CD dataset LEVIR-CD. LEVIR-CC dataset may help explore models to align visual changes and language in RS images. Paper: [Liu et al.2022](https://ieeexplore.ieee.org/document/9934924)
 
 - 2022.[**DynamicEarthNet**](https://mediatum.ub.tum.de/1650201)   
