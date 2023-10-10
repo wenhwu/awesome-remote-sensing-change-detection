@@ -5,19 +5,23 @@ List of datasets, codes, and contests related to remote sensing change detection
 
 # Contents
 
+- [`Awesome Remote Sensing Change Detection`](#awesome-remote-sensing-change-detection)
+- [Contents](#contents)
 - [Dateset](#dateset)
   - [Multispectral](#multispectral)
     - [With Label](#with-label)
     - [Without Label](#without-label)
-  - [Hyperspectral](#hyperspectral)
-  - [3D](#3d)
+    - [Hyperspectral](#hyperspectral)
+    - [3D](#3d)
 - [Code](#code)
   - [Multispectral](#multispectral-1)
     - [Traditional Method](#traditional-method)
-    - [Deep Learning](#deep-learning) 
+    - [Deep Learning](#deep-learning)
+      - [2D](#2d)
+      - [3D](#3d-1)
   - [SAR](#sar)
   - [Hyperspectral](#hyperspectral-1)
-- [Contest](#contest)     
+- [Contest](#contest)
 - [Reference](#reference)
 
 # Dateset
@@ -25,6 +29,8 @@ List of datasets, codes, and contests related to remote sensing change detection
 ## Multispectral
 
 ### With Label
+
+- 2023. []
 
 - 2023.[**HRCUS-CD (High-Resolution Complex Urban Scene Change Detection)**](https://github.com/zjd1836/AERNet)   
 The proposed High-Resolution Complex Urban Scene Change Detection (HRCUS-CD) dataset consists of 11,388 pairs of cropped high-resolution remote sensing images. The image size is 256 × 256 pixels with a resolution of 0.5 meters. The dataset includes over 12,000 annotated instances of changes. The data was collected in Zhuhai, China. It contains two main acquisition areas from two image sources: the first is mainly the urban built-up area, with a time span from 2019 to 2022. Considering the short time interval and the fact that this area is mostly built-up, the building changes’ areas are small. The second area spans from 2010 to 2018, and contains farmland and mountains, with a small number of old civil houses and buildings in the early period, and the area of building change is large later. These two types of high-resolution RSIs focus on built-up areas and new urban areas. Paper: [Zhang et al., 2023](https://ieeexplore.ieee.org/document/10209204)
@@ -74,6 +80,9 @@ The dataset contains 20000 pairs of 0.5-m aerial images of size 256×256 taken b
 
 - 2021.[**Sentinel-2 Multitemporal Cities Pairs (S2MTCP) dataset**](https://zenodo.org/record/4280482#.YBBCX-j7RhE)   
 The S2MTCP dataset contains N = 1520 image pairs, spread over all inhabited continents, with the highest concentration of image pairs in North-America, Europe, and Asia. Bands with a spatial resolution smaller than 10 m are resampled to 10 m and images are cropped to approximately 600x600 pixels. It was created for self-supervised training. Paper: [Leenstra et al.2021](https://arxiv.org/abs/2101.08122)
+
+- 2020.[**Hi-UCD**](Hi-UCD)   
+Hi-UCD focuses on urban changes and uses ultra-high resolution images to construct multi-temporal semantic changes to achieve refined change detection. The study area of Hi-UCD is a part of Tallinn, the capital of Estonia, with an area of 30km2. There are 359 image pairs in 2017-2018, 386 pairs in 2018-2019, and 548 pairs in 2017-2019, including images, semantic maps, and change maps at different times. Each image has a size of 1024 x 1024 and a spatial resolution of 0.1 m. There are 9 types of objects, including natural objects (water, grassland, woodland, bare land), artificial objects (Building,greenhouse, road, bridge), and others (change-related), basically include all types of urbanland cover in Estonia. Paper: [Tian et al.2020](https://arxiv.org/abs/2011.03247)
 
 - 2020.[**DSIFN Dataset**](https://github.com/GeoZcx/A-deeply-supervised-image-fusion-network-for-change-detection-in-remote-sensing-images/tree/master/dataset)   
 The dataset is manually collected from Google Earth. It consists of six large bi-temporal high resolution images covering six cities (i.e., Beijing, Chengdu, Shenzhen, Chongqing, Wuhan, Xian) in China. The five large image-pairs (i.e., Beijing, Chengdu, Shenzhen, Chongqing, Wuhan) are clipped into 394 subimage pairs with sizes of 512×512. After data augmentation, a collection of 3940 bi-temporal image pairs is acquired. Xian image pair is clipped into 48 image pairs for model testing. There are 3600 image pairs in the training dataset, 340 image paris in the validation dataset, and 48 image pairs in the test dataset. Paper: [Zhang et al.2020](https://www.sciencedirect.com/science/article/abs/pii/S0924271620301532)
