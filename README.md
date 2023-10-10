@@ -30,8 +30,6 @@ List of datasets, codes, and contests related to remote sensing change detection
 
 ### With Label
 
-- 2023. []
-
 - 2023.[**HRCUS-CD (High-Resolution Complex Urban Scene Change Detection)**](https://github.com/zjd1836/AERNet)   
 The proposed High-Resolution Complex Urban Scene Change Detection (HRCUS-CD) dataset consists of 11,388 pairs of cropped high-resolution remote sensing images. The image size is 256 × 256 pixels with a resolution of 0.5 meters. The dataset includes over 12,000 annotated instances of changes. The data was collected in Zhuhai, China. It contains two main acquisition areas from two image sources: the first is mainly the urban built-up area, with a time span from 2019 to 2022. Considering the short time interval and the fact that this area is mostly built-up, the building changes’ areas are small. The second area spans from 2010 to 2018, and contains farmland and mountains, with a small number of old civil houses and buildings in the early period, and the area of building change is large later. These two types of high-resolution RSIs focus on built-up areas and new urban areas. Paper: [Zhang et al., 2023](https://ieeexplore.ieee.org/document/10209204)
 
@@ -158,9 +156,9 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 
 ### Traditional Method
 
-- 2022.[Kondmann L, Toker A, Saha S, et al. SiROC: Spatial Context Awareness for Unsupervised Change Detection in Optical Satellite Images](https://github.com/lukaskondmann/SiROC)
+- [Kondmann L, Toker A, Saha S, et al. SiROC: Spatial Context Awareness for Unsupervised Change Detection in Optical Satellite Images](https://github.com/lukaskondmann/SiROC). TGRS 2021
 
-- 2021.[Lv Z, Wang F J, Liu T, et al. Novel Automatic Approach for Land Cover Change Detection by Using VHR Remote Sensing Images](https://github.com/TongfeiLiu/ASEA-CD)
+- [Lv Z, Wang F J, Liu T, et al. Novel Automatic Approach for Land Cover Change Detection by Using VHR Remote Sensing Images](https://github.com/TongfeiLiu/ASEA-CD). GRSL 2021
 
 - 2019.[Bobholamovic/ChangeDetectionToolbox](https://github.com/Bobholamovic/ChangeDetectionToolbox)
 
@@ -177,110 +175,104 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 - Implementation of " [2009.Celik T. Unsupervised change detection in satellite images using principal component analysis and k-means clustering](https://ieeexplore.ieee.org/abstract/document/5196726/) ".  
 [Matlab](https://github.com/rulixiang/ChangeDetectionPCAKmeans), [Python](https://github.com/abhijeet3922/Change-Detection-in-Satellite-Imagery)
 
-- 2007.[Nielsen A A.The Regularized Iteratively Reweighted Multivariate Alteration Detection (IR-MAD)](http://people.compute.dtu.dk/alan/software.html)
+- [Nielsen A A.The Regularized Iteratively Reweighted Multivariate Alteration Detection (IR-MAD)](http://people.compute.dtu.dk/alan/software.html). TIP 2007
 
 ### Deep Learning
 
 #### 2D
-**Only the last three years are shown, except for the model library.**
 
-- 2023.[Mall U, Hariharan B, Bala K. Change-Aware Sampling and Contrastive Learning for Satellite Images](https://github.com/utkarshmall13/caco)
+- [Mall U, Hariharan B, Bala K. Change-Aware Sampling and Contrastive Learning for Satellite Images](https://github.com/utkarshmall13/caco). CVPR 2023
 
-- 2023.[Xing Y, Jiang J, Xiang J, et al. LightCDNet: Lightweight Change Detection Network Based on VHR Images](https://github.com/NightSongs/LightCDNet)
+- [Xing Y, Jiang J, Xiang J, et al. LightCDNet: Lightweight Change Detection Network Based on VHR Images](https://github.com/NightSongs/LightCDNet). GRSL 2023
 
-- 2023.[Lei T, Geng X, Ning H, et al. Ultralightweight Spatial–Spectral Feature Cooperation Network for Change Detection in Remote Sensing Images](https://github.com/SUST-reynole/USSFC-Net)
+- [Lei T, Geng X, Ning H, et al. Ultralightweight Spatial–Spectral Feature Cooperation Network for Change Detection in Remote Sensing Images](https://github.com/SUST-reynole/USSFC-Net). TGRS 2023
 
-- 2023.[Li Z, Tang C, Liu X, et al. Lightweight Remote Sensing Change Detection with Progressive Feature Aggregation and Supervised Attention](https://github.com/guanyuezhen/A2Net)
+- [Li Z, Tang C, Liu X, et al. Lightweight Remote Sensing Change Detection with Progressive Feature Aggregation and Supervised Attention](https://github.com/guanyuezhen/A2Net). TGRS 2023
 
-- 2023.[Feng Y, Jiang J, Xu H, et al. Change Detection on Remote Sensing Images using Dual-branch Multi-level Inter-temporal Network](https://github.com/ZhengJianwei2/DMINet)
+- [Feng Y, Jiang J, Xu H, et al. Change Detection on Remote Sensing Images using Dual-branch Multi-level Inter-temporal Network](https://github.com/ZhengJianwei2/DMINet). TGRS 2023
 
-- 2022.[Chen H, Pu F, Yang R, et al. RDP-Net: Region detail preserving network for change detection](https://github.com/Chnja/RDPNet) 
+- [Seo M, Lee H, Jeon Y, et al. Self-Pair: Synthesizing Changes from Single Source for Object Change Detection in Remote Sensing Imagery](https://github.com/seominseok0429/Self-Pair-for-Change-Detection). WACV2023
 
-- 2022.[Seo M, Lee H, Jeon Y, et al. Self-Pair: Synthesizing Changes from Single Source for Object Change Detection in Remote Sensing Imagery](https://github.com/seominseok0429/Self-Pair-for-Change-Detection)   
+- [Fang S, Li K, Li Z. Changer: Feature Interaction is What You Need for Change Detection](https://github.com/likyoo/open-cd/tree/main/configs/changer). TGRS 2023
 
-- 2022.[Cao Y, Huang X. A full-level fused cross-task transfer learning method for building change detection using noise-robust pretrained networks on crowdsourced labels](https://github.com/lauraset/FFCTL)
+- [Chen H, Pu F, Yang R, et al. RDP-Net: Region detail preserving network for change detection](https://github.com/Chnja/RDPNet). TGRS 2022
 
-- 2022.[Fang S, Li K, Li Z. Changer: Feature Interaction is What You Need for Change Detection](https://github.com/likyoo/open-cd/tree/main/configs/changer)
+- [Cao Y, Huang X. A full-level fused cross-task transfer learning method for building change detection using noise-robust pretrained networks on crowdsourced labels](https://github.com/lauraset/FFCTL). RSE 2022
 
-- 2022.[Chen H, Li W, Chen S, et al. Semantic-aware Dense Representation Learning for Remote Sensing Image Change Detection](https://github.com/justchenhao/SaDL_CD)
+- [Chen H, Li W, Chen S, et al. Semantic-aware Dense Representation Learning for Remote Sensing Image Change Detection](https://github.com/justchenhao/SaDL_CD). TGRS 2022
 
-- 2022.[Codegoni A, Lombardi G, Ferrari A. TINYCD: A (Not So) Deep Learning Model For Change Detection](https://github.com/AndreaCodegoni/Tiny_model_4_CD)
+- [Codegoni A, Lombardi G, Ferrari A. TINYCD: A (Not So) Deep Learning Model For Change Detection](https://github.com/AndreaCodegoni/Tiny_model_4_CD).  Neural Computing and Applications 2022
 
-- 2022.[Pei G, Zhang L. Feature Hierarchical Differentiation for Remote Sensing Image Change Detection](https://github.com/ZSVOS/FHD)
+- [Pei G, Zhang L. Feature Hierarchical Differentiation for Remote Sensing Image Change Detection](https://github.com/ZSVOS/FHD). GRSL 2022
 
-- 2022.[likyoo/Open-CD](https://github.com/likyoo/open-cd): A Change Detection Repo Standing on the Shoulders of Giants
+- 2022.[likyoo/Open-CD](https://github.com/likyoo/open-cd): Open-CD is an open source change detection toolbox based on a series of open source general vision task tools.
 
-- 2022.[Shi N, Chen K, Zhou G. A Divided Spatial and Temporal Context Network for Remote Sensing Change Detection](https://github.com/shinianzhihou/ChangeDetection#)
+- [Shi N, Chen K, Zhou G. A Divided Spatial and Temporal Context Network for Remote Sensing Change Detection](https://github.com/shinianzhihou/ChangeDetection#). JSTARS 2022
 
-- 2022.[Liu M, Chai Z, Deng H, et al. A CNN-transformer Network with Multi-scale Context Aggregation for Fine-grained Cropland Change Detection](https://github.com/liumency/CropLand-CD)
+- [Liu M, Chai Z, Deng H, et al. A CNN-transformer Network with Multi-scale Context Aggregation for Fine-grained Cropland Change Detection](https://github.com/liumency/CropLand-CD). JSTARS 2022
 
-- 2022.[Liu J, Xuan W, Gan Y, et al. An End-to-end Supervised Domain Adaptation Framework for Cross-Domain Change Detection](https://github.com/Perfect-You/SDACD)   
+- [Liu J, Xuan W, Gan Y, et al. An End-to-end Supervised Domain Adaptation Framework for Cross-Domain Change Detection](https://github.com/Perfect-You/SDACD). Pattern Recognition 2022   
 
 - 2022.[PaddleRS](https://github.com/PaddlePaddle/PaddleRS): Awesome Remote Sensing Toolkit based on PaddlePaddle
 
-- 2022.[Ding L, Guo H, Liu S, et al. Bi-temporal semantic reasoning for the semantic change detection in HR remote sensing images](https://github.com/ggsDing/Bi-SRNet)
+- [Ding L, Guo H, Liu S, et al. Bi-temporal semantic reasoning for the semantic change detection in HR remote sensing images](https://github.com/ggsDing/Bi-SRNet). TGRS 2022
 
-- 2022.[Bandara W G C, Nair N G, Patel V M. DDPM-CD: Remote Sensing Change Detection using Denoising Diffusion Probabilistic Models](https://github.com/wgcban/ddpm-cd)
+- [Bandara W G C, Nair N G, Patel V M. DDPM-CD: Remote Sensing Change Detection using Denoising Diffusion Probabilistic Models](https://github.com/wgcban/ddpm-cd). arXiv 2022
 
-- 2022.[Bandara W G C, Patel V M. Revisiting Consistency Regularization for Semi-supervised Change Detection in Remote Sensing Images](https://github.com/wgcban/SemiCD)
+- [Bandara W G C, Patel V M. Revisiting Consistency Regularization for Semi-supervised Change Detection in Remote Sensing Images](https://github.com/wgcban/SemiCD). arXiv 2022
 
-- 2022.[Bandara W G C, Patel V M. A Transformer-Based Siamese Network for Change Detection](https://github.com/wgcban/ChangeFormer)
+- [Bandara W G C, Patel V M. A Transformer-Based Siamese Network for Change Detection](https://github.com/wgcban/ChangeFormer). IGARSS 2022
 
-- 2021.[Saha S, Ebel P, Zhu X X. Self-supervised multisensor change detection](https://gitlab.lrz.de/ai4eo/cd/-/tree/main/sarOpticalMultisensorTgrs2021)
+- [Saha S, Ebel P, Zhu X X. Self-supervised multisensor change detection](https://gitlab.lrz.de/ai4eo/cd/-/tree/main/sarOpticalMultisensorTgrs2021). TGRS 2022
+
+- [Chen P, Hong D, Chen Z, et al. FCCDN: Feature Constraint Network for VHR Image Change Detection](https://github.com/chenpan0615/FCCDN_pytorch). ISPRS P&RS 2022
 
 - 2021.[Bobholamovic/CDLab](https://github.com/Bobholamovic/CDLab): Yet another repository for developing and benchmarking deep learning-based change detection methods
 
 - 2021.[shinianzhihou/ChangeDetection](https://github.com/shinianzhihou/ChangeDetection): A framework for change detection using PyTorch
 
-- 2021.[Chen P, Hong D, Chen Z, et al. FCCDN: Feature Constraint Network for VHR Image Change Detection](https://github.com/chenpan0615/FCCDN_pytorch)
+- [Shi Q, Liu M, Li S, et al. A Deeply Supervised Attention Metric-Based Network and an Open Aerial Image Dataset for Remote Sensing Change Detection](https://github.com/liumency/DSAMNet). TGRS 2021
 
-- 2021.[Shi Q, Liu M, Li S, et al. A Deeply Supervised Attention Metric-Based Network and an Open Aerial Image Dataset for Remote Sensing Change Detection](https://github.com/liumency/DSAMNet)
+- [Shao R, Du C, Chen H, et al. SUNet: Change Detection for Heterogeneous Remote Sensing Images from Satellite and UAV Using a Dual-Channel Fully Convolution Network](https://github.com/ShaoRuizhe/SUNet-change_detection). Remote Sensing 2021
 
-- 2021.[Shao R, Du C, Chen H, et al. SUNet: Change Detection for Heterogeneous Remote Sensing Images from Satellite and UAV Using a Dual-Channel Fully Convolution Network](https://github.com/ShaoRuizhe/SUNet-change_detection)
+- [Diakogiannis F I, Waldner F, Caccetta P. Looking for change? Roll the Dice and demand Attention](https://github.com/feevos/ceecnet). Remote Sensing 2021
 
-- 2021.[Diakogiannis F I, Waldner F, Caccetta P. Looking for change? Roll the Dice and demand Attention](https://github.com/feevos/ceecnet)
+- [Papadomanolaki M, Vakalopoulou M, Karantzalos K. A Deep Multi-Task Learning Framework Coupling Semantic Segmentation and Fully Convolutional LSTM Networks for Urban Change Detection](https://github.com/mpapadomanolaki/multi-task-L-UNet). TGRS 2021
 
-- 2021.[Papadomanolaki M, Vakalopoulou M, Karantzalos K. A Deep Multi-Task Learning Framework Coupling Semantic Segmentation and Fully Convolutional LSTM Networks for Urban Change Detection](https://github.com/mpapadomanolaki/multi-task-L-UNet)
+- [Zheng Z, Zhong Y, Wang J, et al. Building damage assessment for rapid disaster response with a deep object-based semantic change detection framework: from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeOS). RSE 2021
 
-- 2021.[Zheng Z, Zhong Y, Wang J, et al. Building damage assessment for rapid disaster response with a deep object-based semantic change detection framework:
-from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeOS)
+- [Xu J, Luo C, Chen X, et al. Remote Sensing Change Detection Based on Multidirectional Adaptive Feature Fusion and Perceptual Similarity](https://github.com/wzjialang/MFPNet). Remote Sensing 2021
 
-- 2021.[likyoo/change_detection.pytorch](https://github.com/likyoo/change_detection.pytorch): Deep learning models for change detection of remote sensing images
+- [Zhang H, Lin M, Yang G, et al. ESCNet: An End-to-End Superpixel-Enhanced Change Detection Network for Very-High-Resolution Remote Sensing Images](https://github.com/Bobholamovic/ESCNet). TNNLS 2021
 
-- 2021.[Xu J, Luo C, Chen X, et al. Remote Sensing Change Detection Based on Multidirectional Adaptive Feature Fusion and Perceptual Similarity](https://github.com/wzjialang/MFPNet)
+- [Mañas O, Lacoste A, Giro-i-Nieto X, et al. Seasonal Contrast: Unsupervised Pre-Training from Uncurated Remote Sensing Data](https://github.com/ElementAI/seasonal-contrast). ICCV 2021
 
-- 2021.[geoyee/PdRSCD](https://github.com/geoyee/PdRSCD): Remote sensing change detection tool based on PaddlePaddle
+- [Zheng Z, Ma A, Zhang L, et al. Change is Everywhere: Single-Temporal Supervised Object Change Detection for High Spatial Resolution Remote Sensing Imagery](https://github.com/Z-Zheng/ChangeStar). ICCV 2021
 
-- 2021.[Zhang H, Lin M, Yang G, et al. ESCNet: An End-to-End Superpixel-Enhanced Change Detection Network for Very-High-Resolution Remote Sensing Images](https://github.com/Bobholamovic/ESCNet)
+- [Liu M, Shi Q, Marinoni A, et al. Super-resolution-based Change Detection Network with Stacked Attention Module for Images with Different Resolutions](https://github.com/liumency/SRCDNet). TGRS 2021
 
-- 2021.[Mañas O, Lacoste A, Giro-i-Nieto X, et al. Seasonal Contrast: Unsupervised Pre-Training from Uncurated Remote Sensing Data](https://github.com/ElementAI/seasonal-contrast)
+- [Chen H, Qi Z, Shi Z. Remote Sensing Image Change Detection with Transformers](https://github.com/justchenhao/BIT_CD).TGRS 2021   
 
-- 2021.[Zheng Z, Ma A, Zhang L, et al. Change is Everywhere: Single-Temporal Supervised Object Change Detection for High Spatial Resolution Remote Sensing Imagery](https://github.com/Z-Zheng/ChangeStar)
+- [Chen H, Li W, Shi Z. Adversarial Instance Augmentation for Building Change Detection in Remote Sensing Images](https://github.com/justchenhao/IAug_CDNet).TGRS 2021 
 
-- 2021.[Liu M, Shi Q, Marinoni A, et al. Super-resolution-based Change Detection Network with Stacked Attention Module for Images with Different Resolutions](https://github.com/liumency/SRCDNet)
+- [Fang S, Li K, Shao J, et al. SNUNet-CD: A Densely Connected Siamese Network for Change Detection of VHR Images](https://github.com/likyoo/Siam-NestedUNet). GRSL 2021 
 
-- 2021.[Xu Q, Chen K, Zhou G, et al. Change Capsule Network for Optical Remote Sensing Image Change Detection](https://github.com/xuquanfu/capsule_change_detection)
-
-- 2021.[Chen H, Qi Z, Shi Z. Remote Sensing Image Change Detection with Transformers](https://github.com/justchenhao/BIT_CD)   
-
-- 2021.[Chen H, Li W, Shi Z. Adversarial Instance Augmentation for Building Change Detection in Remote Sensing Images](https://github.com/justchenhao/IAug_CDNet)
-
-- 2021.[Fang S, Li K, Shao J, et al. SNUNet-CD: A Densely Connected Siamese Network for Change Detection of VHR Images](https://github.com/likyoo/Siam-NestedUNet)
-
-- 2020.[I-Hope-Peace/ChangeDetectionRepository](https://github.com/I-Hope-Peace/ChangeDetectionRepository)
+- 2020.[ChenHongruixuan/ChangeDetectionRepository](https://github.com/ChenHongruixuan/ChangeDetectionRepository)
 
 - 2020.[llu025/Heterogeneous_CD](https://github.com/llu025/Heterogeneous_CD)
 
+- [Daudt R C, Le Saux B, Boulch A. Fully convolutional siamese networks for change detection](https://github.com/rcdaudt/fully_convolutional_change_detection). ICIP 2018
+
 #### 3D
-- 2023.[Marsocci V, Coletta V, Ravanelli R, et al. Inferring 3D change detection from bitemporal optical images](https://github.com/VMarsocci/3DCD)
-- 2023.[de Gélis I, Lefèvre S, Corpetti T. Siamese KPConv: 3D multiple change detection from raw point clouds using deep learning](https://github.com/IdeGelis/torch-points3d-SiameseKPConv)
+- [Marsocci V, Coletta V, Ravanelli R, et al. Inferring 3D change detection from bitemporal optical images](https://github.com/VMarsocci/3DCD). ISPRS P&RS 2023
+- 2023.[de Gélis I, Lefèvre S, Corpetti T. Siamese KPConv: 3D multiple change detection from raw point clouds using deep learning](https://github.com/IdeGelis/torch-points3d-SiameseKPConv). ISPRS P&RS 2023
 
 ## SAR
-- 2021.[Qu X, Gao F, Dong J, et al. Change Detection in Synthetic Aperture Radar Images Using a Dual-Domain Network](https://github.com/summitgao/SAR_CD_DDNet)
+- [Qu X, Gao F, Dong J, et al. Change Detection in Synthetic Aperture Radar Images Using a Dual-Domain Network](https://github.com/summitgao/SAR_CD_DDNet). GRSL 2022
 
 ## Hyperspectral
-- 2022.[Wang Y, Hong D, Sha J, et al. Spectral–spatial–temporal transformers for hyperspectral image change detection](https://github.com/yanhengwang-heu/IEEE_TGRS_SSTFormer)
-- 2022.[Hu M, Wu C, Zhang L, et al. Hyperspectral anomaly change detection based on autoencoder](https://github.com/meiqihu/ACDA)
+- [Wang Y, Hong D, Sha J, et al. Spectral–spatial–temporal transformers for hyperspectral image change detection](https://github.com/yanhengwang-heu/IEEE_TGRS_SSTFormer). TGRS 2022
+- [Hu M, Wu C, Zhang L, et al. Hyperspectral anomaly change detection based on autoencoder](https://github.com/meiqihu/ACDA). JSTARS 2021
 
 
 # Contest   
@@ -329,5 +321,4 @@ In this challenge, participants will identify and track buildings in satellite i
 # Reference
 
 - [chrieke/awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets)
-- [zhangbin0917/Awesome-Remote-Sensing-Dataset](https://github.com/zhangbin0917/Awesome-Remote-Sensing-Dataset)
 - [MinZHANG-WHU/Change-Detection-Review](https://github.com/MinZHANG-WHU/Change-Detection-Review)
