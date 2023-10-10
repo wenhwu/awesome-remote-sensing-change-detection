@@ -5,8 +5,6 @@ List of datasets, codes, and contests related to remote sensing change detection
 
 # Contents
 
-- [`Awesome Remote Sensing Change Detection`](#awesome-remote-sensing-change-detection)
-- [Contents](#contents)
 - [Dateset](#dateset)
   - [Multispectral](#multispectral)
     - [With Label](#with-label)
