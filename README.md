@@ -181,6 +181,10 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 
 #### 2D
 
+- [Zheng Z, Tian S, Ma A, et al. Scalable Multi-Temporal Remote Sensing Change Data Generation via Simulating Stochastic Change Process](https://github.com/Z-Zheng/Changen). ICCV 2023
+
+- [Bernhard M, Strauß N, Schubert M. MapFormer: Boosting Change Detection by Using Pre-change Information](https://github.com/mxbh/mapformer). ICCV 2023 
+
 - [Mall U, Hariharan B, Bala K. Change-Aware Sampling and Contrastive Learning for Satellite Images](https://github.com/utkarshmall13/caco). CVPR 2023
 
 - [Xing Y, Jiang J, Xiang J, et al. LightCDNet: Lightweight Change Detection Network Based on VHR Images](https://github.com/NightSongs/LightCDNet). GRSL 2023
