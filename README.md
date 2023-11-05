@@ -182,6 +182,8 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 
 #### 2D
 
+- [Ding L, Zhu K, Peng D, et al. Adapting Segment Anything Model for Change Detection in HR Remote Sensing Images](https://github.com/ggsDing/SAM-CD). arXiv 2023
+
 - [Zheng Z, Tian S, Ma A, et al. Scalable Multi-Temporal Remote Sensing Change Data Generation via Simulating Stochastic Change Process](https://github.com/Z-Zheng/Changen). ICCV 2023
 
 - [Bernhard M, Strauß N, Schubert M. MapFormer: Boosting Change Detection by Using Pre-change Information](https://github.com/mxbh/mapformer). ICCV 2023 
