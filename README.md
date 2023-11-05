@@ -275,6 +275,7 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 - 2023.[de Gélis I, Lefèvre S, Corpetti T. Siamese KPConv: 3D multiple change detection from raw point clouds using deep learning](https://github.com/IdeGelis/torch-points3d-SiameseKPConv). ISPRS P&RS 2023
 
 ## SAR
+- [Alatalo J, Sipola T, Rantonen M. Improved Difference Images for Change Detection Classifiers in SAR Imagery Using Deep Learning](https://github.com/janne-alatalo/sar-change-detection). TGRS 2023
 - [Qu X, Gao F, Dong J, et al. Change Detection in Synthetic Aperture Radar Images Using a Dual-Domain Network](https://github.com/summitgao/SAR_CD_DDNet). GRSL 2022
 
 ## Hyperspectral
