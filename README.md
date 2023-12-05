@@ -182,6 +182,8 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 
 #### 2D
 
+- [Li K, Cao X, Meng D. A New Learning Paradigm for Foundation Model-based Remote Sensing Change Detection](https://github.com/likyoo/BAN). arXiv 2023
+
 - [Ding L, Zhu K, Peng D, et al. Adapting Segment Anything Model for Change Detection in HR Remote Sensing Images](https://github.com/ggsDing/SAM-CD). arXiv 2023
 
 - [Zheng Z, Tian S, Ma A, et al. Scalable Multi-Temporal Remote Sensing Change Data Generation via Simulating Stochastic Change Process](https://github.com/Z-Zheng/Changen). ICCV 2023
