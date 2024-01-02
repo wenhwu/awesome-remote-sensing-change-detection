@@ -195,7 +195,7 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 
 - [Mall U, Hariharan B, Bala K. Change-Aware Sampling and Contrastive Learning for Satellite Images](https://github.com/utkarshmall13/caco). CVPR 2023
 
-- [Chen H, Song J, Wu C, et al. Exchange means change: An unsupervised single-temporal change detection framework based on intra-and inter-image patch exchange](https://github.com/ChenHongruixuan/I3PE) ISPRS P&RS 2023
+- [Chen H, Song J, Wu C, et al. Exchange means change: An unsupervised single-temporal change detection framework based on intra-and inter-image patch exchange](https://github.com/ChenHongruixuan/I3PE). ISPRS P&RS 2023
 
 - [Xing Y, Jiang J, Xiang J, et al. LightCDNet: Lightweight Change Detection Network Based on VHR Images](https://github.com/NightSongs/LightCDNet). GRSL 2023
 
