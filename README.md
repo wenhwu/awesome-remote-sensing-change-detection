@@ -279,7 +279,7 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 
 #### 3D
 - [Marsocci V, Coletta V, Ravanelli R, et al. Inferring 3D change detection from bitemporal optical images](https://github.com/VMarsocci/3DCD). ISPRS P&RS 2023
-- 2023.[de Gélis I, Lefèvre S, Corpetti T. Siamese KPConv: 3D multiple change detection from raw point clouds using deep learning](https://github.com/IdeGelis/torch-points3d-SiameseKPConv). ISPRS P&RS 2023
+- [de Gélis I, Lefèvre S, Corpetti T. Siamese KPConv: 3D multiple change detection from raw point clouds using deep learning](https://github.com/IdeGelis/torch-points3d-SiameseKPConv). ISPRS P&RS 2023
 
 ## SAR
 - [Alatalo J, Sipola T, Rantonen M. Improved Difference Images for Change Detection Classifiers in SAR Imagery Using Deep Learning](https://github.com/janne-alatalo/sar-change-detection). TGRS 2023
