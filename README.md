@@ -187,6 +187,8 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 
 - [Corley I, Robinson C, Ortiz A. A Change Detection Reality Check](https://github.com/isaaccorley/a-change-detection-reality-check). arXiv 2024
 
+- [Ye Y, Wang M, Zhou L, et al. Adjacent-level feature cross-fusion with 3D CNN for remote sensing image change detection](https://github.com/wm-Githuber/AFCF3D-Net). TGRS 2023
+
 - [Li K, Cao X, Meng D. A New Learning Paradigm for Foundation Model-based Remote Sensing Change Detection](https://github.com/likyoo/BAN). arXiv 2023
 
 - [Ding L, Zhu K, Peng D, et al. Adapting Segment Anything Model for Change Detection in HR Remote Sensing Images](https://github.com/ggsDing/SAM-CD). arXiv 2023
