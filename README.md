@@ -189,7 +189,7 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 
 - [Chen H, Song J, Han C, et al. Changemamba: Remote sensing change detection with spatio-temporal state space model](https://github.com/ChenHongruixuan/MambaCD). arXiv 2024
 
-- [Dong S, Wang L, Du B, et al. ChangeCLIP: Remote sensing change detection with multimodal vision-language representation learning](https://github.com/dyzy41). ISPRS P&RS 2024
+- [Dong S, Wang L, Du B, et al. ChangeCLIP: Remote sensing change detection with multimodal vision-language representation learning]([https://github.com/dyzy41](https://github.com/dyzy41/ChangeCLIP)). ISPRS P&RS 2024
 
 - [Corley I, Robinson C, Ortiz A. A Change Detection Reality Check](https://github.com/isaaccorley/a-change-detection-reality-check). arXiv 2024
 
