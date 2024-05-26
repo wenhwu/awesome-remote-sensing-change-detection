@@ -28,6 +28,9 @@ List of datasets, codes, and contests related to remote sensing change detection
 
 ### With Label   
 
+- 2024.[**Hi-CNA dataset**](http://rsidea.whu.edu.cn/Hi-CNA_dataset.htm)
+The Hi-CNA is a high-resolution remote sensing dataset for cropland non-agriculturalization (CNA) tasks, featuring high-quality semantic and change annotations for cropland. It covers over 1100 km² in Hebei, Shanxi, Shandong, and Hubei provinces in China, areas known for diverse crop planting patterns. The dataset includes two temporal phases: 2015-2017 and 2020-2022, capturing multiple crop phenological periods.The Hi-CNA dataset is derived from multispectral GF-2 fusion images with a 0.8m spatial resolution across four bands (visible and near-infrared). All images are cropped to 512x512, resulting in 6797 pairs of dual-temporal images with corresponding annotations. Paper: [Sun et al., 2024](https://www.sciencedirect.com/science/article/pii/S0924271624002090?dgcid=rss_sd_all)
+
 - 2023.[**ChangeNet**](https://github.com/jankyee/ChangNet)      
 The ChangeNet dataset comprises 31,000 pairs of multi-temporal images, each with a resolution of 0.3 meters.  It encapsulates a diverse array of complex scenes from 100 different cities.  Additionally, the dataset includes six pixel-level annotated categories, which encompass the classes of "building," "farmland," "bareland," "water," "road," and "unchanged". Paper: [Ji et al., 2023](https://arxiv.org/abs/2312.17428)
 
