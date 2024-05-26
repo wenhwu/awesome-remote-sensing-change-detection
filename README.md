@@ -185,6 +185,12 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 
 #### 2D
 
+- [Li K, Cao X, Deng Y, et al. DiffMatch: Visual-Language Guidance Makes Better Semi-supervised Change Detector](https://github.com/likyoo/DiffMatch). arXiv 2024
+
+- [Chen H, Song J, Han C, et al. Changemamba: Remote sensing change detection with spatio-temporal state space model](https://github.com/ChenHongruixuan/MambaCD). arXiv 2024
+
+- [Dong S, Wang L, Du B, et al. ChangeCLIP: Remote sensing change detection with multimodal vision-language representation learning](https://github.com/dyzy41). ISPRS P&RS 2024
+
 - [Corley I, Robinson C, Ortiz A. A Change Detection Reality Check](https://github.com/isaaccorley/a-change-detection-reality-check). arXiv 2024
 
 - [Ye Y, Wang M, Zhou L, et al. Adjacent-level feature cross-fusion with 3D CNN for remote sensing image change detection](https://github.com/wm-Githuber/AFCF3D-Net). TGRS 2023
