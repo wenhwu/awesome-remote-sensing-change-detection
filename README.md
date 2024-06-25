@@ -188,6 +188,10 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 
 #### 2D
 
+- [Open-CD](https://github.com/likyoo/open-cd): An open source change detection toolbox based on a series of open source general vision task tools.
+
+- [torchange](https://github.com/Z-Zheng/pytorch-change-models): A Unified Change Representation Learning Benchmark Library.
+
 - [Li K, Cao X, Deng Y, et al. DiffMatch: Visual-Language Guidance Makes Better Semi-supervised Change Detector](https://github.com/likyoo/DiffMatch). arXiv 2024
 
 - [Chen H, Song J, Han C, et al. Changemamba: Remote sensing change detection with spatio-temporal state space model](https://github.com/ChenHongruixuan/MambaCD). arXiv 2024
@@ -232,7 +236,7 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 
 - [Pei G, Zhang L. Feature Hierarchical Differentiation for Remote Sensing Image Change Detection](https://github.com/ZSVOS/FHD). GRSL 2022
 
-- 2022.[likyoo/Open-CD](https://github.com/likyoo/open-cd): Open-CD is an open source change detection toolbox based on a series of open source general vision task tools.
+
 
 - [Shi N, Chen K, Zhou G. A Divided Spatial and Temporal Context Network for Remote Sensing Change Detection](https://github.com/shinianzhihou/ChangeDetection#). JSTARS 2022
 
