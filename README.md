@@ -192,6 +192,8 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 
 - [torchange](https://github.com/Z-Zheng/pytorch-change-models): A Unified Change Representation Learning Benchmark Library.
 
+- [Vincent E, Ponce J, Aubry M. Satellite Image Time Series Semantic Change Detection: Novel Architecture and Analysis of Domain Shift](https://github.com/ElliotVincent/SitsSCD). arXiv 2024
+
 - [Li K, Cao X, Deng Y, et al. DiffMatch: Visual-Language Guidance Makes Better Semi-supervised Change Detector](https://github.com/likyoo/DiffMatch). arXiv 2024
 
 - [Chen H, Song J, Han C, et al. Changemamba: Remote sensing change detection with spatio-temporal state space model](https://github.com/ChenHongruixuan/MambaCD). arXiv 2024
