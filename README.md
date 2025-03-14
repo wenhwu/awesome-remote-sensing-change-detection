@@ -192,13 +192,15 @@ The dataset is based on LoD2 models of [the first and second districts of Lyon](
 
 - [torchange](https://github.com/Z-Zheng/pytorch-change-models): A Unified Change Representation Learning Benchmark Library.
 
+- [Li K, Cao X, Deng Y, et al. DynamicEarth: How Far are We from Open-Vocabulary Change Detection?](https://github.com/likyoo/DynamicEarth). arXiv 2025
+
 - [Yu W, Zhang X, Gloaguen R, et al. Unified Change Detection Framework](https://github.com/AI4RS/UCD). TGRS 2024
 
 - [Zhao Y, Celik T, Liu N, et al. SSLChange: A Self-supervised Change Detection Framework Based on Domain Adaptation](https://ieeexplore.ieee.org/document/10741199). TGRS 2024
 
 - [Vincent E, Ponce J, Aubry M. Satellite Image Time Series Semantic Change Detection: Novel Architecture and Analysis of Domain Shift](https://github.com/ElliotVincent/SitsSCD). arXiv 2024
 
-- [Li K, Cao X, Deng Y, et al. DiffMatch: Visual-Language Guidance Makes Better Semi-supervised Change Detector](https://github.com/likyoo/DiffMatch). arXiv 2024
+- [Li K, Cao X, Deng Y, et al. SemiCD-VL: Visual-Language Model Guidance Makes Better Semi-supervised Change Detector](https://github.com/likyoo/DiffMatch). TGRS 2024
 
 - [Chen H, Song J, Han C, et al. Changemamba: Remote sensing change detection with spatio-temporal state space model](https://github.com/ChenHongruixuan/MambaCD). arXiv 2024
 
