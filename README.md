@@ -16,6 +16,8 @@ A comprehensive and up-to-date compilation of datasets, tools, methods (includin
     - [Transformers](#transformers)
     - [CNNs](#cnns)
   - [Traditional Methods](#traditional-methods)
+    - [Common Methods](#common-methods)
+    - [New Methods](#new-methods)
 - [Review Papers](#review-papers)
 - [Competitions](#competitions)
 - [Satellite Data Resources for Disaster Response](#satellite-data-resources-for-disaster-response)
@@ -31,6 +33,7 @@ A comprehensive and up-to-date compilation of datasets, tools, methods (includin
 
 |Year|Task|Target| Dataset |Publication|Source|Image Pairs |Image Size|Resolution|Location|Class|
 |:---|:--- |:--- | :------| :------|:----------| :-------| :-------| :----------- | :----- | :---- |
+|2025|BCD|Building|[CWSCD](https://github.com/yuruqingsi/CWSCD-dataset)|[JAG2025](https://www.sciencedirect.com/science/article/pii/S1569843225005084?dgcid=rss_sd_all)|BJ-2, GF-2|200|2048×2048|1m|Hebei, China|2|
 |2025|BCD|Building|DVCD|[arXiv2025](https://arxiv.org/abs/2506.17944)|Drone Images|12,833|-|0.1m|Guangdong, China|2|
 |2025|SCD|Land cover|[SC-SCD7, CC-SCD5](https://github.com/StephenApX/MTL-TripleS)|[ISPRS P&RS 2025](https://www.sciencedirect.com/science/article/pii/S0924271625003776?dgcid=rss_sd_all)|Pléiades, Beijing-2, Gaofen-1, Gaofen-2, Ziyuan-3|1,722; 953|512×512|0.5m, 2.3m, 2.5 m|Zhangzhou (Longwen) and Henan (Dengfeng, Luoyang, Sanmenxia), China |8; 5|
 |2025|SCD|Land cover|[LevirSCD](https://github.com/zmoka-zht/FoBa)|[arXiv2025](https://arxiv.org/abs/2509.15788)|GF-1, Google Earth|3,225|256×256|1-2|Beijing, China|16|
@@ -120,7 +123,7 @@ A comprehensive and up-to-date compilation of datasets, tools, methods (includin
 |2025|[GeoVLM-R1](https://github.com/mustansarfiaz/GeoVLM-R1-Toolkit)|GeoVLM-R1: Reinforcement Fine-Tuning for Improved Remote Sensing Reasoning|[arXiv2025](https://arxiv.org/abs/2509.25026)|Qwen2.5VL-3B-Instruct|Task aware rewards, reasoning based RL models|GeoChat-Instruct, NWPU VHR-10; Dubai-CC, LEVIR-MCI, MUDS, SYSU-CD; NWPU-Captions, RSCID-Captions, RSITMD-Captions|![Last Commit](https://img.shields.io/github/last-commit/mustansarfiaz/GeoVLM-R1-Toolkit.svg?style=flat&logo=github&label=Last%20Commit)![GitHub stars](https://img.shields.io/github/stars/mustansarfiaz/GeoVLM-R1-Toolkit?style=social)|
 |2025|ChangeVG|Towards Comprehensive Interactive Change Understanding in Remote Sensing: A Large-scale Dataset and Dual-granularity Enhanced VLM|[arXiv2025](https://arxiv.org/abs/2509.23105)|Qwen2.5-VL-7B|Remote sensing change understanding, Interactive multi-task instruction dataset, Vision-language models|ChangeIMTI (constructed from LEVIR-CC, LEVIR-MCI)|-|
 |2025|[SegChange-R1](https://github.com/Yu-Zhouz/SegChange-R1)|SegChange-R1: LLM-Augmented Remote Sensing Change Detection|[arXiv2025](https://arxiv.org/abs/2506.17944)|Swin Transformer, Microsoft/Phi-1.5|LLM-augmented inference approach, Linear attention-based spatial transformation module|WHU-CD, CDD, DSIFN-CD, DVCD|![Last Commit](https://img.shields.io/github/last-commit/Yu-Zhouz/SegChange-R1.svg?style=flat&logo=github&label=Last%20Commit)![GitHub stars](https://img.shields.io/github/stars/Yu-Zhouz/SegChange-R1?style=social)|
-|2025|[SAM2-CD](https://github.com/KimotaQY/SAM2-CD)|SAM2-CD: Remote Sensing Image Change Detection With SAM2|[JSTAR2025](https://ieeexplore.ieee.org/document/11164661)|SAM2, dynamic feature selection, global–local attention|WHU-CD, LEVIR-CD,  and LEVIR-CD+|![Last Commit](https://img.shields.io/github/last-commit/KimotaQY/SAM2-CD.svg?style=flat&logo=github&label=Last%20Commit)![GitHub stars](https://img.shields.io/github/stars/KimotaQY/SAM2-CD?style=social)|
+|2025|[SAM2-CD](https://github.com/KimotaQY/SAM2-CD)|SAM2-CD: Remote Sensing Image Change Detection With SAM2|[JSTAR2025](https://ieeexplore.ieee.org/document/11164661)|SAM2|Dynamic feature selection, global–local attention|WHU-CD, LEVIR-CD, and LEVIR-CD+|![Last Commit](https://img.shields.io/github/last-commit/KimotaQY/SAM2-CD.svg?style=flat&logo=github&label=Last%20Commit)![GitHub stars](https://img.shields.io/github/stars/KimotaQY/SAM2-CD?style=social)|
 |2025|[ViTP](https://github.com/zcablii/ViTP)|Visual Instruction Pretraining for Domain-Specific Foundation Models|[arXiv2025](https://arxiv.org/abs/2509.17562)|ViT, InternVL-2.5|Leveraging reasoning to enhance perception, ViT, Visual Robustness Learning|16 challenging remote sensing and medical imaging benchmarks |![Last Commit](https://img.shields.io/github/last-commit/zcablii/ViTP.svg?style=flat&logo=github&label=Last%20Commit)![GitHub stars](https://img.shields.io/github/stars/zcablii/ViTP?style=social)|
 |2025|[AdaptVFMs-RSCD](https://github.com/Jiang-CHD-YunNan/RS-VFMs-Fine-tuning-Dataset)|AdaptVFMs-RSCD: Advancing Remote Sensing Change Detection from binary to semantic with SAM and CLIP|[ISPRS P&RS 2025](https://www.sciencedirect.com/science/article/pii/S0924271625003636?dgcid=rss_sd_all)|CLIP, SAM|Remote sensing VFM fine-tuning dataset|RS VFM Fine-tuning dataset, DSIFN-CD, CLCD, SYSU-CD|![Last Commit](https://img.shields.io/github/last-commit/Jiang-CHD-YunNan/RS-VFMs-Fine-tuning-Dataset.svg?style=flat&logo=github&label=Last%20Commit)![GitHub stars](https://img.shields.io/github/stars/Jiang-CHD-YunNan/RS-VFMs-Fine-tuning-Dataset?style=social)|
 |2025|[PeftCD](https://github.com/dyzy41/PeftCD)|PeftCD: Leveraging Vision Foundation Models with Parameter-Efficient Fine-Tuning for Remote Sensing Change Detection|[arXiv2025](https://arxiv.org/abs/2509.09572)|SAM2, DINOv3|Vision Foundation Models, Parameter-Efficient Fine-Tuning|WHU-CD, CDD, LEVIR-CD, SYSU-CD, MSRSCD, MLCD, S2Looking|![Last Commit](https://img.shields.io/github/last-commit/dyzy41/PeftCD.svg?style=flat&logo=github&label=Last%20Commit)![GitHub stars](https://img.shields.io/github/stars/dyzy41/PeftCD?style=social)|
@@ -140,6 +143,7 @@ A comprehensive and up-to-date compilation of datasets, tools, methods (includin
 
 | Year | Abbreviation | Title | Publication | Keywords | Experiment Datasets |Other      |
 | :--- | :--- | :--- | :--- | :--- | :--- |:--- |
+|2025|[CT2Net](https://github.com/Jiahuiqu/CT2Net)|Cycle Translation-Based Collaborative Training for Hyperspectral-RGB Multimodal Change Detection|[TPAMI2025](https://ieeexplore.ieee.org/document/11164958)|CycleGAN, Hyperspectral-RGB image, multimodal change detection, image translation, collaborative training|Bay Area (HSI-RGB), Santa Barbara (HSI-RGB), Hermiston (HSI-RGB), XDU-Liyukou (HSI-RGB)|![Last Commit](https://img.shields.io/github/last-commit/Jiahuiqu/CT2Net.svg?style=flat&logo=github&label=Last%20Commit)![GitHub stars](https://img.shields.io/github/stars/Jiahuiqu/CT2Net?style=social)|
 |2025|[NeDS](https://github.com/Z-Zheng/pytorch-change-models)|Neural disaster simulation for transferable building damage assessment|[RSE2025](https://www.sciencedirect.com/science/article/pii/S0034425725003839?dgcid=rss_sd_all)|Synthetic data fine-tuning, deep generative models, conditional latent diffusion model|xBD, Los Angeles Wildfire (2025), and Nigeria Flooding (2025)|![Last Commit](https://img.shields.io/github/last-commit/Z-Zheng/pytorch-change-models.svg?style=flat&logo=github&label=Last%20Commit)![GitHub stars](https://img.shields.io/github/stars/Z-Zheng/pytorch-change-models?style=social)|
 |2025|[BDGF](https://github.com/HaoLiu-XDU/BDGF)|Balanced Diffusion-Guided Fusion for Multimodal Remote Sensing Classification|[arXiv2025](https://arxiv.org/abs/2509.23310)|Denoising diffusion probabilistic models, adaptive modality masking strategy,mutual learning strategy|Berlin dataset (HSI+SAR), Augsburg dataset (HSI+SAR), Yellow River Estuary dataset (HSI+SAR), LCZ HK dataset (MSI+SAR)|![Last Commit](https://img.shields.io/github/last-commit/HaoLiu-XDU/BDGF.svg?style=flat&logo=github&label=Last%20Commit)![GitHub stars](https://img.shields.io/github/stars/HaoLiu-XDU/BDGF?style=social)|
 |2024|[UP-Diff](https://github.com/zeyuwang-zju/UP-Diff)|UP-Diff: Latent Diffusion Model for Remote Sensing Urban Prediction|[GRSL2024](https://ieeexplore.ieee.org/document/10807291)|Cross-attention, latent diffusion model, urban planning|LEVIR-CD, SYSU-CD|![Last Commit](https://img.shields.io/github/last-commit/zeyuwang-zju/UP-Diff.svg?style=flat&logo=github&label=Last%20Commit)![GitHub stars](https://img.shields.io/github/stars/zeyuwang-zju/UP-Diff?style=social)|
@@ -224,6 +228,8 @@ A comprehensive and up-to-date compilation of datasets, tools, methods (includin
 
 ## Traditional Methods
 
+### Common Methods
+
 | Year | Abbreviation | Title | Publication |
 | :--- | :--- | :--- | :--- |
 |2013|SFA|Slow Feature Analysis for Change Detection in Multispectral Imagery|[TGRS2013](https://ieeexplore.ieee.org/abstract/document/6553145)|
@@ -232,6 +238,10 @@ A comprehensive and up-to-date compilation of datasets, tools, methods (includin
 |1998|[MAD](http://people.compute.dtu.dk/alan/software.html)|Multivariate Alteration Detection (MAD) and MAF Postprocessing in Multispectral, Bitemporal Image Data: New Approaches to Change Detection Studies|[RSE1998](https://www.sciencedirect.com/science/article/pii/S0034425797001624)|
 |1980|CVA|Change Vector Analysis: An Approach for Detecting Forest Changes with Landsat|[LARS symposia 1980](https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1386&context=lars_symp)
 
+### New Methods
+| Year | Abbreviation | Title | Publication | Keywords | Experiment Datasets |Other|
+| :--- | :--- | :--- | :--- | :--- | :--- |:--- |
+|2025|[PWTT](https://github.com/oballinger/PWTT)|Open access battle damage detection via Pixel-Wise T-Test on Sentinel-1 imagery|[RSE2025](https://www.sciencedirect.com/science/article/pii/S0034425725004298?dgcid=rss_sd_all)|Probabilistic change detection; Building damage assessment; Armed conflict|[UNOSAT damage annotation dataset](https://github.com/oballinger/PWTT)|![Last Commit](https://img.shields.io/github/last-commit/oballinger/PWTT.svg?style=flat&logo=github&label=Last%20Commit)![GitHub stars](https://img.shields.io/github/stars/oballinger/PWTT?style=social)|
 
 # Review Papers
 
