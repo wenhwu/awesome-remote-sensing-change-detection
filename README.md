@@ -33,7 +33,7 @@ A comprehensive and up-to-date compilation of datasets, tools, methods (includin
 
 |Year|Task|Target| Dataset |Publication|Source|Image Pairs |Image Size|Resolution|Location|Class|
 |:---|:--- |:--- | :------| :------|:----------| :-------| :-------| :----------- | :----- | :---- |
-|2025|SCD+BCD|Building|RSCC|[NeurIPS2025]|Open Maxar Data Programme |62,351|512 × 512|0.3-0.8m|31 Locations Globally|5|
+|2025|SCD+BCD|Building|[RSCC](https://github.com/Bili-Sakura/RSCC)|[NeurIPS2025](https://openreview.net/forum?id=yn2fJYBKEB)|Open Maxar Data Programme |62,351|512 × 512|0.3-0.8m|31 Locations Globally|5|
 |2026|SCD|Land cover|[LsSCD-Ex](https://github.com/tangkai-RS/DreamCD)|[JAG2026](https://doi.org/10.1016/j.jag.2026.105125)|Google Earth|100|2048 × 2048|0.6m|Nanjing, China|8|
 |2026|SCD+BCD|Building|[FOTBCD-Binary;FOTBCD-Instances](https://github.com/abdelpy/FOTBCD-datasets)|[arXiv2026](https://arxiv.org/abs/2601.22596)|IGN|27,871;4000|512 × 512|0.2m|France|2;3|
 |2025|RSICC|Land cover|[MOSAIC-SEN2-CC](https://github.com/ChangeCapsInRS/MOSAIC-SEN2-CC)|[JSTARS2025](https://ieeexplore.ieee.org/document/11181102/)|Sentinel-2|5,232|480 × 480|10m|Global|8|
